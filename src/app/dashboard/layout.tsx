@@ -4,6 +4,8 @@ import { MobileNav } from "@/components/dashboard/MobileNav"
 import { getCurrentUserFromSession } from "@/lib/auth-bridge"
 import { redirect } from "next/navigation"
 
+export const dynamic = 'force-dynamic'
+
 export default async function DashboardLayout({
     children,
 }: {
