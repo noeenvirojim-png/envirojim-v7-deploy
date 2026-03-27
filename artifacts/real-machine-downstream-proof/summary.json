@@ -1,0 +1,20 @@
+{
+  "ai_delivery_run_created_from_real_ingestion": true,
+  "ai_delivery_run_id": "13538935-ad95-4671-93c5-838fe3c4078f",
+  "ai_delivery_quality_run_id": "13538935-ad95-4671-93c5-838fe3c4078f-quality-1774293932321",
+  "ai_semantic_validation_run_id": "673453f0-dd75-49d8-9692-f0aa05cdfd0c",
+  "ai_release_gate_run_id": "4eb93dc3-472b-4428-afe7-8c22ce8aaecf",
+  "release_gate_status": "PASS",
+  "maintenance_total": 36,
+  "maintenance_keep_count": 36,
+  "maintenance_needs_review_count": 0,
+  "maintenance_reject_count": 0,
+  "diagnostic_total": 21,
+  "diagnostic_keep_count": 21,
+  "diagnostic_needs_review_count": 0,
+  "diagnostic_reject_count": 0,
+  "delivery_script": "scripts/build-ai-delivery-outputs.ts",
+  "quality_script": "scripts/build-ai-delivery-quality-report.ts",
+  "semantic_script": "scripts/build-ai-semantic-validation-report.ts",
+  "gate_script": "scripts/build-ai-release-gate-report.ts"
+}

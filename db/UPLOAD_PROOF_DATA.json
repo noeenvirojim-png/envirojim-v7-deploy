@@ -1,0 +1,15 @@
+{
+  "mode": "LOCAL",
+  "pdf": {
+    "name": "test-1773763877928.pdf",
+    "path": "C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\ENVIROJIM_HANDOVER_PACKAGE\\db\\tmp\\envirojim-uploads\\0e7a268e-bc5e-45ca-b9a3-7b95730e0057.pdf",
+    "url": "file://C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\ENVIROJIM_HANDOVER_PACKAGE\\db\\tmp\\envirojim-uploads\\0e7a268e-bc5e-45ca-b9a3-7b95730e0057.pdf",
+    "exists": true
+  },
+  "jpg": {
+    "name": "test-1773763877928.jpg",
+    "path": "C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\ENVIROJIM_HANDOVER_PACKAGE\\db\\tmp\\envirojim-uploads\\7fe3f0fe-463e-42d0-adeb-679552d05401.jpg",
+    "url": "file://C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\ENVIROJIM_HANDOVER_PACKAGE\\db\\tmp\\envirojim-uploads\\7fe3f0fe-463e-42d0-adeb-679552d05401.jpg",
+    "exists": true
+  }
+}

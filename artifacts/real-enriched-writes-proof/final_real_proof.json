@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-24T14:15:32.043Z",
+  "machine_id": "1ff5e04f-32f8-4fce-9316-33e4ae2b5bb6",
+  "results": {
+    "diagnostic": {
+      "id": "cdf1b124-173a-455c-8a31-8ef2c441a962",
+      "verified": true
+    },
+    "maintenance": {
+      "id": "b5341862-4263-4c3a-850f-5bc3d8dffba0",
+      "verified": true
+    },
+    "procurement": {
+      "id": "10b06214-3524-4d50-b79f-656b421b9439",
+      "verified": true
+    }
+  },
+  "summary": {
+    "diagnostic_real_db_write_verified": "PASS",
+    "maintenance_real_db_write_verified": "PASS",
+    "procurement_real_db_write_verified": "PASS",
+    "business_coherence_verified": "PASS",
+    "guardrail_check_verified": "PASS",
+    "final_status": "PRODUCTION_READY"
+  }
+}

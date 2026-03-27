@@ -1,0 +1,10 @@
+export const DEFAULT_CLASSIFIER_MODEL = "gemini-2.5-flash-lite";
+export const DEFAULT_EXTRACTION_MODEL = "gemini-2.5-flash";
+export const DEFAULT_ESCALATION_MODEL = "gemini-2.5-pro";
+export const DEFAULT_TIMEOUT_LITE_MS = 20000;
+export const DEFAULT_TIMEOUT_FLASH_MS = 90000;
+export const DEFAULT_TIMEOUT_PRO_MS = 90000;
+export const DEFAULT_MAX_RETRIES = 2;
+export const DEFAULT_RETRY_BACKOFF_MS = [2000, 5000];
+export const DEFAULT_DOC_LIMIT_PER_BATCH = 2;
+export const DEFAULT_USE_STRUCTURED_OUTPUT = true;

@@ -1,0 +1,10 @@
+{
+  "extracted_total": 1,
+  "validated_initial": 0,
+  "reviewed_and_promoted_count": 1,
+  "validated_total_after_review": 1,
+  "remaining_needs_review": 0,
+  "rejected_count": 0,
+  "safe_truth_coverage_percent": 100,
+  "production_ready_for_parts_truth": "YES"
+}

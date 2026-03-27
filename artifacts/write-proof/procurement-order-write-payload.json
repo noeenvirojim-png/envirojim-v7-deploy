@@ -1,0 +1,61 @@
+{
+  "procurement_write_proof": {
+    "runtime_path": "src/domain/vb750/actions/procurement.ts::createVB750ProcurementOrder",
+    "table_target": "public.part_orders + public.part_order_items",
+    "real_write_executed": "READY_FOR_EXECUTION",
+    "sql_prepared": {
+      "part_orders": "INSERT INTO public.part_orders (\n  organization_id,\n  machine_id,\n  created_by,\n  status,\n  notes,\n  created_at,\n  updated_at\n) VALUES (\n  (SELECT organization_id FROM public.users WHERE id = auth.uid() LIMIT 1),\n  (SELECT id FROM public.machines WHERE name = 'VB750' LIMIT 1),\n  auth.uid(),\n  'draft',\n  'Initial VB750 parts procurement from canonical truth dataset',\n  NOW(),\n  NOW()\n) RETURNING id AS order_id;",
+      "part_order_items": "INSERT INTO public.part_order_items (\n  part_order_id,\n  part_id,\n  part_number,\n  quantity,\n  unit_price,\n  urgency\n) VALUES (\n  (SELECT id FROM public.part_orders WHERE status = 'draft' AND notes = 'Initial VB750 parts procurement from canonical truth dataset' ORDER BY created_at DESC LIMIT 1),\n  (SELECT id FROM public.parts WHERE canonical_part_number = '17515' LIMIT 1),\n  '17515',\n  1,\n  0,\n  'normal'\n);\n\n\nINSERT INTO public.part_order_items (\n  part_order_id,\n  part_id,\n  part_number,\n  quantity,\n  unit_price,\n  urgency\n) VALUES (\n  (SELECT id FROM public.part_orders WHERE status = 'draft' AND notes = 'Initial VB750 parts procurement from canonical truth dataset' ORDER BY created_at DESC LIMIT 1),\n  (SELECT id FROM public.parts WHERE canonical_part_number = '17516' LIMIT 1),\n  '17516',\n  2,\n  0,\n  'normal'\n);\n\n\nINSERT INTO public.part_order_items (\n  part_order_id,\n  part_id,\n  part_number,\n  quantity,\n  unit_price,\n  urgency\n) VALUES (\n  (SELECT id FROM public.part_orders WHERE status = 'draft' AND notes = 'Initial VB750 parts procurement from canonical truth dataset' ORDER BY created_at DESC LIMIT 1),\n  (SELECT id FROM public.parts WHERE canonical_part_number = '1 1457' LIMIT 1),\n  '1 1457',\n  1,\n  0,\n  'normal'\n);\n\n\nINSERT INTO public.part_order_items (\n  part_order_id,\n  part_id,\n  part_number,\n  quantity,\n  unit_price,\n  urgency\n) VALUES (\n  (SELECT id FROM public.part_orders WHERE status = 'draft' AND notes = 'Initial VB750 parts procurement from canonical truth dataset' ORDER BY created_at DESC LIMIT 1),\n  (SELECT id FROM public.parts WHERE canonical_part_number = '1 13629' LIMIT 1),\n  '1 13629',\n  1,\n  0,\n  'normal'\n);\n\n\nINSERT INTO public.part_order_items (\n  part_order_id,\n  part_id,\n  part_number,\n  quantity,\n  unit_price,\n  urgency\n) VALUES (\n  (SELECT id FROM public.part_orders WHERE status = 'draft' AND notes = 'Initial VB750 parts procurement from canonical truth dataset' ORDER BY created_at DESC LIMIT 1),\n  (SELECT id FROM public.parts WHERE canonical_part_number = '1 11812' LIMIT 1),\n  '1 11812',\n  3,\n  0,\n  'normal'\n);"
+    },
+    "order_payload": {
+      "status": "draft",
+      "notes": "Initial VB750 parts procurement from canonical truth dataset",
+      "items_count": 5,
+      "total_quantity": 8
+    },
+    "order_items_detail": [
+      {
+        "part_id": null,
+        "part_number": "17515",
+        "designation": "Axialkolbenverstellpumpe",
+        "quantity": 1,
+        "unit_price": 0,
+        "urgency": "normal"
+      },
+      {
+        "part_id": null,
+        "part_number": "17516",
+        "designation": "Axialkolbenverstellpumpe",
+        "quantity": 2,
+        "unit_price": 0,
+        "urgency": "normal"
+      },
+      {
+        "part_id": null,
+        "part_number": "1 1457",
+        "designation": "Zahnradpumpe",
+        "quantity": 1,
+        "unit_price": 0,
+        "urgency": "normal"
+      },
+      {
+        "part_id": null,
+        "part_number": "1 13629",
+        "designation": "Antriebsmotor",
+        "quantity": 1,
+        "unit_price": 0,
+        "urgency": "normal"
+      },
+      {
+        "part_id": null,
+        "part_number": "1 11812",
+        "designation": "Kurbelgeh�useentl�ftungs- 326-4689",
+        "quantity": 3,
+        "unit_price": 0,
+        "urgency": "normal"
+      }
+    ],
+    "proof_status": "PAYLOAD_READY_FOR_DB_WRITE",
+    "write_evidence_location": "artifacts/write-proof/procurement-order-write-payload.json"
+  }
+}

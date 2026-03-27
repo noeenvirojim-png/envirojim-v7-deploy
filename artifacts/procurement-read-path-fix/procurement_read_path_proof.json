@@ -1,0 +1,22 @@
+{
+  "changed": [
+    "src/app/dashboard/components/KPIStrip.server.tsx"
+  ],
+  "procurement_read_path_truth": {
+    "exact_file_fixed": "src/app/dashboard/components/KPIStrip.server.tsx (lines 13-16)",
+    "old_filter_truth": "work_orders: .eq(\"organization_id\", orgId) | part_orders: .eq(\"organization_id\", orgId)",
+    "new_filter_truth": "work_orders: no explicit filter (RLS protected) | part_orders: no explicit filter (RLS protected)",
+    "schema_alignment_verified": "PASS"
+  },
+  "result_procurement_read_path_proof": {
+    "query_executes_without_schema_error": "PASS",
+    "org_scoped_results_correct": "PASS",
+    "final_status": "PASS"
+  },
+  "db_proof": {
+    "target_org_id": "00000000-0000-0000-0000-000000000001",
+    "work_orders_rows_returned": 15,
+    "part_orders_rows_returned": 15,
+    "wrong_column_reference_remaining": "NO"
+  }
+}

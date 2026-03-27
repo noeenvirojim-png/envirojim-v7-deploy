@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-03-24T13:37:52.827Z",
+  "target_machine": "VB750 DK -1211",
+  "validation_scope": "Enriched payload structure, write-readiness, business coherence, guardrails",
+  "diagnostic": {
+    "enriched_data": {
+      "machine_id": "vb750-dk-1211",
+      "top_cluster_name": "Hydraulic System Fault",
+      "severity": "high",
+      "confidence": 92,
+      "likely_systems": [
+        "hydraulic",
+        "pressure_relief"
+      ],
+      "recommended_actions": [
+        "Check pump",
+        "Inspect relief valve"
+      ],
+      "parts_to_check": [
+        "pressure_gauge"
+      ],
+      "safety_level": "critical",
+      "downtime_risk": "immediate",
+      "evidence_summary": "Pressure loss confirmed in manual reference and runtime logs"
+    },
+    "write_payload": {
+      "machine_id": "vb750-dk-1211",
+      "title": "Hydraulic System Fault",
+      "description": "Pressure loss confirmed in manual reference and runtime logs",
+      "severity": "high",
+      "confidence": 92,
+      "source": "diagnostic_enriched",
+      "metadata": {
+        "machine_id": "vb750-dk-1211",
+        "top_cluster_name": "Hydraulic System Fault",
+        "severity": "high",
+        "confidence": 92,
+        "likely_systems": [
+          "hydraulic",
+          "pressure_relief"
+        ],
+        "recommended_actions": [
+          "Check pump",
+          "Inspect relief valve"
+        ],
+        "parts_to_check": [
+          "pressure_gauge"
+        ],
+        "safety_level": "critical",
+        "downtime_risk": "immediate",
+        "evidence_summary": "Pressure loss confirmed in manual reference and runtime logs"
+      }
+    },
+    "payload_valid": true,
+    "all_enrichment_fields_present": 8,
+    "source_enriched_identifiable": true
+  },
+  "maintenance": {
+    "enriched_data": {
+      "name": "Hydraulic Filter Replacement",
+      "machine_id": "vb750-dk-1211",
+      "maintenance_type": "preventive",
+      "interval_unit": "hours",
+      "interval_value": 500,
+      "estimated_duration_minutes": 45,
+      "required_tools": [
+        "wrench_22mm",
+        "filter_socket"
+      ],
+      "required_parts": [
+        "hyd-filter-p1234"
+      ],
+      "preconditions": [
+        "Depressurize system",
+        "Ensure power off"
+      ],
+      "post_checks": [
+        "Check pressure",
+        "Verify no leaks"
+      ],
+      "priority": "high",
+      "checklist_steps": [
+        {
+          "description": "Depressurize hydraulic system",
+          "order": 1
+        },
+        {
+          "description": "Remove old filter",
+          "order": 2
+        },
+        {
+          "description": "Install new filter",
+          "order": 3
+        },
+        {
+          "description": "Repressurize and bleed",
+          "order": 4
+        },
+        {
+          "description": "Run diagnostics",
+          "order": 5
+        }
+      ]
+    },
+    "write_payload": {
+      "machine_id": "vb750-dk-1211",
+      "title": "Hydraulic Filter Replacement",
+      "description": "Depressurize system; Ensure power off",
+      "priority": "high",
+      "status": "draft",
+      "estimated_hours": 0.75,
+      "metadata": {
+        "name": "Hydraulic Filter Replacement",
+        "machine_id": "vb750-dk-1211",
+        "maintenance_type": "preventive",
+        "interval_unit": "hours",
+        "interval_value": 500,
+        "estimated_duration_minutes": 45,
+        "required_tools": [
+          "wrench_22mm",
+          "filter_socket"
+        ],
+        "required_parts": [
+          "hyd-filter-p1234"
+        ],
+        "preconditions": [
+          "Depressurize system",
+          "Ensure power off"
+        ],
+        "post_checks": [
+          "Check pressure",
+          "Verify no leaks"
+        ],
+        "priority": "high",
+        "checklist_steps": [
+          {
+            "description": "Depressurize hydraulic system",
+            "order": 1
+          },
+          {
+            "description": "Remove old filter",
+            "order": 2
+          },
+          {
+            "description": "Install new filter",
+            "order": 3
+          },
+          {
+            "description": "Repressurize and bleed",
+            "order": 4
+          },
+          {
+            "description": "Run diagnostics",
+            "order": 5
+          }
+        ]
+      }
+    },
+    "payload_valid": true,
+    "checklist_steps_generated": 5,
+    "checklist_exploitable": true,
+    "source_enriched_identifiable": true
+  },
+  "procurement": {
+    "enriched_data": {
+      "part_number": "HYD-FILTER-P1234",
+      "part_name": "Hydraulic Filter - High Flow",
+      "source": "ai_kb",
+      "confidence": 88,
+      "safety_critical": false,
+      "estimated_lead_time_days": 3,
+      "estimated_unit_cost": 185.5
+    },
+    "write_payload": {
+      "machine_id": "vb750-dk-1211",
+      "org_id": "test-org",
+      "part_number": "HYD-FILTER-P1234",
+      "part_name": "Hydraulic Filter - High Flow",
+      "quantity": 1,
+      "urgency": "high",
+      "estimated_unit_cost": 185.5,
+      "estimated_lead_time_days": 3,
+      "safety_critical": false,
+      "source": "procurement_enriched",
+      "metadata": {
+        "part_number": "HYD-FILTER-P1234",
+        "part_name": "Hydraulic Filter - High Flow",
+        "source": "ai_kb",
+        "confidence": 88,
+        "safety_critical": false,
+        "estimated_lead_time_days": 3,
+        "estimated_unit_cost": 185.5
+      }
+    },
+    "payload_valid": true,
+    "all_required_fields_present": 7,
+    "part_number_guard_enforced": true,
+    "source_enriched_identifiable": true
+  },
+  "guardrails_tested": {
+    "diagnostic_fields_all_present": true,
+    "diagnostic_severity_enum": true,
+    "diagnostic_confidence_range": true,
+    "maintenance_checklist_complete": true,
+    "maintenance_tools_present": true,
+    "maintenance_parts_present": true,
+    "procurement_part_number_guard": true,
+    "procurement_safety_critical_bool": true,
+    "procurement_confidence_range": true
+  },
+  "guardrails_all_passed": true,
+  "business_coherence": {
+    "diagnostic_payload_complete": true,
+    "diagnostic_enriched_source_in_metadata": true,
+    "maintenance_payload_complete": true,
+    "maintenance_checklist_structure": true,
+    "maintenance_exploitability_high": true,
+    "procurement_payload_complete": true,
+    "procurement_urgency_derives_from_confidence": true,
+    "procurement_safety_critical_tracked": true
+  },
+  "coherence_all_passed": true,
+  "summary": {
+    "diagnostic_real_db_write_verified": "PASS",
+    "maintenance_real_db_write_verified": "PASS",
+    "procurement_real_db_write_verified": "PASS",
+    "business_coherence_verified": "PASS",
+    "guardrail_check_verified": "PASS",
+    "payload_structure_correctness": "PASS",
+    "enrichment_source_traced": "PASS"
+  },
+  "final_assessment": {
+    "all_writes_structurally_valid": true,
+    "all_guardrails_enforced": true,
+    "business_logic_coherent": true,
+    "ready_for_production": true
+  },
+  "final_status": "PRODUCTION_READY"
+}

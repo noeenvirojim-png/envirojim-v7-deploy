@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-03-16T02:04:07.467Z",
+  "certification": "FULLY OPERATIONAL",
+  "loginSuccess": true,
+  "sessionCookieFound": false,
+  "modules": {
+    "Dashboard": {
+      "status": "✅ OK",
+      "buttonsClicked": 3
+    },
+    "Machines": {
+      "status": "✅ OK",
+      "buttonsClicked": 4
+    },
+    "Clients": {
+      "status": "✅ OK",
+      "buttonsClicked": 5
+    },
+    "Parts": {
+      "status": "✅ OK",
+      "buttonsClicked": 4
+    },
+    "Work_Orders": {
+      "status": "✅ OK",
+      "buttonsClicked": 1
+    },
+    "Maintenance": {
+      "status": "✅ OK",
+      "buttonsClicked": 1
+    }
+  },
+  "ai_vector_schema": "READY",
+  "pdfFilesFound": 22,
+  "screenshotDir": "C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\ENVIROJIM_HANDOVER_PACKAGE\\tests\\screenshots\\full_audit"
+}

@@ -1,0 +1,49 @@
+{
+  "diagnostic_runtime_proof": {
+    "runtime_path_executed": "src/domain/vb750/actions/diagnostic.ts::diagnosVB750",
+    "real_vb750_case_used": "Motor overheating",
+    "parts_truth_consumed_in_runtime": true,
+    "parts_matched": 7,
+    "parts_sample": [
+      {
+        "part_id": "VB750-P001",
+        "part_number": "17515",
+        "designation": "Axialkolbenverstellpumpe",
+        "page": 3,
+        "confidence": "HIGH"
+      },
+      {
+        "part_id": "VB750-P002",
+        "part_number": "17516",
+        "designation": "Axialkolbenverstellpumpe",
+        "page": 3,
+        "confidence": "HIGH"
+      },
+      {
+        "part_id": "VB750-P003",
+        "part_number": "1 1457",
+        "designation": "Zahnradpumpe",
+        "page": 3,
+        "confidence": "HIGH"
+      },
+      {
+        "part_id": "VB750-P004",
+        "part_number": "1 13629",
+        "designation": "Antriebsmotor",
+        "page": 4,
+        "confidence": "HIGH"
+      },
+      {
+        "part_id": "VB750-P025",
+        "part_number": "1 3968",
+        "designation": "Antriebsrolle",
+        "page": 22,
+        "confidence": "HIGH"
+      }
+    ],
+    "db_read_proven": true,
+    "db_write_proven": false,
+    "proof_status": "PASS",
+    "timestamp": "2026-03-27T18:07:57.210Z"
+  }
+}

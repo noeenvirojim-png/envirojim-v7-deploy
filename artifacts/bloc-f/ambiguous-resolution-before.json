@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-24T16:22:27.306Z",
+    "total_needs_review_rows": 59
+  },
+  "rows": [
+    {
+      "part_id": "e2b1b658-8213-4d0b-9171-26441a028481",
+      "raw_label": "Gaz inerte (82% Ar + 18% CO2 ou 100% CO2)",
+      "raw_part_number": "EN ISO 14175: M21 ou C1",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "e224bc7d-2883-448a-82c5-94fe9ce734ba",
+      "raw_label": "Filtre aspiration-retour",
+      "raw_part_number": "SRA 3 SLP005",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "1645ed20-0b45-4999-95c4-3046c320598e",
+      "raw_label": "Fil-électrode (Apport de soudure)",
+      "raw_part_number": "EN ISO 14341-A: G 46 3 C G4Si1",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "247054e4-aed2-4a9e-8c1e-15d46114a56a",
+      "raw_label": "SRS Turbo-Rekord top FE 10W-40",
+      "raw_part_number": "18917",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "d02c1ccf-4d5a-454f-b034-76f84d522416",
+      "raw_label": "EVOFREEZE XX 12EVOX",
+      "raw_part_number": "21071",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "ddd59e97-a2ab-4186-ac07-06b4c382f481",
+      "raw_label": "Agip Blasia CLP 150",
+      "raw_part_number": "9388",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "038109c5-4a26-4164-801b-21c1675a7a73",
+      "raw_label": "Avia Fluid RSL 32",
+      "raw_part_number": "9409",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "17732d42-278c-4d53-88f9-d1e83c38ac6e",
+      "raw_label": "Rouleau inférieur gauche",
+      "raw_part_number": "3",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "d7d7d8f7-3a52-499f-921f-395574082fba",
+      "raw_label": "Profilé de sécurité",
+      "raw_part_number": "4",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "335b5ae8-5876-4e20-94fd-e56ba893b0e9",
+      "raw_label": "Filtre d'aspiration à retour",
+      "raw_part_number": "Filtre d'aspiration à retour",
+      "page": 1,
+      "evidence_count": 4,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "f9808b06-75d6-478e-8163-1dda30a12feb",
+      "raw_label": "Métal d'apport (Fil à souder)",
+      "raw_part_number": "EN ISO 14341-A: G 46 3 C G4Si1 / AWS A5.18: ER 70S-6",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "6cf78a91-7ba3-40e2-8d5d-2ef2baee3670",
+      "raw_label": "Gazole ULSD",
+      "raw_part_number": "EN 590 / ASTM D975",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "3a8ef6a3-f67a-4c59-a1e4-fa3a46cf0f34",
+      "raw_label": "DEF (AdBlue)",
+      "raw_part_number": "ISO 22241-1",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "b25ad632-0260-45f4-90c4-ab9fec555574",
+      "raw_label": "Filtre d'aspiration à retour (Rodage)",
+      "raw_part_number": "5 μm",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "cdae306b-b2c8-49af-b98e-825bc03151af",
+      "raw_label": "Métal d'apport (Fil de soudage ER 70S-6)",
+      "raw_part_number": "EN ISO 14341-A / AWS A5.18",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "56698c56-cf55-4920-a2a5-ac0fa36125c2",
+      "raw_label": "Interrupteur à clé <Voltage Off/On>",
+      "raw_part_number": "Interrupteur à clé <Voltage Off/On>",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "2fb88f77-2330-4523-a361-675e51730b51",
+      "raw_label": "Commutateur à serrure <Manuel-0-Automatique>",
+      "raw_part_number": "Commutateur à serrure <Manuel-0-Automatique>",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "2b08e6c4-cca4-4741-b973-73fd7843af39",
+      "raw_label": "Interrupteur de batterie",
+      "raw_part_number": "Interrupteur de batterie",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "3cb31499-7f64-4544-94ab-1cb5a618a5f5",
+      "raw_label": "Fiche de la télécommande",
+      "raw_part_number": "Fiche de la télécommande",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "c55a0085-1060-41ac-9e99-6ef2b4981840",
+      "raw_label": "Chaîne",
+      "raw_part_number": "Chaîne",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "3c1e5c57-fad5-44fb-bccf-4fb2b486b2d2",
+      "raw_label": "Filtre d'aération réservoir",
+      "raw_part_number": "Filtre d'aération réservoir",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "b4331f46-73ae-4618-9fa9-fdc9a52a2506",
+      "raw_label": "Pignon",
+      "raw_part_number": "Pignon",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "c75a0203-ce7a-4f3a-8cb7-c82ac2f7a17e",
+      "raw_label": "Unité de commande électronique du moteur (ECM)",
+      "raw_part_number": "Unité de commande électronique du moteur (ECM)",
+      "page": 1,
+      "evidence_count": 3,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "b9f25a5a-39be-4fb7-a959-2fc2891f0400",
+      "raw_label": "Filtre huile hydraulique",
+      "raw_part_number": "Filtre huile hydraulique",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "a072423b-85f2-4224-963b-ee933de21a8e",
+      "raw_label": "Filtre aération réservoir",
+      "raw_part_number": "Filtre aération réservoir",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "eacb1971-613d-4a88-837d-0623bbc6880e",
+      "raw_label": "Filtre à air",
+      "raw_part_number": "Filtre à air",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "f9f271fe-6cde-4271-a8da-7a1e3e8c97a9",
+      "raw_label": "Bande du convoyeur",
+      "raw_part_number": "Bande du convoyeur",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "6d710acd-093f-4e9e-a3f3-e5fa021b935a",
+      "raw_label": "Vis de réglage",
+      "raw_part_number": "Vis de réglage",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "3db88b3b-23b8-41dd-b55a-8fa51d5a369d",
+      "raw_label": "Métal d'apport (Fil de soudage)",
+      "raw_part_number": "G 46 3 C G4Si1 / ER 70S-6",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "d08ccaff-a4ef-4abf-8d9a-570c5abee0e1",
+      "raw_label": "Filtre d'aération du réservoir",
+      "raw_part_number": "Filtre d'aération du réservoir",
+      "page": 1,
+      "evidence_count": 3,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "c4b959db-56b1-48a2-b057-7a6ad100afee",
+      "raw_label": "Vérin",
+      "raw_part_number": "Vérin",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "fb8e569c-1b0e-4b66-8f9c-d9a2cf1d5ec0",
+      "raw_label": "Courroie trapézoïdale",
+      "raw_part_number": "Courroie trapézoïdale",
+      "page": 1,
+      "evidence_count": 7,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "cd25439b-ab13-4b5c-81f4-5c5be2010f5f",
+      "raw_label": "Rotor",
+      "raw_part_number": "Rotor",
+      "page": 1,
+      "evidence_count": 3,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "eece1719-7b6c-4874-9fb7-fb8699602217",
+      "raw_label": "Filtres d'huile hydraulique",
+      "raw_part_number": "Filtres d'huile hydraulique",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "8b437a06-e018-4b95-8796-b2f6d55c2099",
+      "raw_label": "Réducteur",
+      "raw_part_number": "Réducteur",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "1b96c85e-7f71-442e-a207-4b5b340c670e",
+      "raw_label": "Flexibles haute pression",
+      "raw_part_number": "Flexibles haute pression",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "842cf6dd-6790-4267-ba04-a552d5dff71a",
+      "raw_label": "Bande de convoyeur",
+      "raw_part_number": "Bande de convoyeur",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "6c550697-a9dd-42e4-9b3d-595b6b321603",
+      "raw_label": "Arrêts d'urgence",
+      "raw_part_number": "Arrêts d'urgence",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "fbacea2e-7d13-4ceb-96d3-7a0172ffb68f",
+      "raw_label": "Filtre à air Cleanfix",
+      "raw_part_number": "Filtre à air Cleanfix",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "8fd53f4e-dceb-43a4-84a9-107803296a83",
+      "raw_label": "Fil-électrode",
+      "raw_part_number": "ER 70S-6",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "c3b8f766-9c40-4501-806b-5587a1f50bf5",
+      "raw_label": "Couteaux",
+      "raw_part_number": "Couteaux",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "632f858c-3060-4d51-b8fe-b616e3870060",
+      "raw_label": "Palier des rotors",
+      "raw_part_number": "Palier des rotors",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "3a14f1b8-0e57-4120-aa88-b1ab41222014",
+      "raw_label": "Radiateur",
+      "raw_part_number": "Radiateur",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "ef3b65b2-3be7-41b6-95d5-941b2aca8e4e",
+      "raw_label": "Pignon d'entraînement",
+      "raw_part_number": "Pignon d'entraînement",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "497fa77d-132a-4beb-9afe-1390a0d70d52",
+      "raw_label": "Filtre d'huile hydraulique",
+      "raw_part_number": "Filtre d'huile hydraulique",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "5294fd13-3129-4062-aaad-130095b9527c",
+      "raw_label": "Filtre à air (élément principal)",
+      "raw_part_number": "Filtre à air (élément principal)",
+      "page": 1,
+      "evidence_count": 3,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "116e530c-fac5-43de-b401-2c9c82b2bff9",
+      "raw_label": "Bande transporteuse",
+      "raw_part_number": "Bande transporteuse",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "cbffe5f7-1e64-4011-a5bb-6fdf5e860d23",
+      "raw_label": "Boîte de vitesses principale",
+      "raw_part_number": "Boîte de vitesses principale",
+      "page": 1,
+      "evidence_count": 2,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "ca77078e-99bf-4779-a2b1-d77988331e83",
+      "raw_label": "Boutons d'arrêt d'urgence",
+      "raw_part_number": "Boutons d'arrêt d'urgence",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "5851528d-afb8-46d7-989a-34f83e510374",
+      "raw_label": "Filtre à huile hydraulique",
+      "raw_part_number": "Filtre à huile hydraulique",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "fc34db5f-1d1f-40c5-ac68-5b0a4002023a",
+      "raw_label": "Filtre d'aération",
+      "raw_part_number": "Filtre d'aération",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "f463b353-bef1-40b3-b453-e115e0b7445e",
+      "raw_label": "Arbres d'outils",
+      "raw_part_number": "Arbres d'outils",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "9b858ad2-35e6-45c5-be57-30f2efc77a60",
+      "raw_label": "Contre-râteaux",
+      "raw_part_number": "Contre-râteaux",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "e6b25dd5-cae7-4581-989e-8af9d549725a",
+      "raw_label": "Indicateur {Filtre huile}",
+      "raw_part_number": "Indicateur {Filtre huile}",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "7fc7198e-4b3b-487e-9f6d-d92642c292a6",
+      "raw_label": "Tambour d'entraînement",
+      "raw_part_number": "Tambour d'entraînement",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "4e41f358-0e3e-43a6-afe9-374dce04e2ad",
+      "raw_label": "Tambour de renvoi",
+      "raw_part_number": "Tambour de renvoi",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "1b7a6759-454c-4319-b43e-596a7bd2a94b",
+      "raw_label": "Trémie basculante",
+      "raw_part_number": "Trémie basculante",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "f6823580-0654-4efa-9cc0-92125e2458f2",
+      "raw_label": "Robinet à boisseau sphérique",
+      "raw_part_number": "<Trémie basculante>",
+      "page": 1,
+      "evidence_count": 3,
+      "original_status": "NEEDS_REVIEW"
+    },
+    {
+      "part_id": "b8ef82cd-828c-4479-8bb7-628e0a7729ff",
+      "raw_label": "Couteaux / Lames / Dents",
+      "raw_part_number": "Couteaux / Lames / Dents",
+      "page": 1,
+      "evidence_count": 1,
+      "original_status": "NEEDS_REVIEW"
+    }
+  ]
+}

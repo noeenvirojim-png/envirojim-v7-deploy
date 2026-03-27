@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: supabase_db_CURRENT_APP
+    image: public.ecr.aws/supabase/postgres:17.6.1.095
+    ports:
+      - "55322:5432"
+    environment:
+      POSTGRES_HOST: /var/run/postgresql
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./supabase/.temp/postgres:/var/lib/postgresql/data
+    command:
+      - postgres
+      - -c
+      - config_file=/etc/postgresql/postgresql.conf
+
+  kong:
+    container_name: supabase_kong_CURRENT_APP
+    image: public.ecr.aws/supabase/kong:2.8.1
+    depends_on:
+      - postgres
+    ports:
+      - "55321:8000"
+    volumes:
+      - ./supabase/.temp/kong.yml/kong.yml:/etc/kong/kong.yml
+    environment:
+      KONG_DATABASE: off
+      KONG_DECLARATIVE_CONFIG: /etc/kong/kong.yml
+      KONG_DNS_ORDER: LAST,A,CNAME
+      KONG_PLUGINS: cors,key-auth,acl,basic-auth,rate-limiting,session,oauth2
+      KONG_NGINX_HTTP_RESOLVER: 127.0.0.11
+
+  auth:
+    container_name: supabase_auth_CURRENT_APP
+    image: public.ecr.aws/supabase/gotrue:v2.187.0
+    depends_on:
+      - postgres
+    ports:
+      - "9999:9999"
+    environment:
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
+      GOTRUE_SITE_URL: http://localhost:3000
+      GOTRUE_URI_ALLOW_LIST: http://localhost:3000
+
+  storage:
+    container_name: supabase_storage_api_CURRENT_APP
+    image: public.ecr.aws/supabase/storage-api:v1.41.8
+    depends_on:
+      - postgres
+    ports:
+      - "5000:5000"
+    environment:
+      STORAGE_BACKEND: file
+      FILE_STORAGE_BACKEND_PATH: /var/lib/storage
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
+
+  realtime:
+    container_name: supabase_realtime_CURRENT_APP
+    image: public.ecr.aws/supabase/realtime:v2.78.10
+    depends_on:
+      - postgres
+    ports:
+      - "4000:4000"
+    environment:
+      DB_HOST: postgres
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      DB_PORT: 5432
+
+  pg_meta:
+    container_name: supabase_pg_meta_CURRENT_APP
+    image: public.ecr.aws/supabase/postgres-meta:v0.96.1
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    environment:
+      PG_META_DB_HOST: postgres
+      PG_META_DB_NAME: postgres
+      PG_META_DB_USER: postgres
+      PG_META_DB_PASSWORD: postgres
+      PG_META_DB_PORT: 5432
+
+  studio:
+    container_name: supabase_studio_CURRENT_APP
+    image: public.ecr.aws/supabase/studio:2026.03.04-sha-0043607
+    depends_on:
+      - postgres
+    ports:
+      - "55323:3000"
+    environment:
+      SUPABASE_URL: http://kong:8000
+      SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.lfRXECimkR3ck8VgQ2JhlkqMJ6kGvZXoetY6PiBxQ08
+      SUPABASE_SERVICE_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.ENRFwDnwh8TYL14sws85HmY19NZlgdXyC6LKSuDLma0
+
+  rest:
+    container_name: supabase_rest_CURRENT_APP
+    image: public.ecr.aws/supabase/postgrest:v12.0.1
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
+    environment:
+      PGRST_DB_URI: postgresql://postgres:postgres@postgres:5432/postgres
+      PGRST_DB_SCHEMA: public
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_DB_MAX_ROWS: 1000
+      PGRST_JWT_SECRET: super-secret-jwt-key-with-at-least-32-characters-long
+      PGRST_OPENAPI_SERVER_PROXY_URL: http://127.0.0.1:55321
+
+  inbucket:
+    container_name: supabase_inbucket_CURRENT_APP
+    image: public.ecr.aws/supabase/mailpit:v1.22.3
+    ports:
+      - "55324:8025"

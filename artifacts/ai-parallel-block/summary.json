@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-24T12:46:22.918Z",
+  "target_machine_id": "vb750-dk-1211-test",
+  "test_results": {
+    "diagnostic_enrichment": {
+      "status": "PASS",
+      "fields_present": [
+        "severity",
+        "confidence",
+        "likely_systems",
+        "recommended_actions",
+        "parts_to_check",
+        "safety_level",
+        "downtime_risk",
+        "evidence_summary"
+      ],
+      "sample": {
+        "severity": "critical",
+        "confidence": 70,
+        "safety_level": "hazard",
+        "downtime_risk": "high",
+        "likely_systems": [
+          "electrical"
+        ],
+        "action_count": 1,
+        "parts_to_check": 3
+      }
+    },
+    "maintenance_enrichment": {
+      "status": "PASS",
+      "fields_present": [
+        "maintenance_type",
+        "estimated_duration_minutes",
+        "required_tools",
+        "required_parts",
+        "preconditions",
+        "post_checks",
+        "priority",
+        "checklist_steps"
+      ],
+      "sample": {
+        "maintenance_type": "preventive",
+        "priority": "low",
+        "duration_minutes": 15,
+        "interval": "1 months",
+        "checklist_step_count": 5,
+        "preconditions": 3,
+        "post_checks": 4
+      }
+    },
+    "parts_enrichment": {
+      "status": "PASS",
+      "parts_tested": 3,
+      "parts_valid": 3,
+      "fields_present": [
+        "part_number",
+        "part_name",
+        "source",
+        "confidence",
+        "safety_critical",
+        "estimated_lead_time_days",
+        "estimated_unit_cost"
+      ],
+      "sample_parts": [
+        {
+          "part_number": "CB-50",
+          "part_name": "Circuit Breaker CB-50A",
+          "source": "ai_diagnostic",
+          "confidence": 95,
+          "safety_critical": true,
+          "lead_time_days": 7,
+          "estimated_cost": 100
+        },
+        {
+          "part_number": "PSU-500",
+          "part_name": "Power Supply Unit PSU-500W",
+          "source": "ai_diagnostic",
+          "confidence": 87,
+          "safety_critical": false,
+          "lead_time_days": 7,
+          "estimated_cost": 100
+        }
+      ]
+    }
+  },
+  "overall_status": "PASS"
+}

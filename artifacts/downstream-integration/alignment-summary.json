@@ -1,0 +1,37 @@
+{
+  "integration_status": "COMPLETE",
+  "timestamp": "2026-03-27T17:48:33.495Z",
+  "canonical_truth_layer": {
+    "source": "VB750-Catalog.pdf",
+    "total_parts": 46,
+    "all_have_designation": true,
+    "all_have_part_number": true
+  },
+  "downstream_integrations": {
+    "diagnostic": {
+      "status": "PROVEN",
+      "scenarios": 3,
+      "parts_referenced": 41,
+      "proof_file": "artifacts/downstream-integration/diagnostic-proof.json"
+    },
+    "maintenance": {
+      "status": "PROVEN",
+      "procedures": 3,
+      "parts_referenced": 6,
+      "proof_file": "artifacts/downstream-integration/maintenance-proof.json"
+    },
+    "procurement": {
+      "status": "PROVEN",
+      "items": 46,
+      "export_file": "artifacts/canonical-knowledge/procurement-export.csv",
+      "ready_for_ordering": true
+    }
+  },
+  "single_truth_layer_used": true,
+  "no_divergence_detected": true,
+  "what_is_now_truly_usable": [
+    "Diagnostic reasoning over 3 VB750 scenarios using real parts from canonical dataset",
+    "Maintenance procedures for 3 maintenance workflows with parts linkage and timing",
+    "Procurement export of 46 parts ready for vendor ordering with verified designations and part numbers"
+  ]
+}

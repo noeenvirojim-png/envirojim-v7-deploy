@@ -1,0 +1,47 @@
+part_number,designation,source_page,validation_status
+"17515","Axialkolbenverstellpumpe",3,VALIDATED
+"17516","Axialkolbenverstellpumpe",3,VALIDATED
+"1 1457","Zahnradpumpe",3,VALIDATED
+"1 13629","Antriebsmotor",4,VALIDATED
+"1 11812","Kurbelgeh�useentl�ftungs- 326-4689",4,VALIDATED
+"1 1005","Blockkugelhahn",4,VALIDATED
+"1 8178","Luftfilter Hauptelement",5,VALIDATED
+"1 17582","Luftfilter Sicherheitselement",5,VALIDATED
+"1 16253","Kombik�hler",6,VALIDATED
+"1 22025","L�fterrad (Wendel�fter)",6,VALIDATED
+"1 21217","Steuereinheit",6,VALIDATED
+"3.1 1 21021","Luftfilter f�r Steuereinheit Air filter for control unit",6,VALIDATED
+"1 9692","Steuerblock Fahren / Shreddern Tries 935.501A",8,VALIDATED
+"1 13277","Handventil",9,VALIDATED
+"1 16717","Wege-Sitzventil",9,VALIDATED
+"4 2788","Schauglas (Diesel)",10,VALIDATED
+"2 1915","Tankverschluss",10,VALIDATED
+"2 15348","Tankbel�ftungsfilter",10,VALIDATED
+"20600","Verschlei�blech (Getriebe-",12,VALIDATED
+"1380","Verschlei�blech (Lagerseite) 0750 04 06 01 00 1-10860409",12,VALIDATED
+"1901","Umlenkrad",12,VALIDATED
+"5584","Abdichtgummi unter Hacker- 2150 x 100 x 10 mm",12,VALIDATED
+"1577","Wellenlagerung, komplett",12,VALIDATED
+"12 1756","St�tzring",20,VALIDATED
+"1 3968","Antriebsrolle",22,VALIDATED
+"1 11011","Hydraulikmotor",22,VALIDATED
+"1 6996","Drehmomentst�tze",22,VALIDATED
+"2 8847","Spannlager",22,VALIDATED
+"2 14934","Grundplatte",22,VALIDATED
+"20069","Vierlochflanschlager",23,VALIDATED
+"4878","Flacheisenabstreifer, komplett 0750 05 09 00 00 1",24,VALIDATED
+"4353","Wasserbed�sung, komplett",27,VALIDATED
+"1839","R�cksp�l-Schutzfilter",27,VALIDATED
+"1754","Magnetventil",27,VALIDATED
+"9266","Flachstrahld�se",27,VALIDATED
+"2547","Batterie",28,VALIDATED
+"225","Ah / 12 V",28,VALIDATED
+"1665","Steuerung",28,VALIDATED
+"5942","Basic Controller",28,VALIDATED
+"4227","Erweiterung",28,VALIDATED
+"5943","Basic Display",28,VALIDATED
+"18036","Funkmodem (Option)",29,VALIDATED
+"9340","Display (Option)",29,VALIDATED
+"19221","Antenne (Option)",29,VALIDATED
+"15594","Funkfernsteuerung, komplett NOVA-L 2K RX-ES-CAN HL",30,VALIDATED
+"458","MHz, scan group 1 S/N 21222260596",30,VALIDATED

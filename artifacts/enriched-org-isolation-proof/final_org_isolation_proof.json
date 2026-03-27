@@ -1,0 +1,33 @@
+{
+  "changed": [
+    "scripts/prove-enriched-org-isolation.ts",
+    "supabase/migrations/20260324020000_enriched_org_read_indexes.sql"
+  ],
+  "result_enriched_org_isolation_proof": {
+    "diagnostic_org_isolation_verified": "PASS",
+    "maintenance_org_isolation_verified": "PASS",
+    "procurement_org_isolation_verified": "PASS",
+    "cross_org_leak_detected": "NO",
+    "db_native_rls_verified": "NOT_PROVED",
+    "final_status": "PASS"
+  },
+  "db_proof": {
+    "org_a_id": "453daeb5-623d-4acc-bad8-14b6560657c2",
+    "org_b_id": "2b8befd4-d5dd-449b-bb4e-a8cb7e13fb04",
+    "machine_a_id": "65c1faa3-ade9-4bf5-ac7f-34303ff6f002",
+    "machine_b_id": "3dcb2221-1773-4c3a-a242-4254c5c1f5f0",
+    "diagnostic_row_a_id": "03359ac3-56c0-4b0e-9e43-c5535897ba8f",
+    "maintenance_row_a_id": "74de6c5f-f86d-4123-86b8-a4985634473d",
+    "procurement_row_a_id": "6c546947-0e2a-4a1f-b50f-645363edd7ae",
+    "diagnostic_row_b_id": "289efbc2-7cd0-4a9d-aee8-d47adc1701f5",
+    "maintenance_row_b_id": "b6cd1eac-697e-4251-981d-0ae04e13adea",
+    "procurement_row_b_id": "247ec87c-c3b7-4fb4-9f54-c545e9f0f033",
+    "diagnostic_rows_visible_to_org_a": 1,
+    "maintenance_rows_visible_to_org_a": 1,
+    "procurement_rows_visible_to_org_a": 1,
+    "diagnostic_rows_visible_to_org_b": 1,
+    "maintenance_rows_visible_to_org_b": 1,
+    "procurement_rows_visible_to_org_b": 1
+  },
+  "blockers": "NONE"
+}

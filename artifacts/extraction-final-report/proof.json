@@ -1,0 +1,10 @@
+{
+  "parts_extraction_rewrite_status": "PASS",
+  "extraction_quality_improved": true,
+  "old_junk_rows_isolated": true,
+  "new_clean_extraction_proven": true,
+  "genuine_parts_extracted": 46,
+  "all_rows_have_designation": true,
+  "all_rows_validated": true,
+  "exact_root_blocker_if_fail": "NONE"
+}

@@ -1,0 +1,26 @@
+{
+  "folder_path": "C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\VB750 DK -1208 Instructions de service",
+  "pdf_total": 22,
+  "preflight_high_risk_count": 22,
+  "pdf_ingested_success_count": 22,
+  "pdf_ingested_fail_count": 0,
+  "real_ingestion_proven": true,
+  "ai_delivery_run_id": null,
+  "ai_delivery_quality_run_id": null,
+  "ai_semantic_validation_run_id": null,
+  "ai_release_gate_run_id": null,
+  "release_gate_status": null,
+  "maintenance_total": null,
+  "maintenance_keep_count": null,
+  "maintenance_needs_review_count": null,
+  "maintenance_reject_count": null,
+  "diagnostic_total": null,
+  "diagnostic_keep_count": null,
+  "diagnostic_needs_review_count": null,
+  "diagnostic_reject_count": null,
+  "root_cause_assessment": {
+    "blocker_type": "NONE",
+    "exact_reason": "none",
+    "scope": "ISOLATED"
+  }
+}

@@ -1,0 +1,1925 @@
+{
+  "pdf_path": "C:/Users/Noé EVE/OneDrive - Envirojim/Bureau/VB750 DK -1208 Instructions de service/08 VB750DK-m2021 EU V Instructions d’entretien V401.pdf",
+  "page_count": 41,
+  "text_extraction_ok": true,
+  "model_used": "gemini-2.5-flash",
+  "machine_identity": {
+    "manufacturer": "HAMMEL Recyclingtechnik GmbH",
+    "model": "VB750 DK",
+    "serial_or_type": "-m2021 EU V",
+    "year": "2021",
+    "document_title": "Instructions d’entretien",
+    "source_page": 1,
+    "source_snippet": "Broyeur HAMMEL modèle VB750 DK -m2021 EU V"
+  },
+  "parts": [
+    {
+      "part_number": "",
+      "part_name": "Carburant (Diesel)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 500,
+      "quantity_status": "exact",
+      "unit": "L",
+      "source_page": 6,
+      "source_snippet": "Carburant 2x env. 250 litres de Diesel;\ngazole à très basse teneur en soufre (Ultra Low Sulfur Diesel ULSD) selon\nEN 590/ ASTM D975; Teneur en soufre max. 10 ppm (UE) respectivement\nmax. 15 ppm (ÉTATS-UNIS)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Liquide d'émission diesel DEF (AdBlue®)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 40,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 6,
+      "source_snippet": "Liquide d'émis-\nsion diesel DEF\n(AdBlue®) env. 40 litres DEF selon ISO 22241-1"
+    },
+    {
+      "part_number": "18917",
+      "part_name": "Huile de moteur",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 30,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 6,
+      "source_snippet": "Huile de moteur env. 30 litres; niveau à la jauge d’huile est décisif\nQualité d’huile: selon le manuel du fabricant du moteur\nAPI CK-4, ACEA E9 und Cat ECF-3\nChoisir la viscosité du lubrifiant en fonction des températures extérieures:\nViscosité de l'huile requise\nType d'huile Degré de viscosité Température ambiante\nCAT DEO-ULS\nCold Weather\nSAE 0W-40 -40 °C (-40 °F) 40 °C (104 °F)\nCAT DEO-ULS SAE 10W-30 -18 °C (0 °F) 40 °C (104 °F)\nCAT DEO-ULS SAE 15W-40 -9,5 °C (15 °F) 50 °C (122 °F)\nRempli à l’usine: SRS Turbo-Rekord top FE\nSAE 10W-40 (N° d'art. 18917)"
+    },
+    {
+      "part_number": "21071",
+      "part_name": "Réfrigérant",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 55,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 6,
+      "source_snippet": "Réfrigérant env. 55 litres réfrigérant\nmélange d’eau distillée et d’antigel (base éthylène glycol) suivant ASTM\nD4985 (voir les instructions de service du fabricant de moteur).\nRempli à l’usine: EVOFREEZE XX 12EVOX (N° d'art. 21071)"
+    },
+    {
+      "part_number": "9388",
+      "part_name": "Huile pour engrenages (Transmission à bande)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 0.75,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nTransmission à\nbande env. 0,75 l d'huile pour engrenages\nType d'huile: SAE 90 API GL5\nRempli à l’usine: Agip Blasia\nCLP 150 (N° d'art. 9388)"
+    },
+    {
+      "part_number": "9388",
+      "part_name": "Huile pour engrenages (Chaîne de roulement)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 1.8,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nChaîne de roule-\nment1 env. 1,8 l d'huile pour engrenages par lecteur\nType d'huile: SAE 80W/90 selon API GL5 (voir les instructions d'utilisation\ndu fabricant jointes séparément)\nRempli à l’usine: Agip Blasia\nCLP 150 (N° d'art. 9388)"
+    },
+    {
+      "part_number": "9388",
+      "part_name": "Huile pour engrenages (Boîte de vitesses principale)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 50,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nBoîte de vitesses\nprincipale1 env. 50 litres, le niveau au voyant d'huile est décisif.\nType d’huile: Huile de qualité CLP (DIN 51517-3) ou API-GL5"
+    },
+    {
+      "part_number": "9409",
+      "part_name": "Huile hydraulique",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": 170,
+      "quantity_status": "estimated",
+      "unit": "L",
+      "source_page": 8,
+      "source_snippet": "Huile\nhydraulique env. 170 litres; le niveau au voyant d'huile est décisif.\nHuile hydraulique selon DIN 51524 part 2,\nclasse de viscosité après conditions climatiques sélectionnées selon\nschéma\nClass de pureté 20/18/15 selon ISO 4406 ou de meilleure qualité\nRempli à l’usine: Avia Fluid\nRSL 32 (N° d'art. 9409)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Graisse lubrifiante",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": true,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "",
+      "source_page": 8,
+      "source_snippet": "Graisse\nlubrifiante Graisse standard multi-usages pour roulements Voir le plan de\nlubrification"
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtre d'aspiration à retour (5 μm)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Élements de\nfiltre ▪ Changer le filtre d'aspiration à retour (5 μm contre 10 μm)\nLes éléments filtrants pour ce changement sont inclus dans la livraison."
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtre d'aspiration à retour (10 μm)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Élements de\nfiltre ▪ Changer le filtre d'aspiration à retour (5 μm contre 10 μm)\nLes éléments filtrants pour ce changement sont inclus dans la livraison."
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtres d’huile hydraulique",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Eléments de\nfiltre ▪ Remplacer les filtres d’huile hydraulique"
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtre d'aération du réservoir",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Eléments de\nfiltre ▪ Changer filtre d'aération du réservoir"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis du pignon d’entraînement",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Resserrer des vis du pignon d’entraînement"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis de la chaîne",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Serrer les vis de la chaîne"
+    },
+    {
+      "part_number": "",
+      "part_name": "Courroie trapézoïdale du moteur",
+      "part_type": "belt",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Moteur ▪ Vérifier la courroie trapézoïdale du moteur"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis de fixation",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Réducteur ▪ Resserrer toutes les vis de fixation"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis (générales)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "part_number": "",
+      "part_name": "Tôles de râteaux",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "part_number": "",
+      "part_name": "Palier des rotors",
+      "part_type": "bearing",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "part_number": "",
+      "part_name": "Trémie",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "part_number": "",
+      "part_name": "Fixation de moteur",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "part_number": "",
+      "part_name": "Flexibles haute pression hydrauliques",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Hydraulique ▪ Resserrer les vis situées sur les flancs des flexibles haute pression hydrauliques situés entre\npompes et moteurs"
+    },
+    {
+      "part_number": "",
+      "part_name": "Chaînes du train de roulement à chenilles",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 10,
+      "source_snippet": "Train de roule-\nment à chenilles ▪ Changer l'huile du train de roulement à chenilles\n▪ Retendre les chaînes du train de roulement à chenilles"
+    },
+    {
+      "part_number": "",
+      "part_name": "Élément principal du filtre à air",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Eléments de\nfiltre ▪ Contrôler élément principal du filtre à air et le remplacer le cas échéant"
+    },
+    {
+      "part_number": "",
+      "part_name": "Élément de sécurité (filtre à air)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-\nment principal. A chaque deuxième remplacement de l'élément principal: changer l'élément\nde sécurité"
+    },
+    {
+      "part_number": "",
+      "part_name": "Barre de reconcassage (en option)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Vérifier que la fixation de la barre de reconcassage (en option) est bien fixée"
+    },
+    {
+      "part_number": "",
+      "part_name": "Tambours (convoyeur)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Vérifier la rectitude et le fonctionnement des tambours et des rouleaux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Rouleaux (convoyeur)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Vérifier la rectitude et le fonctionnement des tambours et des rouleaux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Racle (convoyeur)",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Contrôler de racle et de support du convoyeur, nettoyage le cas échéant"
+    },
+    {
+      "part_number": "",
+      "part_name": "Support du convoyeur",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Contrôler de racle et de support du convoyeur, nettoyage le cas échéant"
+    },
+    {
+      "part_number": "",
+      "part_name": "Bande à tasseaux",
+      "part_type": "belt",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors\ndu broyage de carrosseries de véhicules)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Préfiltre à air",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Contrôle visuel du préfiltre à air; nettoyer la grille autour du préfiltre"
+    },
+    {
+      "part_number": "",
+      "part_name": "Paliers principaux (rotors)",
+      "part_type": "bearing",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 13,
+      "source_snippet": "Rotors ▪ Lubrification des paliers principaux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Rouleaux (train de roulement à chenilles)",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 14,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Contrôle de l'usure du train de roulement à chenilles (chaînes, rouleaux)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtre à air de l'unité de compression (Cleanfix Ventilateur)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 14,
+      "source_snippet": "Cleanfix\nVentilateur\n(option) ▪ Remplacer le filtre à air de l'unité de compression"
+    },
+    {
+      "part_number": "",
+      "part_name": "Arbres d'outils",
+      "part_type": "shaft",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle de l'usure des arbres d'outils et des contre-râteaux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Contre-râteaux",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle de l'usure des arbres d'outils et des contre-râteaux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Raccords vissés",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle des raccords vissés du moteur, des arbres, des râteaux, de l'hydraulique"
+    },
+    {
+      "part_number": "",
+      "part_name": "Tuyaux hydrauliques",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 15,
+      "source_snippet": "Hydraulique ▪ Remplacer tous les tuyaux hydrauliques"
+    },
+    {
+      "part_number": "",
+      "part_name": "Tendeur (train de roulement à chenilles)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 15,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Vérifier si le tendeur a la pression de serrage prescrite"
+    },
+    {
+      "part_number": "",
+      "part_name": "Roulements",
+      "part_type": "bearing",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 15,
+      "source_snippet": "Engrenage ▪ Démonter la boîte de vitesses et envoyez-la au fabricant pour inspection (contrôle ou rem-\nplacement des roulements et des joints d'étanchéité)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Joints d'étanchéité",
+      "part_type": "seal",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 15,
+      "source_snippet": "Engrenage ▪ Démonter la boîte de vitesses et envoyez-la au fabricant pour inspection (contrôle ou rem-\nplacement des roulements et des joints d'étanchéité)"
+    },
+    {
+      "part_number": "",
+      "part_name": "Réservoir d'huile hydraulique",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 16,
+      "source_snippet": "1 Réservoir d'huile hydraulique"
+    },
+    {
+      "part_number": "",
+      "part_name": "Filtre d'aspiration",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 16,
+      "source_snippet": "3 Filtre d'aspiration"
+    },
+    {
+      "part_number": "SRA 3 SLP005",
+      "part_name": "Filtre d’aspiration à retour (modèle SRA 3 SLP005)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "Le filtre d’aspiration à retour SRA 3 SLP005 est pourvu d’un raccord d’aspiration."
+    },
+    {
+      "part_number": "",
+      "part_name": "Couvercle (filtre hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "1 Couvercle"
+    },
+    {
+      "part_number": "",
+      "part_name": "Barre magnétique (filtre hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "2 Barre magnétique"
+    },
+    {
+      "part_number": "",
+      "part_name": "Valve de purge d’air (filtre hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "3 Valve de purge d’air"
+    },
+    {
+      "part_number": "",
+      "part_name": "Cartouche de filtre (hydraulique)",
+      "part_type": "filter",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "4 Cartouche de filtre"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis à six pans creux M 8 (filtre hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 17,
+      "source_snippet": "5 Vis à six pans creux"
+    },
+    {
+      "part_number": "",
+      "part_name": "Bague d’étanchéité (filtre d'aspiration)",
+      "part_type": "seal",
+      "is_wear_part": true,
+      "is_consumable": true,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 18,
+      "source_snippet": "Il est possible que la précédente bague\nd’étanchéité adhère encore à la tête de filtre. Retirez-la délicatement si c’est le cas."
+    },
+    {
+      "part_number": "",
+      "part_name": "Voyant (huile hydraulique)",
+      "part_type": "sensor",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 19,
+      "source_snippet": "2 Voyant"
+    },
+    {
+      "part_number": "",
+      "part_name": "Bouchon de vidange d'huile avec raccord rapide (hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 19,
+      "source_snippet": "3 Bouchon de vidange d'huile avec raccord rapide"
+    },
+    {
+      "part_number": "",
+      "part_name": "Vis de purge d'air (hydraulique)",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": 1,
+      "quantity_status": "exact",
+      "unit": "ea",
+      "source_page": 19,
+      "source_snippet": "4 Vis de purge d'air"
+    },
+    {
+      "part_number": "",
+      "part_name": "Lames",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "part_number": "",
+      "part_name": "Dents",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "part_number": "",
+      "part_name": "Blocs",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "part_number": "",
+      "part_name": "Raclette (convoyeur)",
+      "part_type": "other",
+      "is_wear_part": true,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 1,
+      "source_snippet": "8.17. Démontage des racleurs 34"
+    },
+    {
+      "part_number": "",
+      "part_name": "Volet de trémie",
+      "part_type": "other",
+      "is_wear_part": false,
+      "is_consumable": false,
+      "quantity_value": null,
+      "quantity_status": "unknown_but_required",
+      "unit": "ea",
+      "source_page": 1,
+      "source_snippet": "8.19. Sécuriser le volet de trémie 37"
+    }
+  ],
+  "procedures": [
+    {
+      "procedure_code": "preparer_broyeur_soudage",
+      "title": "Préparer le broyeur pour le soudage",
+      "procedure_type": "maintenance",
+      "purpose": "To safely prepare the shredder for welding operations, preventing damage to electronic components and ensuring personnel safety.",
+      "prerequisites": "Moteur d’entraînement arrêté, clé <Voltage Off / On> retirée.",
+      "safety_notes": "Protéger contre toute réactivation accidentelle. Raccorder le câble de masse de l’appareil à souder directement sur la pièce à traiter (intervalle pièce à souder – câble de masse le plus réduit possible). Avant de souder, couvrir le câble et les autres pièces inflammables de manière à exclure tout dommage par des projections de soudage.",
+      "tools_required": "Appareil à souder",
+      "completion_criteria": "Shredder is safely prepared for welding with electronics disconnected and the work area protected.",
+      "source_page": 5,
+      "source_snippet": "Préparer le broyeur comme suit pour le soudage:\n1. Arrêter le moteur d’entraînement et la clé <Voltage Off / On> retiré;"
+    },
+    {
+      "procedure_code": "changement_filtre_aspiration_retour",
+      "title": "Changement de filtre d’aspiration à retour",
+      "procedure_type": "replacement",
+      "purpose": "To replace the hydraulic return suction filter element.",
+      "prerequisites": "Nouvel élément filtrant préparé.",
+      "safety_notes": "Raccorder le tuyau à la soupape de ventilation et suspendre dans un récipient approprié pour récupérer l'huile qui sortira après le remplacement du filtre pendant le processus de purge.",
+      "tools_required": "Nouvel élément filtrant, tuyau, récipient approprié",
+      "completion_criteria": "Old filter element removed, new element installed, cover tightened, air purged, and ventilation valves closed after engine idling.",
+      "source_page": 17,
+      "source_snippet": "Changement de filtre d’aspiration à retour\nLe filtre d’aspiration à retour SRA 3 SLP005 est pourvu d’un raccord d’aspiration."
+    },
+    {
+      "procedure_code": "changement_filtre_aspiration",
+      "title": "Changement de filtre d’aspiration",
+      "procedure_type": "replacement",
+      "purpose": "To replace the hydraulic suction filter.",
+      "prerequisites": "Nouveau filtre d'aspiration prêt.",
+      "safety_notes": "Appliquer un mince film d’huile de lubrification sur le joint du filtre.",
+      "tools_required": "Nouvel filtre d'aspiration, huile hydraulique propre, huile de lubrification",
+      "completion_criteria": "Old filter removed, new filter installed and properly tightened, sealing ring secured.",
+      "source_page": 18,
+      "source_snippet": "Changement de filtre d’aspiration\nProcédez comme suit pour changer les filtres:"
+    },
+    {
+      "procedure_code": "changement_filtre_aerage_reservoir",
+      "title": "Changement de filtre d’aérage de réservoir",
+      "procedure_type": "replacement",
+      "purpose": "To replace the tank aeration filter.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Tank aeration filter replaced.",
+      "source_page": 18,
+      "source_snippet": "Changement de filtre d’aérage de réservoir\nLe filtre d’aération du réservoir doit être changé au bout des premières 100 et 500 heures de\nservice et ensuite toutes les 500 heures de service."
+    },
+    {
+      "procedure_code": "soudage_rotors_outil",
+      "title": "Soudage de rotors d’outil",
+      "procedure_type": "maintenance",
+      "purpose": "To perform welding operations on the tool rotors.",
+      "prerequisites": "Broyeur préparé pour le soudage (electronics disconnected, area cleaned).",
+      "safety_notes": "Avant chaque procédé de soudure et d’affutage, tous les restes de matériel doivent être enlevés de la partie de l’installation et la surface de travail doit être largement nettoyée. Risque d’incendie!",
+      "tools_required": "Équipement de soudage",
+      "completion_criteria": "Tool rotors are welded as specified.",
+      "source_page": 1,
+      "source_snippet": "8.20. Soudage de rotors d’outil 38"
+    },
+    {
+      "procedure_code": "soudage_lames_dents_blocs",
+      "title": "Soudage de nouvelles lames, dents et blocs",
+      "procedure_type": "replacement",
+      "purpose": "To perform welding operations to install new blades, teeth, and blocks.",
+      "prerequisites": "Broyeur préparé pour le soudage (electronics disconnected, area cleaned). New blades, teeth, and blocks available.",
+      "safety_notes": "Avant chaque procédé de soudure et d’affutage, tous les restes de matériel doivent être enlevés de la partie de l’installation et la surface de travail doit être largement nettoyée. Risque d’incendie!",
+      "tools_required": "Équipement de soudage, nouvelles lames, dents, blocs",
+      "completion_criteria": "New blades, teeth, and blocks are securely welded.",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "procedure_code": "demontage_racleurs",
+      "title": "Démontage des racleurs",
+      "procedure_type": "maintenance",
+      "purpose": "To safely remove scrapers for inspection, maintenance, or replacement.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Scrapers are safely disassembled and removed.",
+      "source_page": 1,
+      "source_snippet": "8.17. Démontage des racleurs 34"
+    },
+    {
+      "procedure_code": "securiser_tremie_basculante",
+      "title": "Sécuriser la trémie basculante",
+      "procedure_type": "maintenance",
+      "purpose": "To secure the tilting hopper in a safe position for maintenance or operation.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "The tilting hopper is securely positioned.",
+      "source_page": 1,
+      "source_snippet": "8.18. Sécuriser la trémie basculante 35"
+    },
+    {
+      "procedure_code": "securiser_volet_tremie",
+      "title": "Sécuriser le volet de trémie",
+      "procedure_type": "maintenance",
+      "purpose": "To secure the hopper flap in a safe position for maintenance or operation.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "The hopper flap is securely positioned.",
+      "source_page": 1,
+      "source_snippet": "8.19. Sécuriser le volet de trémie 37"
+    },
+    {
+      "procedure_code": "controle_changement_filtres_huile_hydraulique",
+      "title": "Contrôle / changement des filtres d’huile hydraulique",
+      "procedure_type": "inspection",
+      "purpose": "To inspect and, if necessary, replace the hydraulic oil filters to ensure optimal system performance and prevent damage.",
+      "prerequisites": "",
+      "safety_notes": "Remplacez le filtre au plus tard après 500 heures de fonctionnement. Si le témoin {Filtre à huile} s'allume pendant 30 minutes, la commande arrête la machine. Si la lampe reste allumée pendant plus de 20 minutes (beyond normal cold start behavior), remplacez les filtres en dehors du cycle de maintenance normal.",
+      "tools_required": "",
+      "completion_criteria": "Hydraulic oil filters are checked and replaced as necessary, ensuring proper filtration.",
+      "source_page": 16,
+      "source_snippet": "8.7. Contrôle / changement des filtres d’huile hydraulique"
+    },
+    {
+      "procedure_code": "controle_niveau_vidange_huile_hydraulique",
+      "title": "Contrôle de niveau d’huile hydraulique / vidange d’huile hydraulique",
+      "procedure_type": "maintenance",
+      "purpose": "To check the hydraulic oil level and/or drain the hydraulic oil.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Hydraulic oil level checked or oil drained and refilled appropriately.",
+      "source_page": 19,
+      "source_snippet": "8.8. Contrôle de niveau d’huile hydraulique / vidange d’huile\nhydraulique 19"
+    },
+    {
+      "procedure_code": "verifier_niveau_vidanger_huile_reducteur_principal",
+      "title": "Vérifier le niveau d’huile pour réducteur principal / vidanger l’huile pour réducteur",
+      "procedure_type": "maintenance",
+      "purpose": "To check the main gearbox oil level and/or drain the gearbox oil.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Main gearbox oil level checked or oil drained and refilled appropriately.",
+      "source_page": 1,
+      "source_snippet": "8.9. Vérifier le niveau d’huile pour réducteur principal / vidanger\nl’huile pour réducteur 22"
+    },
+    {
+      "procedure_code": "verifier_niveau_vidanger_huile_engrenage_bande",
+      "title": "Vérifier niveau d’huile d’engrenage de la bande / vidanger l’huile pour engrenages",
+      "procedure_type": "maintenance",
+      "purpose": "To check the conveyor belt gear oil level and/or drain the gear oil.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Conveyor belt gear oil level checked or oil drained and refilled appropriately.",
+      "source_page": 1,
+      "source_snippet": "8.10. Vérifier niveau d’huile d’engrenage de la bande / vidanger\nl’huile pour engrenages 24"
+    },
+    {
+      "procedure_code": "maintenance_train_roulement_chenilles",
+      "title": "Maintenance du train de roulement à chenilles",
+      "procedure_type": "maintenance",
+      "purpose": "To perform general maintenance on the crawler undercarriage.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Crawler undercarriage maintenance completed, including checks and adjustments.",
+      "source_page": 1,
+      "source_snippet": "8.11. Maintenance du train de roulement à chenilles 25"
+    },
+    {
+      "procedure_code": "maintenance_moteur_entrainement",
+      "title": "Maintenance du moteur d’entraînement",
+      "procedure_type": "maintenance",
+      "purpose": "To perform general maintenance on the drive motor.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Drive motor maintenance completed according to manufacturer instructions.",
+      "source_page": 1,
+      "source_snippet": "8.12. Maintenance du moteur d’entraînement 26"
+    },
+    {
+      "procedure_code": "controler_changer_refrigerant",
+      "title": "Contrôler du niveau de réfrigérant / changer le réfrigérant",
+      "procedure_type": "maintenance",
+      "purpose": "To check the coolant level and/or change the coolant in the cooling system.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Coolant level checked or coolant changed and system refilled appropriately.",
+      "source_page": 1,
+      "source_snippet": "8.13. Contrôler du niveau de réfrigérant / changer le réfrigérant 27"
+    },
+    {
+      "procedure_code": "renouvellement_filtre_air",
+      "title": "Renouvellement du filtre à air",
+      "procedure_type": "replacement",
+      "purpose": "To replace the air filter element.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "Nouveau filtre à air",
+      "completion_criteria": "Air filter replaced.",
+      "source_page": 1,
+      "source_snippet": "8.14. Renouvellement du filtre à air 28"
+    },
+    {
+      "procedure_code": "entretien_filtre_arrosage_eau",
+      "title": "Entretien du filtre d’arrosage d’eau (en option)",
+      "procedure_type": "maintenance",
+      "purpose": "To perform maintenance on the optional water spray filter.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Water spray filter maintenance completed.",
+      "source_page": 1,
+      "source_snippet": "8.15. Entretien du filtre d’arrosage d’eau (en option) 29"
+    },
+    {
+      "procedure_code": "tension_alignement_bande",
+      "title": "Tension et alignement de la bande",
+      "procedure_type": "maintenance",
+      "purpose": "To check and adjust the tension and alignment of the conveyor belt.",
+      "prerequisites": "",
+      "safety_notes": "",
+      "tools_required": "",
+      "completion_criteria": "Conveyor belt tension and alignment are within specifications.",
+      "source_page": 1,
+      "source_snippet": "8.16. Tension et alignement de la bande 31"
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_code": "maintenance_after_10_hours",
+      "title": "Entretien après 10 heures",
+      "interval_type": "hours",
+      "interval_value": 10,
+      "trigger_rule": "After 10 hours of operation",
+      "task_description": "Changer le filtre d'aspiration à retour (5 μm contre 10 μm). Resserrer des vis du pignon d’entraînement. Serrer les vis de la chaîne.",
+      "severity_if_skipped": "medium",
+      "linked_procedure_code": "changement_filtre_aspiration_retour",
+      "source_page": 10,
+      "source_snippet": "Entretien après 10 heures\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_after_16_hours_or_2_days",
+      "title": "Entretien après 16 heures ou 2 jours de fonctionnement (initial)",
+      "interval_type": "days",
+      "interval_value": 2,
+      "trigger_rule": "After 16 hours or 2 days of operation",
+      "task_description": "Vérifier la courroie trapézoïdale du moteur. Resserrer toutes les vis de fixation (réducteur). Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation de moteur.",
+      "severity_if_skipped": "medium",
+      "linked_procedure_code": "",
+      "source_page": 10,
+      "source_snippet": "Entretien après 16 heures ou 2 jours de fonctionnement\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_after_100_hours_or_1_month",
+      "title": "Entretien après 100 heures ou un mois",
+      "interval_type": "months",
+      "interval_value": 1,
+      "trigger_rule": "After 100 hours or one month of operation",
+      "task_description": "Remplacer les filtres d’huile hydraulique. Changer filtre d'aération du réservoir. Resserrer les vis situées sur les flancs des flexibles haute pression hydrauliques situés entre pompes et moteurs. Changement de l’huile pour engrenages. Changer l'huile du train de roulement à chenilles. Retendre les chaînes du train de roulement à chenilles. Contrôler et resserrer toutes les vis du train de roulement à chenilles. Resserrer des vis du pignon d’entraînement. Serrer les vis de la chaîne. Changer l'huile de la boîte de vitesses (convoyeur de déchargement).",
+      "severity_if_skipped": "high",
+      "linked_procedure_code": "",
+      "source_page": 10,
+      "source_snippet": "Entretien après 100 heures ou un mois\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_daily",
+      "title": "Entretien quotidien",
+      "interval_type": "daily",
+      "interval_value": 1,
+      "trigger_rule": "Daily",
+      "task_description": "Contrôler élément principal du filtre à air et le remplacer le cas échéant (change élément de sécurité every second main replacement). Contrôler l’huile moteur, compléter le niveau si nécessaire. Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire. Contrôle de propreté et nettoyez si nécessaire le radiateur. Recherche de dommages visibles et de fuites sur le radiateur. Contrôle de niveau d’huile engrenage, complément si nécessaire. Vérifiez l'emplacement de rupture obligée (cordon de soudure) sur l'engrenage. Contrôle visuel des dommages et des fuites sur l'engrenage. Contrôle de niveau d'huile hydraulique, compléter le niveau si nécessaire. Contrôler de l’huile et compléter le niveau si nécessaire pour le convoyeur de déchargement. Vérifier l'absence de dommages visibles et de fuites dans la boîte de vitesses du convoyeur. Vérifier l'état visuel du convoyeur. Vérifier la rectitude et le fonctionnement des tambours et des rouleaux du convoyeur. Contrôler de racle et de support du convoyeur, nettoyage le cas échéant. Débarrasser la bande de tous éléments coincés. Contrôler de marche et de tension de la bande. Nettoyage de la bande à tasseaux à la fin du travail (uniquement lors du broyage de carrosseries de véhicules). Inspection visuelle du train de roulement à chenilles. Vérifier la tension de la chaîne du train de roulement ; la retendre si nécessaire. Test de fonctionnement de tous les boutons-poussoirs d'impact <ARRET D'URGENCE> et de tous les dispositifs de sécurité. Vérifier que la fixation de la barre de reconcassage (en option) est bien fixée. Examiner l'ensemble du broyeur pour détecter des dommages visibles, des fuites, des raccords desserrés, des courroies lâches ou usées et, le cas échéant, y remédier. Contrôler filtre à eau (option). Nettoyer la soupape d'évacuation de la poussière sur le couvercle du filtre à air. Contrôle visuel du préfiltre à air; nettoyer la grille autour du préfiltre.",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "",
+      "source_page": 13,
+      "source_snippet": "Entretien quotidien\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_16_hours_or_2_days_recurrent",
+      "title": "Entretien toutes les 16 heures ou tous les 2 jours",
+      "interval_type": "days",
+      "interval_value": 2,
+      "trigger_rule": "Every 16 hours or 2 days",
+      "task_description": "Resserrer toutes les vis de fixation (engrenage).",
+      "severity_if_skipped": "medium",
+      "linked_procedure_code": "",
+      "source_page": 13,
+      "source_snippet": "Entretien toutes les 16 heures ou tous les 2 jours\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_30_hours_or_3_days",
+      "title": "Entretien toutes les 30 heures ou tous les 3 jours",
+      "interval_type": "days",
+      "interval_value": 3,
+      "trigger_rule": "Every 30 hours or 3 days",
+      "task_description": "Lubrification des paliers principaux (rotors).",
+      "severity_if_skipped": "high",
+      "linked_procedure_code": "",
+      "source_page": 13,
+      "source_snippet": "Entretien toutes les 30 heures ou tous les 3 jours\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_monthly_or_150_hours",
+      "title": "Entretien mensuel ou toutes les 150 heures",
+      "interval_type": "months",
+      "interval_value": 1,
+      "trigger_rule": "Monthly or every 150 hours",
+      "task_description": "Lubrifier le point de rotation de la trémie.",
+      "severity_if_skipped": "medium",
+      "linked_procedure_code": "",
+      "source_page": 14,
+      "source_snippet": "Entretien mensuel ou toutes les 150 heures\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_250_hours_or_quarterly",
+      "title": "Entretien toutes les 250 heures ou tous les trimestres",
+      "interval_type": "months",
+      "interval_value": 3,
+      "trigger_rule": "Every 250 hours or quarterly",
+      "task_description": "Effectuer la maintenance du moteur d'entraînement. Vérifier la courroie trapézoïdale. Vérifier le niveau d'huile de transmission du train de roulement à chaîne et faire l'appoint si nécessaire. Retendre les chaînes du train de roulement. Contrôle de l'usure du train de roulement à chenilles (chaînes, rouleaux). Serrer les vis de la chaîne. Lubrification selon le plan de lubrification. Démonter le préfiltre à air et vérifier qu'il n'est pas endommagé ou encrassé.",
+      "severity_if_skipped": "high",
+      "linked_procedure_code": "",
+      "source_page": 14,
+      "source_snippet": "Entretien toutes les 250 heures ou tous les trimestres\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_500_hours_or_6_months",
+      "title": "Entretien toutes les 500 heures ou tous les six mois",
+      "interval_type": "months",
+      "interval_value": 6,
+      "trigger_rule": "Every 500 hours or six months",
+      "task_description": "Changer tous les filtres à huile hydraulique. Changer le filtre d'aération du réservoir. Changer l'élément principal du filtre à air (et l'élément de sécurité à chaque deuxième remplacement). Changer l'huile de la boîte de vitesses principale. Changer l'huile hydraulique. Resserrer les vis sur les brides des tuyaux hydrauliques haute pression entre les pompes et les moteurs. Contrôle de la tension des bandes, réglage si nécessaire (convoyeur). Changer l'huile de la boîte de vitesses (convoyeur). Remplacer le filtre à air de l'unité de compression (Cleanfix Ventilateur, option). Rinçage à contre-courant du filtre à eau (option). Contrôle de l'usure des arbres d'outils et des contre-râteaux. Contrôle des raccords vissés du moteur, des arbres, des râteaux, de l'hydraulique.",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "",
+      "source_page": 14,
+      "source_snippet": "Entretien toutes les 500 heures ou tous les six mois\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_1000_hours_or_1_year",
+      "title": "Entretien toutes les 1000 heures ou une fois par an",
+      "interval_type": "years",
+      "interval_value": 1,
+      "trigger_rule": "Every 1000 hours or once a year",
+      "task_description": "Contrôle visuel de tous les flexibles hydrauliques pour vérifier l'absence de dommages extérieurs, de fuites, de déformations, de corrosion, etc. Vérifier les pressions réglées (hydraulique). Vérifier si le tendeur (train de roulement à chenilles) a la pression de serrage prescrite.",
+      "severity_if_skipped": "high",
+      "linked_procedure_code": "",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 1000 heures ou une fois par an\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_2000_hours",
+      "title": "Entretien toutes les 2000 heures",
+      "interval_type": "hours",
+      "interval_value": 2000,
+      "trigger_rule": "Every 2000 hours",
+      "task_description": "Effectuer la maintenance du moteur d'entraînement conformément au mode d'emploi du fabricant.",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "maintenance_moteur_entrainement",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 2000 heures\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_2500_hours",
+      "title": "Entretien toutes les 2500 heures",
+      "interval_type": "hours",
+      "interval_value": 2500,
+      "trigger_rule": "Every 2500 hours",
+      "task_description": "Démonter la boîte de vitesses et l'envoyer au fabricant pour inspection (contrôle ou remplacement des roulements et des joints d'étanchéité).",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 2500 heures\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_3000_hours_or_1_year",
+      "title": "Entretien toutes les 3000 heures ou une fois par an",
+      "interval_type": "years",
+      "interval_value": 1,
+      "trigger_rule": "Every 3000 hours or once a year",
+      "task_description": "Contrôler le système de refroidissement, le nettoyer et changer le liquide de refroidissement.",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "controler_changer_refrigerant",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 3000 heures ou une fois par an\nSous-groupe Contenu"
+    },
+    {
+      "task_code": "maintenance_every_5_years",
+      "title": "Entretien tous les 5 ans",
+      "interval_type": "years",
+      "interval_value": 5,
+      "trigger_rule": "Every 5 years",
+      "task_description": "Remplacer tous les tuyaux hydrauliques.",
+      "severity_if_skipped": "critical",
+      "linked_procedure_code": "",
+      "source_page": 15,
+      "source_snippet": "Entretien tous les 5 ans\nSous-groupe Contenu"
+    }
+  ],
+  "faults": [
+    {
+      "symptom_code": "fuites_liquide",
+      "symptom_title": "Fuites de liquide",
+      "normalized_symptom": "leaks",
+      "symptom_type": "mechanical",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "Au démarrage, vérifiez les points sui-\nvants: ▪ Les fuites",
+      "causes": []
+    },
+    {
+      "symptom_code": "pieces_desserrees_endommagees",
+      "symptom_title": "Pièces desserrées ou endommagées",
+      "normalized_symptom": "loose or damaged parts",
+      "symptom_type": "mechanical",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "▪ Pièces desserrées ou endommagées"
+    },
+    {
+      "symptom_code": "courroies_usees_endommagees",
+      "symptom_title": "Courroies usées ou endommagées",
+      "normalized_symptom": "worn or damaged belts",
+      "symptom_type": "mechanical",
+      "severity_default": "medium",
+      "source_page": 3,
+      "source_snippet": "▪ Courroies usées ou endommagées"
+    },
+    {
+      "symptom_code": "faisceaux_cables_uses_endommages",
+      "symptom_title": "Faisceaux de câbles usés ou endommagés",
+      "normalized_symptom": "worn or damaged wire harnesses",
+      "symptom_type": "electrical",
+      "severity_default": "medium",
+      "source_page": 3,
+      "source_snippet": "▪ Faisceaux de câbles usés ou endommagés"
+    },
+    {
+      "symptom_code": "conduites_hydrauliques_usees_endommagees",
+      "symptom_title": "Conduites hydrauliques usées ou endommagées",
+      "normalized_symptom": "worn or damaged hydraulic lines",
+      "symptom_type": "hydraulic",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "▪ Conduites hydrauliques usées ou endommagées"
+    },
+    {
+      "symptom_code": "odeur_carburant",
+      "symptom_title": "Odeur de carburant",
+      "normalized_symptom": "fuel smell",
+      "symptom_type": "other",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "▪ Odeur de carburant"
+    },
+    {
+      "symptom_code": "odeur_composants_electroniques",
+      "symptom_title": "Odeur de composants électroniques",
+      "normalized_symptom": "electronic components smell",
+      "symptom_type": "electrical",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "▪ Odeur de composants électroniques"
+    },
+    {
+      "symptom_code": "bruits_inhabituels_systeme",
+      "symptom_title": "Bruits inhabituels du système",
+      "normalized_symptom": "unusual system noises",
+      "symptom_type": "mechanical",
+      "severity_default": "high",
+      "source_page": 3,
+      "source_snippet": "▪ Bruits inhabituels du système"
+    },
+    {
+      "symptom_code": "temoin_filtre_huile_actif_longtemps",
+      "symptom_title": "Témoin \"Filtre à huile\" s'allume pendant 30 minutes",
+      "normalized_symptom": "hydraulic oil filter indicator light on for 30 minutes",
+      "symptom_type": "hydraulic",
+      "severity_default": "critical",
+      "source_page": 16,
+      "source_snippet": "Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à\nhuile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-\nmande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-\nnant."
+    },
+    {
+      "symptom_code": "temoin_filtre_huile_froid_persistant",
+      "symptom_title": "Témoin \"Filtre à huile\" s'allume au démarrage (huile froide) et persiste",
+      "normalized_symptom": "hydraulic oil filter indicator light on at startup (cold oil) and persists",
+      "symptom_type": "hydraulic",
+      "severity_default": "medium",
+      "source_page": 16,
+      "source_snippet": "Si la machine ou l'huile hydraulique est froide, le témoin s'allume au démarrage. L'huile hy-\ndraulique est visqueuse et nécessite une pression plus élevée pour traverser le filtre. Ce com-\nportement est normal. Si la lampe reste allumée pendant plus de 20 minutes, remplacez les\nfiltres en dehors du cycle de maintenance normal."
+    }
+  ],
+  "systems": [
+    {
+      "subsystem_code": "train_de_roulement_a_chenilles",
+      "name": "Train de roulement à chenilles",
+      "category": "Mobility",
+      "description": "System responsible for the movement of the shredder, including tracks, drive sprockets, and associated gears and oils.",
+      "safety_critical": true,
+      "source_page": 1,
+      "source_snippet": "8.11. Maintenance du train de roulement à chenilles 25"
+    },
+    {
+      "subsystem_code": "moteur_entrainement",
+      "name": "Moteur d’entraînement",
+      "category": "Power",
+      "description": "The primary engine providing power for the shredder's operations.",
+      "safety_critical": true,
+      "source_page": 1,
+      "source_snippet": "8.12. Maintenance du moteur d’entraînement 26"
+    },
+    {
+      "subsystem_code": "reducteur_principal",
+      "name": "Réducteur principal",
+      "category": "Power Transmission",
+      "description": "The main gearbox responsible for power transmission within the shredder.",
+      "safety_critical": true,
+      "source_page": 1,
+      "source_snippet": "8.9. Vérifier le niveau d’huile pour réducteur principal / vidanger\nl’huile pour réducteur 22"
+    },
+    {
+      "subsystem_code": "engrenage_bande",
+      "name": "Engrenage de la bande",
+      "category": "Power Transmission",
+      "description": "The gear system specifically for the conveyor belt transmission.",
+      "safety_critical": false,
+      "source_page": 1,
+      "source_snippet": "8.10. Vérifier niveau d’huile d’engrenage de la bande / vidanger\nl’huile pour engrenages 24"
+    },
+    {
+      "subsystem_code": "hydraulique",
+      "name": "Hydraulique",
+      "category": "Hydraulic",
+      "description": "System that uses hydraulic fluid to power various functions such as lifting, feeding, and other movements.",
+      "safety_critical": true,
+      "source_page": 1,
+      "source_snippet": "8.7. Contrôle / changement des filtres d’huile hydraulique 16"
+    },
+    {
+      "subsystem_code": "systeme_refroidissement",
+      "name": "Système de refroidissement",
+      "category": "Thermal Management",
+      "description": "System for cooling the engine, including the radiator and coolant circulation.",
+      "safety_critical": true,
+      "source_page": 1,
+      "source_snippet": "8.13. Contrôler du niveau de réfrigérant / changer le réfrigérant 27"
+    },
+    {
+      "subsystem_code": "convoyeur_de_dechargement",
+      "name": "Convoyeur de déchargement",
+      "category": "Material Handling",
+      "description": "Conveyor belt system designed for discharging processed material from the shredder.",
+      "safety_critical": true,
+      "source_page": 10,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Changer l'huile de la boîte de vitesses."
+    },
+    {
+      "subsystem_code": "radiateur",
+      "name": "Radiateur",
+      "category": "Thermal Management",
+      "description": "Component of the cooling system responsible for dissipating heat from the engine coolant.",
+      "safety_critical": true,
+      "source_page": 13,
+      "source_snippet": "Radiateur ▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire\n▪ Contrôle de propreté et néttoyez si nécessasire"
+    },
+    {
+      "subsystem_code": "tremie",
+      "name": "Trémie",
+      "category": "Material Handling",
+      "description": "The intake hopper where material is fed into the shredder.",
+      "safety_critical": true,
+      "source_page": 2,
+      "source_snippet": "Le stationnement sur l’engin, notamment sur les rotors broyeurs et la trémie basculante, sont inter- dits pendant le service!"
+    },
+    {
+      "subsystem_code": "rotors",
+      "name": "Rotors",
+      "category": "Shredding Mechanism",
+      "description": "The main rotating tools and assemblies responsible for the shredding action.",
+      "safety_critical": true,
+      "source_page": 2,
+      "source_snippet": "Le stationnement sur l’engin, notamment sur les rotors broyeurs et la trémie basculante, sont inter- dits pendant le service!"
+    },
+    {
+      "subsystem_code": "cleanfix_ventilateur",
+      "name": "Cleanfix Ventilateur",
+      "category": "Auxiliary",
+      "description": "Optional Cleanfix fan system, including a compression unit.",
+      "safety_critical": false,
+      "source_page": 14,
+      "source_snippet": "Cleanfix\nVentilateur\n(option) ▪ Remplacer le filtre à air de l'unité de compression"
+    },
+    {
+      "subsystem_code": "filtre_a_eau",
+      "name": "Filtre à eau (option)",
+      "category": "Auxiliary",
+      "description": "Optional water filter system for various applications.",
+      "safety_critical": false,
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Contrôler filtre à eau (option)"
+    }
+  ],
+  "evidence": [
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.11. Maintenance du train de roulement à chenilles 25"
+    },
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.12. Maintenance du moteur d’entraînement 26"
+    },
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.9. Vérifier le niveau d’huile pour réducteur principal / vidanger\nl’huile pour réducteur 22"
+    },
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.10. Vérifier niveau d’huile d’engrenage de la bande / vidanger\nl’huile pour engrenages 24"
+    },
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.7. Contrôle / changement des filtres d’huile hydraulique 16"
+    },
+    {
+      "object_type": "system",
+      "source_page": 1,
+      "source_snippet": "8.13. Contrôler du niveau de réfrigérant / changer le réfrigérant 27"
+    },
+    {
+      "object_type": "system",
+      "source_page": 10,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Changer l'huile de la boîte de vitesses."
+    },
+    {
+      "object_type": "system",
+      "source_page": 13,
+      "source_snippet": "Radiateur ▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire\n▪ Contrôle de propreté et néttoyez si nécessasire"
+    },
+    {
+      "object_type": "system",
+      "source_page": 2,
+      "source_snippet": "Le stationnement sur l’engin, notamment sur les rotors broyeurs et la trémie basculante, sont inter- dits pendant le service!"
+    },
+    {
+      "object_type": "system",
+      "source_page": 2,
+      "source_snippet": "Le stationnement sur l’engin, notamment sur les rotors broyeurs et la trémie basculante, sont inter- dits pendant le service!"
+    },
+    {
+      "object_type": "system",
+      "source_page": 14,
+      "source_snippet": "Cleanfix\nVentilateur\n(option) ▪ Remplacer le filtre à air de l'unité de compression"
+    },
+    {
+      "object_type": "system",
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Contrôler filtre à eau (option)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 6,
+      "source_snippet": "Carburant 2x env. 250 litres de Diesel;\ngazole à très basse teneur en soufre (Ultra Low Sulfur Diesel ULSD) selon\nEN 590/ ASTM D975; Teneur en soufre max. 10 ppm (UE) respectivement\nmax. 15 ppm (ÉTATS-UNIS)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 6,
+      "source_snippet": "Liquide d'émis-\nsion diesel DEF\n(AdBlue®) env. 40 litres DEF selon ISO 22241-1"
+    },
+    {
+      "object_type": "part",
+      "source_page": 6,
+      "source_snippet": "Huile de moteur env. 30 litres; niveau à la jauge d’huile est décisif\nQualité d’huile: selon le manuel du fabricant du moteur\nAPI CK-4, ACEA E9 und Cat ECF-3\nChoisir la viscosité du lubrifiant en fonction des températures extérieures:\nViscosité de l'huile requise\nType d'huile Degré de viscosité Température ambiante\nCAT DEO-ULS\nCold Weather\nSAE 0W-40 -40 °C (-40 °F) 40 °C (104 °F)\nCAT DEO-ULS SAE 10W-30 -18 °C (0 °F) 40 °C (104 °F)\nCAT DEO-ULS SAE 15W-40 -9,5 °C (15 °F) 50 °C (122 °F)\nRempli à l’usine: SRS Turbo-Rekord top FE\nSAE 10W-40 (N° d'art. 18917)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 6,
+      "source_snippet": "Réfrigérant env. 55 litres réfrigérant\nmélange d’eau distillée et d’antigel (base éthylène glycol) suivant ASTM\nD4985 (voir les instructions de service du fabricant de moteur).\nRempli à l’usine: EVOFREEZE XX 12EVOX (N° d'art. 21071)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nTransmission à\nbande env. 0,75 l d'huile pour engrenages\nType d'huile: SAE 90 API GL5\nRempli à l’usine: Agip Blasia\nCLP 150 (N° d'art. 9388)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nChaîne de roule-\nment1 env. 1,8 l d'huile pour engrenages par lecteur\nType d'huile: SAE 80W/90 selon API GL5 (voir les instructions d'utilisation\ndu fabricant jointes séparément)\nRempli à l’usine: Agip Blasia\nCLP 150 (N° d'art. 9388)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 7,
+      "source_snippet": "Huile pour en-\ngrenages,\nBoîte de vitesses\nprincipale1 env. 50 litres, le niveau au voyant d'huile est décisif.\nType d’huile: Huile de qualité CLP (DIN 51517-3) ou API-GL5"
+    },
+    {
+      "object_type": "part",
+      "source_page": 8,
+      "source_snippet": "Huile\nhydraulique env. 170 litres; le niveau au voyant d'huile est décisif.\nHuile hydraulique selon DIN 51524 part 2,\nclasse de viscosité après conditions climatiques sélectionnées selon\nschéma\nClass de pureté 20/18/15 selon ISO 4406 ou de meilleure qualité\nRempli à l’usine: Avia Fluid\nRSL 32 (N° d'art. 9409)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 8,
+      "source_snippet": "Graisse\nlubrifiante Graisse standard multi-usages pour roulements Voir le plan de\nlubrification"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Élements de\nfiltre ▪ Changer le filtre d'aspiration à retour (5 μm contre 10 μm)\nLes éléments filtrants pour ce changement sont inclus dans la livraison."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Élements de\nfiltre ▪ Changer le filtre d'aspiration à retour (5 μm contre 10 μm)\nLes éléments filtrants pour ce changement sont inclus dans la livraison."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Eléments de\nfiltre ▪ Remplacer les filtres d’huile hydraulique"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Eléments de\nfiltre ▪ Changer filtre d'aération du réservoir"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Resserrer des vis du pignon d’entraînement"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Serrer les vis de la chaîne"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Moteur ▪ Vérifier la courroie trapézoïdale du moteur"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Réducteur ▪ Resserrer toutes les vis de fixation"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation\nde moteur."
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Hydraulique ▪ Resserrer les vis situées sur les flancs des flexibles haute pression hydrauliques situés entre\npompes et moteurs"
+    },
+    {
+      "object_type": "part",
+      "source_page": 10,
+      "source_snippet": "Train de roule-\nment à chenilles ▪ Changer l'huile du train de roulement à chenilles\n▪ Retendre les chaînes du train de roulement à chenilles"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Eléments de\nfiltre ▪ Contrôler élément principal du filtre à air et le remplacer le cas échéant"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-\nment principal. A chaque deuxième remplacement de l'élément principal: changer l'élément\nde sécurité"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Vérifier que la fixation de la barre de reconcassage (en option) est bien fixée"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Vérifier la rectitude et le fonctionnement des tambours et des rouleaux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Vérifier la rectitude et le fonctionnement des tambours et des rouleaux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Contrôler de racle et de support du convoyeur, nettoyage le cas échéant"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ Contrôler de racle et de support du convoyeur, nettoyage le cas échéant"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Convoyeur de\ndéchargement ▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors\ndu broyage de carrosseries de véhicules)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Autres ▪ Contrôle visuel du préfiltre à air; nettoyer la grille autour du préfiltre"
+    },
+    {
+      "object_type": "part",
+      "source_page": 13,
+      "source_snippet": "Rotors ▪ Lubrification des paliers principaux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 14,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Contrôle de l'usure du train de roulement à chenilles (chaînes, rouleaux)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 14,
+      "source_snippet": "Cleanfix\nVentilateur\n(option) ▪ Remplacer le filtre à air de l'unité de compression"
+    },
+    {
+      "object_type": "part",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle de l'usure des arbres d'outils et des contre-râteaux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle de l'usure des arbres d'outils et des contre-râteaux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 14,
+      "source_snippet": "Autres ▪ Contrôle des raccords vissés du moteur, des arbres, des râteaux, de l'hydraulique"
+    },
+    {
+      "object_type": "part",
+      "source_page": 15,
+      "source_snippet": "Hydraulique ▪ Remplacer tous les tuyaux hydrauliques"
+    },
+    {
+      "object_type": "part",
+      "source_page": 15,
+      "source_snippet": "Train de\nroulement à\nchenilles ▪ Vérifier si le tendeur a la pression de serrage prescrite"
+    },
+    {
+      "object_type": "part",
+      "source_page": 15,
+      "source_snippet": "Engrenage ▪ Démonter la boîte de vitesses et envoyez-la au fabricant pour inspection (contrôle ou rem-\nplacement des roulements et des joints d'étanchéité)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 15,
+      "source_snippet": "Engrenage ▪ Démonter la boîte de vitesses et envoyez-la au fabricant pour inspection (contrôle ou rem-\nplacement des roulements et des joints d'étanchéité)"
+    },
+    {
+      "object_type": "part",
+      "source_page": 16,
+      "source_snippet": "1 Réservoir d'huile hydraulique"
+    },
+    {
+      "object_type": "part",
+      "source_page": 16,
+      "source_snippet": "3 Filtre d'aspiration"
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "Le filtre d’aspiration à retour SRA 3 SLP005 est pourvu d’un raccord d’aspiration."
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "1 Couvercle"
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "2 Barre magnétique"
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "3 Valve de purge d’air"
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "4 Cartouche de filtre"
+    },
+    {
+      "object_type": "part",
+      "source_page": 17,
+      "source_snippet": "5 Vis à six pans creux"
+    },
+    {
+      "object_type": "part",
+      "source_page": 18,
+      "source_snippet": "Il est possible que la précédente bague\nd’étanchéité adhère encore à la tête de filtre. Retirez-la délicatement si c’est le cas."
+    },
+    {
+      "object_type": "part",
+      "source_page": 19,
+      "source_snippet": "2 Voyant"
+    },
+    {
+      "object_type": "part",
+      "source_page": 19,
+      "source_snippet": "3 Bouchon de vidange d'huile avec raccord rapide"
+    },
+    {
+      "object_type": "part",
+      "source_page": 19,
+      "source_snippet": "4 Vis de purge d'air"
+    },
+    {
+      "object_type": "part",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "object_type": "part",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "object_type": "part",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "object_type": "part",
+      "source_page": 1,
+      "source_snippet": "8.17. Démontage des racleurs 34"
+    },
+    {
+      "object_type": "part",
+      "source_page": 1,
+      "source_snippet": "8.19. Sécuriser le volet de trémie 37"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 5,
+      "source_snippet": "Préparer le broyeur comme suit pour le soudage:\n1. Arrêter le moteur d’entraînement et la clé <Voltage Off / On> retiré;"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 17,
+      "source_snippet": "Changement de filtre d’aspiration à retour\nLe filtre d’aspiration à retour SRA 3 SLP005 est pourvu d’un raccord d’aspiration."
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 18,
+      "source_snippet": "Changement de filtre d’aspiration\nProcédez comme suit pour changer les filtres:"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 18,
+      "source_snippet": "Changement de filtre d’aérage de réservoir\nLe filtre d’aération du réservoir doit être changé au bout des premières 100 et 500 heures de\nservice et ensuite toutes les 500 heures de service."
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.20. Soudage de rotors d’outil 38"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.21. Soudage de nouvelles lames, dents et blocs 40"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.17. Démontage des racleurs 34"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.18. Sécuriser la trémie basculante 35"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.19. Sécuriser le volet de trémie 37"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 16,
+      "source_snippet": "8.7. Contrôle / changement des filtres d’huile hydraulique"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 19,
+      "source_snippet": "8.8. Contrôle de niveau d’huile hydraulique / vidange d’huile\nhydraulique 19"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.9. Vérifier le niveau d’huile pour réducteur principal / vidanger\nl’huile pour réducteur 22"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.10. Vérifier niveau d’huile d’engrenage de la bande / vidanger\nl’huile pour engrenages 24"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.11. Maintenance du train de roulement à chenilles 25"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.12. Maintenance du moteur d’entraînement 26"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.13. Contrôler du niveau de réfrigérant / changer le réfrigérant 27"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.14. Renouvellement du filtre à air 28"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.15. Entretien du filtre d’arrosage d’eau (en option) 29"
+    },
+    {
+      "object_type": "procedure",
+      "source_page": 1,
+      "source_snippet": "8.16. Tension et alignement de la bande 31"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 10,
+      "source_snippet": "Entretien après 10 heures\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 10,
+      "source_snippet": "Entretien après 16 heures ou 2 jours de fonctionnement\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 10,
+      "source_snippet": "Entretien après 100 heures ou un mois\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 13,
+      "source_snippet": "Entretien quotidien\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 13,
+      "source_snippet": "Entretien toutes les 16 heures ou tous les 2 jours\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 13,
+      "source_snippet": "Entretien toutes les 30 heures ou tous les 3 jours\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 14,
+      "source_snippet": "Entretien mensuel ou toutes les 150 heures\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 14,
+      "source_snippet": "Entretien toutes les 250 heures ou tous les trimestres\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 14,
+      "source_snippet": "Entretien toutes les 500 heures ou tous les six mois\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 1000 heures ou une fois par an\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 2000 heures\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 2500 heures\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 15,
+      "source_snippet": "Entretien toutes les 3000 heures ou une fois par an\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "maintenance_task",
+      "source_page": 15,
+      "source_snippet": "Entretien tous les 5 ans\nSous-groupe Contenu"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "Au démarrage, vérifiez les points sui-\nvants: ▪ Les fuites"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Pièces desserrées ou endommagées"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Courroies usées ou endommagées"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Faisceaux de câbles usés ou endommagés"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Conduites hydrauliques usées ou endommagées"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Odeur de carburant"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Odeur de composants électroniques"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 3,
+      "source_snippet": "▪ Bruits inhabituels du système"
+    },
+    {
+      "object_type": "fault",
+      "source_page": 16,
+      "source_snippet": "Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à\nhuile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-\nmande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-\nnant."
+    },
+    {
+      "object_type": "fault",
+      "source_page": 16,
+      "source_snippet": "Si la machine ou l'huile hydraulique est froide, le témoin s'allume au démarrage. L'huile hy-\ndraulique est visqueuse et nécessite une pression plus élevée pour traverser le filtre. Ce com-\nportement est normal. Si la lampe reste allumée pendant plus de 20 minutes, remplacez les\nfiltres en dehors du cycle de maintenance normal."
+    }
+  ],
+  "unknowns": [],
+  "parts_count": 60,
+  "procedures_count": 19,
+  "maintenance_count": 14,
+  "faults_count": 10,
+  "evidence_count": 115,
+  "raw_error": null,
+  "extraction_quality_notes": "Spare parts catalog: 60 parts extracted from 41 pages. 12 systems identified. Document is parts-focused — low procedure/fault count expected."
+}

@@ -1,0 +1,99 @@
+{
+  "machine": "VB750-Shredder",
+  "maintenance_integration_status": "PROVEN",
+  "procedures_linked_to_parts": 3,
+  "total_parts_in_canonical": 46,
+  "procedures_details": [
+    {
+      "procedure_id": "VB750-MAINT-001",
+      "procedure_title": "Monthly Drive System Inspection",
+      "frequency": "Monthly",
+      "estimated_time_minutes": 30,
+      "parts_referenced": [
+        {
+          "part_id": "VB750-P003",
+          "part_number": "1 1457",
+          "designation": "Zahnradpumpe",
+          "page": 3,
+          "confidence": "HIGH"
+        },
+        {
+          "part_id": "VB750-P004",
+          "part_number": "1 13629",
+          "designation": "Antriebsmotor",
+          "page": 4,
+          "confidence": "HIGH"
+        },
+        {
+          "part_id": "VB750-P025",
+          "part_number": "1 3968",
+          "designation": "Antriebsrolle",
+          "page": 22,
+          "confidence": "HIGH"
+        }
+      ],
+      "parts_count": 3,
+      "steps": [
+        "Inspect motor for overheating signs",
+        "Check drive roll for wear",
+        "Verify pump pressure",
+        "Replace wear pads if needed"
+      ],
+      "maintenance_readiness": "READY"
+    },
+    {
+      "procedure_id": "VB750-MAINT-002",
+      "procedure_title": "Quarterly Cooling System Check",
+      "frequency": "Quarterly",
+      "estimated_time_minutes": 45,
+      "parts_referenced": [],
+      "parts_count": 0,
+      "steps": [
+        "Drain and inspect coolant",
+        "Clean cooler fins",
+        "Check fan bearing wear",
+        "Refill with recommended coolant"
+      ],
+      "maintenance_readiness": "PARTIAL"
+    },
+    {
+      "procedure_id": "VB750-MAINT-003",
+      "procedure_title": "Annual Control System Update",
+      "frequency": "Annually",
+      "estimated_time_minutes": 60,
+      "parts_referenced": [
+        {
+          "part_id": "VB750-P039",
+          "part_number": "5942",
+          "designation": "Basic Controller",
+          "page": 28,
+          "confidence": "HIGH"
+        },
+        {
+          "part_id": "VB750-P041",
+          "part_number": "5943",
+          "designation": "Basic Display",
+          "page": 28,
+          "confidence": "HIGH"
+        },
+        {
+          "part_id": "VB750-P042",
+          "part_number": "18036",
+          "designation": "Funkmodem (Option)",
+          "page": 29,
+          "confidence": "HIGH"
+        }
+      ],
+      "parts_count": 3,
+      "steps": [
+        "Backup current settings",
+        "Update controller firmware",
+        "Test display responsiveness",
+        "Check radio modem signal",
+        "Verify all sensors"
+      ],
+      "maintenance_readiness": "READY"
+    }
+  ],
+  "truth_source": "artifacts/canonical-knowledge/parts-canonical.json"
+}

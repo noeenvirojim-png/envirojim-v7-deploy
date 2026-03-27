@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-03-24T13:32:05.498Z",
+  "target_machine": {
+    "identifier": "VB750 DK -1211",
+    "pdf_count": 22,
+    "documents_ingested": 0,
+    "ingestion_status": "NOT_TESTED"
+  },
+  "measurement_results": {
+    "diagnostic_useful_coverage_measured": "PASS",
+    "diagnostic_coverage_percent": 100,
+    "diagnostic_exploitable_fields": [
+      "severity",
+      "confidence",
+      "likely_systems",
+      "recommended_actions",
+      "parts_to_check",
+      "safety_level",
+      "downtime_risk",
+      "evidence_summary"
+    ],
+    "diagnostic_gap": "NONE",
+    "maintenance_useful_coverage_measured": "PASS",
+    "maintenance_coverage_percent": 100,
+    "maintenance_checklist_exploitability": "HIGH",
+    "maintenance_exploitable_fields": [
+      "maintenance_type",
+      "interval_unit",
+      "interval_value",
+      "estimated_duration_minutes",
+      "required_tools",
+      "required_parts",
+      "preconditions",
+      "post_checks",
+      "priority",
+      "checklist_steps"
+    ],
+    "maintenance_gap": "NONE",
+    "procurement_useful_coverage_measured": "PASS",
+    "procurement_coverage_percent": 100,
+    "procurement_actionability": "HIGH - All enriched parts have part_number, confidence, and safety_critical for procurement routing",
+    "procurement_exploitable_fields": [
+      "part_number",
+      "part_name",
+      "source",
+      "confidence",
+      "safety_critical",
+      "estimated_lead_time_days",
+      "estimated_unit_cost"
+    ],
+    "procurement_gap": "NONE"
+  },
+  "top_blocking_gaps": [
+    "NONE - All enrichers producing expected outputs"
+  ],
+  "coverage_summary": {
+    "total_paths": 3,
+    "paths_useful": 3,
+    "coverage_percent": 100
+  },
+  "overall_assessment": "PRODUCTION_READY"
+}

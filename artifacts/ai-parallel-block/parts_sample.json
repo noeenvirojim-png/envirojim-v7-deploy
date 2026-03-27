@@ -1,0 +1,53 @@
+[
+  {
+    "part_number": "CB-50",
+    "part_name": "Circuit Breaker CB-50A",
+    "machine_id": "vb750-dk-1211-test",
+    "source": "ai_diagnostic",
+    "confidence": 95,
+    "evidence_summary": "Critical component identified in diagnostic - high failure probability",
+    "requested_quantity": 1,
+    "notes": "Source: ai_diagnostic",
+    "safety_critical": true,
+    "estimated_lead_time_days": 7,
+    "estimated_unit_cost": 100,
+    "validation": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  {
+    "part_number": "PSU-500",
+    "part_name": "Power Supply Unit PSU-500W",
+    "machine_id": "vb750-dk-1211-test",
+    "source": "ai_diagnostic",
+    "confidence": 87,
+    "evidence_summary": "Secondary component - potential root cause",
+    "requested_quantity": 1,
+    "notes": "Source: ai_diagnostic",
+    "safety_critical": false,
+    "estimated_lead_time_days": 7,
+    "estimated_unit_cost": 100,
+    "validation": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  {
+    "part_number": "AWG12",
+    "part_name": "Power Cable AWG12",
+    "machine_id": "vb750-dk-1211-test",
+    "source": "ai_diagnostic",
+    "confidence": 72,
+    "evidence_summary": "Wear indicator detected",
+    "requested_quantity": 1,
+    "notes": "Source: ai_diagnostic",
+    "safety_critical": false,
+    "estimated_lead_time_days": 7,
+    "estimated_unit_cost": 100,
+    "validation": {
+      "valid": true,
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "ai_release_gate_run_id": "4eb93dc3-472b-4428-afe7-8c22ce8aaecf",
+  "ai_delivery_run_id": "13538935-ad95-4671-93c5-838fe3c4078f",
+  "ai_delivery_quality_run_id": "c3570107-eb4a-404d-b84c-aef5f6249bdb",
+  "ai_semantic_validation_run_id": "673453f0-dd75-49d8-9692-f0aa05cdfd0c",
+  "gate_status": "PASS",
+  "counts": {
+    "quality": {
+      "maintenance_total": 36,
+      "maintenance_keep_count": 35,
+      "maintenance_needs_review_count": 1,
+      "maintenance_reject_count": 0,
+      "diagnostic_total": 21,
+      "diagnostic_keep_count": 21,
+      "diagnostic_needs_review_count": 0,
+      "diagnostic_reject_count": 0
+    },
+    "semantic": {
+      "maintenance_total": 36,
+      "maintenance_keep_count": 36,
+      "maintenance_needs_review_count": 0,
+      "maintenance_reject_count": 0,
+      "diagnostic_total": 21,
+      "diagnostic_keep_count": 21,
+      "diagnostic_needs_review_count": 0,
+      "diagnostic_reject_count": 0
+    }
+  },
+  "checks": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "failed_error": 0,
+    "failed_warn": 0
+  },
+  "created_by_script": "scripts/build-ai-release-gate-report.ts"
+}

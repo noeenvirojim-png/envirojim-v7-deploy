@@ -1,0 +1,5 @@
+extraction_row_id,decision_status,corrected_part_number,corrected_designation,corrected_qty,corrected_notes,rationale
+UUID_HERE,APPROVED,,,,,Evidence clear after manual check
+UUID_HERE,CORRECTED,REAL-PART-NO-123,Correct designation,1,,Corrected from official diagram/callout
+UUID_HERE,REJECTED,,,,,Not a true spare part row
+UUID_HERE,ESCALATED,,,,,Need OEM confirmation

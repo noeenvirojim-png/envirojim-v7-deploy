@@ -1,0 +1,13 @@
+check_key,severity,passed,actual_value,expected_value,details
+delivery_quality_run_exists,ERROR,true,"{""ai_delivery_quality_run_id"":""c3570107-eb4a-404d-b84c-aef5f6249bdb""}","{""ai_delivery_quality_run_id"":""non-null""}",AI delivery quality run found.
+semantic_validation_run_exists,ERROR,true,"{""ai_semantic_validation_run_id"":""673453f0-dd75-49d8-9692-f0aa05cdfd0c""}","{""ai_semantic_validation_run_id"":""non-null""}",AI semantic validation run found.
+maintenance_total_positive,ERROR,true,"{""maintenance_total"":36}","{""maintenance_total"":""> 0""}",Semantic validation must include maintenance items.
+diagnostic_total_positive,ERROR,true,"{""diagnostic_total"":21}","{""diagnostic_total"":""> 0""}",Semantic validation must include diagnostic items.
+maintenance_all_keep,ERROR,true,"{""maintenance_total"":36,""maintenance_keep_count"":36}","{""maintenance_total_equals_maintenance_keep_count"":true}",All maintenance items must be KEEP.
+maintenance_zero_needs_review,ERROR,true,"{""maintenance_needs_review_count"":0}","{""maintenance_needs_review_count"":0}",Maintenance NEEDS_REVIEW count must be 0.
+maintenance_zero_reject,ERROR,true,"{""maintenance_reject_count"":0}","{""maintenance_reject_count"":0}",Maintenance REJECT count must be 0.
+diagnostic_all_keep,ERROR,true,"{""diagnostic_total"":21,""diagnostic_keep_count"":21}","{""diagnostic_total_equals_diagnostic_keep_count"":true}",All diagnostic items must be KEEP.
+diagnostic_zero_needs_review,ERROR,true,"{""diagnostic_needs_review_count"":0}","{""diagnostic_needs_review_count"":0}",Diagnostic NEEDS_REVIEW count must be 0.
+diagnostic_zero_reject,ERROR,true,"{""diagnostic_reject_count"":0}","{""diagnostic_reject_count"":0}",Diagnostic REJECT count must be 0.
+quality_vs_semantic_maintenance_totals_match,WARN,true,"{""quality_maintenance_total"":36,""semantic_maintenance_total"":36}","{""quality_maintenance_total_equals_semantic_maintenance_total"":true}",Maintenance totals should match between quality and semantic runs.
+quality_vs_semantic_diagnostic_totals_match,WARN,true,"{""quality_diagnostic_total"":21,""semantic_diagnostic_total"":21}","{""quality_diagnostic_total_equals_semantic_diagnostic_total"":true}",Diagnostic totals should match between quality and semantic runs.

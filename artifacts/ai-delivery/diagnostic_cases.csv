@@ -1,0 +1,53 @@
+title,entity_type,source_page,evidence_snippet,status,review_reason,entity_id,kb_id
+Air dans le système hydraulique,fault_case,18,"Après chaque changement d'huile hydraulique et de filtre, le système hydraulique doit être purgé.
+Tant lors du changement d'huile que du changement du filtre, de l'air pénètre dans le système hy-
+draulique et endommage les composants.",ready,,ef4997ff-9d18-4e62-9cf3-a232b2b1fb73,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Bague d'étanchéité adhérente,fault_case,18,"Il est possible que la précédente bague
+d’étanchéité adhère encore à la tête de filtre. Retirez-la délicatement si c’est le cas.",ready,,b8cbeba5-646a-4740-9ccc-43cb6a4a4995,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Bande à tasseaux sale,fault_case,13,"▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors
+du broyage de carrosseries de véhicules)",ready,,1bc0e355-bb60-43e6-87cb-55663b371e5e,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Chaînes du train de roulement détendues,fault_case,13,▪ Vérifier la tension de la chaîne ; la retendre si nécessaire,ready,,1a627661-8948-440b-8834-21f0f5a8320c,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Concentration inhabituellement élevée de particules externes,fault_case,17,"A chaque renouvellement de filtre, il faudra donc contrôler la barre magnétique intégrée (con-
+centration inhabituellement élevée de particules externes).",ready,,496748e4-aed2-4a1b-9686-b0aae913aaf8,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+DEF peut geler,fault_case,6,"Attention: Le réservoir de DEF ne doit pas être trop rempli. Le DEF peut
+geler et a besoin d'espace pour se dilater. Par conséquent, ne remplissez
+le réservoir de DEF qu'à un maximum de 90 %.",ready,,89ea805c-97ab-41f6-a56f-2cd827c3f847,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Endommagement des composants hydrauliques,fault_case,18,"Tant lors du changement d'huile que du changement du filtre, de l'air pénètre dans le système hy-
+draulique et endommage les composants.",ready,,f6b206e5-f220-46c0-ac44-3a56e995791a,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien dépassé,fault_case,12,"Si une date de maintenance est dépassée le message « Entretien » apparaît sur fond rouge
+dans la barre de navigation de l'écran de la commande API. Dans ce cas, l’entretien corres-
+pondant doit être immédiatement effectué.
+Une fois l’entretien effectué, l’avertissement d’entretien doit être annulé et le prochain inter-
+valle d’entretien doit être réglé.",ready,,2ac94387-d3e6-4ea0-944b-a345174023ec,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Huile moteur,fault_case,13,"▪ Contrôler l’huile moteur, compléter le niveau si nécessaire",ready,,4de52c85-907c-4a9f-8f6a-976f2a52a9f9,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Indication {Filtre à air},fault_case,13,"Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-
+ment principal. A chaque deuxième remplacement de l'élément principal: changer l'élément
+de sécurité",ready,,58e29fc7-d899-4a86-965b-ff21d4ee2880,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Indication {Filtre à huile hydraulique},fault_case,16,"Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.",ready,,7991e709-7a97-4f49-ac3c-9db092169294,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Indication {Filtre à huile},fault_case,16,"Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.",ready,,2673f1a0-2b17-44a1-af3b-3d6e7d33420a,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Niveau d'huile bas,fault_case,13,"▪ Contrôle de niveau d'huile, compléter le niveau si nécessaire",ready,,9ceae112-0602-49d5-b7da-b8789b5c1bcc,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Niveau d'huile bas (Convoyeur de déchargement),fault_case,13,▪ Contrôler de l’huile et compléter le niveau si nécessaire,ready,,be35c4f2-73a4-4071-a947-f613deb85209,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Pression réglée incorrecte,fault_case,15,"▪ Vérifier les pressions réglées (recommandation). Le contrôle des pressions réglées ne peut
+être effectué que par une personne qualifiée qui doit impérativement contacter au préalable
+le service après-vente de HAMMEL Recyclingtechnik GmbH.",ready,,22d67420-996c-4291-9efa-6f7b55ef384a,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Réfrigérant,fault_case,13,"▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire",ready,,f5fadc9d-ce3d-419d-8137-5be7bb99a05e,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Remplacement des tuyaux hydrauliques,fault_case,15,"▪ Remplacer tous les tuyaux hydrauliques
+La durée d'utilisation des flexibles hydrauliques doit être déterminée par l'exploitant confor-
+mément aux prescriptions locales en vigueur (par ex. DIN 20066) et ne devrait pas dépasser
+six ans, stockage compris.",ready,,7d5df3c4-7328-44d8-9228-be930cbe58bf,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Risque d’incendie,fault_case,4,"Avant chaque procédé de soudure et d’affutage, tous les restes de matériel doivent être enlevés de la partie de l’installation et la surface de travail doit être largement nettoyée. Risque d’incendie!",ready,,759b88b8-edcc-4059-ac18-2611f6bd3391,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Risque de dommages importants sur l’électronique,fault_case,4,Risque de dommages importants sur l’électronique en cas d’inobservation de cette consigne.,ready,,7bbe3e47-2be8-4f1f-85b6-ef17a1c05f8c,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Témoin du filtre à huile allumé,fault_case,16,"Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.
+Si la machine ou l'huile hydraulique est froide, le témoin s'allume au démarrage. L'huile hy-
+draulique est visqueuse et nécessite une pression plus élevée pour traverser le filtre. Ce com-
+portement est normal. Si la lampe reste allumée pendant plus de 20 minutes, remplacez les
+filtres en dehors du cycle de maintenance normal.",ready,,ab5b1d1d-e5f1-41d8-b3c6-512cb4319d6c,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Vibrations excessives,fault_case,15,▪ Vérifier si le tendeur a la pression de serrage prescrite,ready,,5cab2d34-5990-463b-b738-7de79272cb06,dd7ba46c-7a26-4f11-9d01-c8913f7045fe

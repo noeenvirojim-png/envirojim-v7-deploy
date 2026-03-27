@@ -1,0 +1,32 @@
+{
+  "current_status": "VERTICAL_LOCKED_WITH_GENERIC_FOUNDATION",
+  "reasoning": "VB750 actions are specific machine adaptations, but persistent.public.parts table is generic and machine-agnostic",
+  "vb750_specific": [
+    "src/domain/vb750/actions/diagnostic.ts",
+    "src/domain/vb750/actions/maintenance.ts",
+    "src/domain/vb750/actions/procurement.ts"
+  ],
+  "vb750_hardcoded_dependencies": [
+    "Machine name: VB750",
+    "Subsystem keywords: Drivetrain, Hydraulics, Cooling, Electrical, Chassis",
+    "Maintenance procedures: Monthly Drive, Quarterly Cooling, Annual Control",
+    "Problem→subsystem mappings"
+  ],
+  "generic_reusable": [
+    "public.parts persistent table (machine-agnostic)",
+    "Machine isolation via machine_id FK",
+    "OfficialDiagnosticService (generic KB structure)",
+    "MaintenanceAssistantService (generic tasks)",
+    "Generic procurement UI + actions"
+  ],
+  "path_to_generic_readiness": [
+    "Extract subsystem keywords to machine_config or KB table",
+    "Extract maintenance procedures to machine-linked procedures table",
+    "Extract problem→subsystem mappings to diagnostic_links table",
+    "Parameterize machine_name → machine_id in action calls",
+    "Create machine-agnostic wrapper that calls VB750 or other machine adapters"
+  ],
+  "time_to_generalize": "Medium effort (~1-2 days with proper schema design)",
+  "blocking_generalization_now": "No critical blocker; purely design/schema work",
+  "exact_status_for_vb750": "PRODUCTION_READY_FOR_VB750_VERTICAL (not generic yet)"
+}

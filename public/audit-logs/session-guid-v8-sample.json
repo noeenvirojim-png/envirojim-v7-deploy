@@ -1,0 +1,37 @@
+{
+  "session_report": {
+    "session_id": "GUID-V8-20260315-X1",
+    "timestamp": "2026-03-15T09:50:00Z",
+    "machine_id": "ENV-2024-X1",
+    "status": "completed",
+    "type": "diagnostic",
+    "summary": {
+      "reported_symptom": "Engine stalling under load",
+      "final_diagnosis": "Fuel filter blockage",
+      "confidence_score": 0.88
+    },
+    "audit_trail": [
+      {
+        "step_id": "root",
+        "instruction": "Verify fuel primer bulb tension",
+        "expected": "Firm resistance after 3 pumps",
+        "technician_ack": "YES",
+        "confidence": 0.95,
+        "timestamp": "2026-03-15T09:51:00Z"
+      },
+      {
+        "step_id": "S1",
+        "instruction": "Check fuel line for visible air bubbles",
+        "expected": "Zero visible air pockets",
+        "technician_ack": "NO",
+        "confidence": 0.92,
+        "timestamp": "2026-03-15T09:52:00Z"
+      }
+    ],
+    "recommendations": {
+      "action": "Proceed with fuel filter replacement",
+      "suggested_parts": ["FF-102-OEM"],
+      "safety_notices": ["Work in well-ventilated area", "Ensure engine is cold"]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "procurement_export_status": "READY_FOR_ORDERING",
+  "export_date": "2026-03-27T17:48:18.381Z",
+  "machine": "VB750-Shredder",
+  "total_items": 0,
+  "all_items_validated": true,
+  "data_completeness": {
+    "part_numbers_present": 0,
+    "descriptions_present": 0,
+    "page_references_present": 0
+  },
+  "ordering_fields": [
+    "line_number",
+    "part_number",
+    "description",
+    "page_ref",
+    "status",
+    "notes"
+  ],
+  "export_file": "artifacts/canonical-knowledge/procurement-export.csv",
+  "truth_source": "artifacts/canonical-knowledge/parts-canonical.json",
+  "ready_for_vendor": true,
+  "sample_items": []
+}

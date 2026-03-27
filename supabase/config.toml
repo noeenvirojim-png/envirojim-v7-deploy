@@ -1,0 +1,16 @@
+﻿project_id = "CURRENT_APP"
+[api]
+port = 55321
+external_url = "http://127.0.0.1:55321"
+schemas = ["public"]
+[db]
+port = 55322
+shadow_port = 55320
+[auth]
+site_url = "http://localhost:3000"
+jwt_secret = "super-secret-jwt-key-with-at-least-32-characters-long"
+enable_signup = true
+[storage]
+enabled = true
+[analytics]
+enabled = false

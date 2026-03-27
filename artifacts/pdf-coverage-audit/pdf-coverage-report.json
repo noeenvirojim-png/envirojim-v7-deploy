@@ -1,0 +1,68 @@
+{
+  "changed": [],
+  "target_scope_truth": {
+    "target_folder": "Project root + CURRENT_APP/public, scripts, tests",
+    "pdf_count": 3,
+    "total_pages": 3
+  },
+  "pdf_inventory": [
+    {
+      "name": "test.pdf",
+      "path": "public/test.pdf",
+      "size_kb": 0,
+      "exists": false,
+      "pages_estimated": "0"
+    },
+    {
+      "name": "valid-test.pdf",
+      "path": "scripts/valid-test.pdf",
+      "size_kb": 0,
+      "exists": false,
+      "pages_estimated": "0"
+    },
+    {
+      "name": "dummy.pdf",
+      "path": "tests/e2e/dummy.pdf",
+      "size_kb": 0,
+      "exists": false,
+      "pages_estimated": "0"
+    }
+  ],
+  "page_coverage_result": {
+    "pages_classified": "PARTIAL",
+    "text_pages_detected": 0,
+    "table_pages_detected": 0,
+    "image_or_schema_pages_detected": 0,
+    "mixed_pages_detected": 0,
+    "unreadable_pages_detected": 3
+  },
+  "extraction_coverage_result": {
+    "text_extraction_coverage": "UNKNOWN (no live execution)",
+    "table_extraction_coverage": "UNKNOWN (no live execution)",
+    "image_schema_coverage": "UNKNOWN (no live execution)",
+    "pages_with_zero_output_but_nonempty_source": "UNKNOWN",
+    "final_structural_coverage_status": "BLOCKED"
+  },
+  "evidence_coverage_result": {
+    "entities_total": 0,
+    "entities_with_page": 0,
+    "entities_with_snippet": 0,
+    "entities_with_full_evidence": 0,
+    "entities_rejected_for_missing_evidence": 0
+  },
+  "omission_audit": {
+    "missing_sections_detected": "UNKNOWN",
+    "missing_tables_detected": "UNKNOWN",
+    "missing_schemas_detected": "UNKNOWN",
+    "unresolved_pages": [
+      "All PDFs: Cannot parse content without PDF library (pdfjs-dist, pdf-parse, etc.)",
+      "No live extraction execution: Pipeline not run on test PDFs",
+      "No evidence mapping: Cannot correlate extracted entities to source pages"
+    ]
+  },
+  "final_verdict": {
+    "zero_omission_proven": "FAIL",
+    "production_ready_for_pdf_truth": "FAIL",
+    "root_cause": "PDF extraction pipeline architecture incomplete. Required: (1) PDF parsing capability, (2) Live execution on real documents, (3) Coverage correlation"
+  }
+}

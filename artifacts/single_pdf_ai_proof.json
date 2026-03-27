@@ -1,0 +1,9 @@
+{
+  "pdf_path": "C:\\Users\\Noé EVE\\OneDrive - Envirojim\\Bureau\\Claude - Envirojim Repo\\CURRENT_APP\\scripts\\valid-test.pdf",
+  "extraction_ok": true,
+  "extracted_char_count": 577,
+  "model_used": "gemini-2.5-flash",
+  "ai_call_ok": true,
+  "response_excerpt": "{\n  \"summary\": \"This manual for the Titan 500 Industrial Pump lists key parts like the HS-99 hydraulic seal and PV-22 pressure valve. It covers quarterly maintenance procedures and fault detection, specifically addressing low discharge pressure caused by a worn HS-99 seal, requiring its replacement.\",\n  \"word_count\": 47\n}",
+  "raw_error": null
+}

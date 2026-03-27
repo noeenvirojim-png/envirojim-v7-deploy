@@ -1,0 +1,14 @@
+-- 1 of 3 --
+HAMMEL Ersatzteilkatalog
+Pos. Stk. Artikel Bezeichnung
+1 1 12345 Motor CAT C9.3B
+2 1 67890 Getriebe PMP
+-- 2 of 3 --
+Mixed content page
+Some diagram references Abb. 4.1
+1 1 11111 Valid Part on Mixed Page
+-- 3 of 3 --
+References and other stuff
+No parts here.
+Just text.
+PN 99999-ABCDEFG (incomplete)

@@ -1,0 +1,85 @@
+{
+  "procurement_runtime_proof": {
+    "runtime_path_executed": "src/domain/vb750/actions/procurement.ts::createVB750ProcurementOrder",
+    "real_vb750_case_used": "5-part procurement order from canonical dataset",
+    "parts_truth_consumed_in_runtime": true,
+    "order_created": {
+      "order_id": "VB750-1774634905710",
+      "items_count": 5,
+      "status": "draft"
+    },
+    "parts_sample": [
+      {
+        "part_number": "17515",
+        "designation": "Axialkolbenverstellpumpe",
+        "quantity": 1
+      },
+      {
+        "part_number": "17516",
+        "designation": "Axialkolbenverstellpumpe",
+        "quantity": 2
+      },
+      {
+        "part_number": "1 1457",
+        "designation": "Zahnradpumpe",
+        "quantity": 1
+      }
+    ],
+    "db_read_proven": true,
+    "db_write_proven": true,
+    "write_payload": {
+      "order_id": "VB750-1774634905710",
+      "status": "draft",
+      "machine": "VB750",
+      "items_count": 5,
+      "items": [
+        {
+          "part_number": "17515",
+          "designation": "Axialkolbenverstellpumpe",
+          "quantity": 1,
+          "page_reference": 3,
+          "source_confidence": "HIGH",
+          "source_truth": "VB750-Catalog.pdf (canonical)"
+        },
+        {
+          "part_number": "17516",
+          "designation": "Axialkolbenverstellpumpe",
+          "quantity": 2,
+          "page_reference": 3,
+          "source_confidence": "HIGH",
+          "source_truth": "VB750-Catalog.pdf (canonical)"
+        },
+        {
+          "part_number": "1 1457",
+          "designation": "Zahnradpumpe",
+          "quantity": 1,
+          "page_reference": 3,
+          "source_confidence": "HIGH",
+          "source_truth": "VB750-Catalog.pdf (canonical)"
+        },
+        {
+          "part_number": "1 13629",
+          "designation": "Antriebsmotor",
+          "quantity": 1,
+          "page_reference": 4,
+          "source_confidence": "HIGH",
+          "source_truth": "VB750-Catalog.pdf (canonical)"
+        },
+        {
+          "part_number": "1 11812",
+          "designation": "Kurbelgeh�useentl�ftungs- 326-4689",
+          "quantity": 3,
+          "page_reference": 4,
+          "source_confidence": "HIGH",
+          "source_truth": "VB750-Catalog.pdf (canonical)"
+        }
+      ],
+      "notes": "Annual maintenance resupply from canonical truth dataset",
+      "runtime_truth_source": "artifacts/canonical-knowledge/parts-canonical.json",
+      "ready_to_submit": true,
+      "created_at": "2026-03-27T18:08:25.710Z"
+    },
+    "proof_status": "PASS",
+    "timestamp": "2026-03-27T18:08:25.720Z"
+  }
+}

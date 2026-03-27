@@ -1,0 +1,217 @@
+title,entity_type,source_page,evidence_snippet,status,review_reason,entity_id,kb_id
+Changement de filtre d’aspiration,maintenance_task,18,"Changement de filtre d’aspiration
+Procédez comme suit pour changer les filtres:",ready,,4de89214-ace8-4115-993c-9cf493d92e92,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Changement du filtre d'aspiration à retour,maintenance_task,17,"Changement de filtre d’aspiration à retour
+Le filtre d’aspiration à retour SRA 3 SLP005 est pourvu d’un raccord d’aspiration. Deux rac-
+cords de mesure sont disponibles sur le retour pour la surveillance de pression et de tempéra-
+ture. Un raccord de mesure est également intégré à la conduite d’aspiration. Le filtre est en
+outre pourvu de tamis de protection optimale ment dimensionnés sur la valve by-pass et de
+post-aspiration, ainsi que d’une valve de purge d’air à orifice combiné détendeur de pression.
+A chaque renouvellement de filtre, il faudra donc contrôler la barre magnétique intégrée (con-
+centration inhabituellement élevée de particules externes).
+1 Couvercle
+2 Barre magnétique
+3 Valve de purge d’air
+4 Cartouche de filtre
+5 Vis à six pans creux
+6 Contrôle du filtre
+Pour changer les filtres d'aspiration à retour, procédez comme suit:",ready,,d78e5982-400e-4c67-91f4-a727450aee32,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Changer tous les tuyaux hydrauliques,maintenance_task,15,"Entretien tous les 5 ans
+Sous-groupe Contenu
+Hydraulique ▪ Remplacer tous les tuyaux hydrauliques
+La durée d'utilisation des flexibles hydrauliques doit être déterminée par l'exploitant confor-
+mément aux prescriptions locales en vigueur (par ex. DIN 20066) et ne devrait pas dépasser
+six ans, stockage compris.",ready,,3f9d836d-2916-48ca-a314-0ee068f93bea,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Cleanfix,system,1,Cleanfix,ready,,a532651f-fe7c-4315-b326-dd693a874ce8,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+"Contrôler le système de refroidissement, le nettoyer et changer le liquide de refroidissement",maintenance_task,15,"Entretien toutes les 3000 heures ou une fois par an
+Sous-groupe Contenu
+Radiateur ▪ Contrôler le système de refroidissement, le nettoyer et changer le liquide de refroidissement",ready,,8f3edc5f-fe32-4734-b230-bc48f7ea8616,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien après 10 heures,maintenance_task,10,"Entretien après 10 heures
+Sous-groupe Contenu
+Élements de
+filtre
+▪ Changer le filtre d'aspiration à retour (5 μm contre 10 μm)
+Les éléments filtrants pour ce changement sont inclus dans la livraison.
+Train de
+roulement à
+chenilles
+▪ Resserrer des vis du pignon d’entraînement
+▪ Serrer les vis de la chaîne",ready,,4aabe2b8-41a4-4231-b327-069f7dba64eb,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien après 100 heures ou un mois,maintenance_task,10,"Entretien après 100 heures ou un mois
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Remplacer les filtres d’huile hydraulique
+▪ Changer filtre d'aération du réservoir
+Hydraulique ▪ Resserrer les vis situées sur les flancs des flexibles haute pression hydrauliques situés entre
+pompes et moteurs
+Engrenage ▪ Changement de l’huile pour engrenages
+Train de roule-
+ment à chenilles
+▪ Changer l'huile du train de roulement à chenilles
+▪ Retendre les chaînes du train de roulement à chenilles
+▪ Contrôler et resserrer toutes les vis du train de roulement à chenilles
+▪ Resserrer des vis du pignon d’entraînement
+▪ Serrer les vis de la chaîne
+Convoyeur de
+déchargement
+▪ Changer l'huile de la boîte de vitesses.",ready,,5184ed70-4131-4d0f-9814-c9f570174987,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien après 16 heures ou 2 jours de fonctionnement,maintenance_task,10,"Entretien après 16 heures ou 2 jours de fonctionnement
+Sous-groupe Contenu
+Moteur ▪ Vérifier la courroie trapézoïdale du moteur
+Réducteur ▪ Resserrer toutes les vis de fixation
+Autres ▪ Resserrer toutes les vis, notamment sur tôles de râteaux, palier des rotors, trémie et fixation
+de moteur.",ready,,25147f4e-6c83-4d28-96ba-ac9d4536aaed,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien après 500 heures,maintenance_task,11,"Entretien après 500 heures
+Sous-groupe Contenu
+Convoyeur de
+déchargement
+▪ Changer l'huile de la boîte de vitesses
+Train de roule-
+ment à chenilles
+▪ Changer l'huile du train de roulement à chenilles
+Engrenage ▪ Changement de l’huile pour engrenages",ready,,38cb3309-5fb7-47af-8149-0b94ec2fde97,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien mensuel ou toutes les 150 heures,maintenance_task,14,"Entretien mensuel ou toutes les 150 heures
+Sous-groupe Contenu
+Trémie ▪ Lubrifier le point de rotation de la trémie",ready,,d12c745e-1d5b-4eac-bf7b-6b19d3cc1329,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien quotidien,maintenance_task,13,"Entretien quotidien
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Contrôler élément principal du filtre à air et le remplacer le cas échéant
+Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-
+ment principal. A chaque deuxième remplacement de l'élément principal: changer l'élément
+de sécurité
+Moteur
+d'entraînement
+▪ Contrôler l’huile moteur, compléter le niveau si nécessaire
+Radiateur ▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire
+▪ Contrôle de propreté et néttoyez si nécessasire
+▪ Recherche de dommages visibles et de fuites
+Engrenage ▪ Contrôle de niveau d’huile, complément si nécessaire
+▪ Vérifiez l'emplacement de rupture obligée (cordon de soudure) sur l'engrenage
+▪ Contrôle visuel des dommages et des fuites
+Hydraulique ▪ Contrôle de niveau d'huile, compléter le niveau si nécessaire
+Convoyeur de
+déchargement
+▪ Contrôler de l’huile et compléter le niveau si nécessaire
+▪ Vérifier l'absence de dommages visibles et de fuites dans la boîte de vitesses
+▪ Vérifier l'état visuel
+▪ Vérifier la rectitude et le fonctionnement des tambours et des rouleaux
+▪ Contrôler de racle et de support du convoyeur, nettoyage le cas échéant
+▪ Débarrasser la bande de tous éléments coincés
+▪ Contrôler de marche et de tension de la bande
+▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors
+du broyage de carrosseries de véhicules)
+Train de
+roulement à
+chenilles
+▪ Inspection visuelle
+▪ Vérifier la tension de la chaîne ; la retendre si nécessaire
+Autres ▪ Test de fonctionnement de tous les boutons-poussoirs d'impact <ARRET D'URGENCE> et de
+tous les dispositifs de sécurité
+▪ Vérifier que la fixation de la barre de reconcassage (en option) est bien fixée
+▪ Examiner l'ensemble du broyeur pour détecter des dommages visibles, des fuites, des rac-
+cords desserrés, des courroies lâches ou usées et, le cas échéant, y remédier
+▪ Contrôler filtre à eau (option)
+▪ Nettoyer la soupape d'évacuation de la poussière sur le couvercle du filtre à air
+▪ Contrôle visuel du préfiltre à air; nettoyer la grille autour du préfiltre",ready,,c524fc86-057a-4a6c-9bef-f3cf5c04e278,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 1000 heures ou une fois par an,maintenance_task,15,"Entretien toutes les 1000 heures ou une fois par an
+Sous-groupe Contenu
+Hydraulique ▪ Contrôle visuel de tous les flexibles hydrauliques pour vérifier l'absence de dommages exté-
+rieurs, de fuites, de déformations, de corrosion, etc. conformément aux prescriptions locales
+en vigueur.
+▪ Vérifier les pressions réglées (recommandation). Le contrôle des pressions réglées ne peut
+être effectué que par une personne qualifiée qui doit impérativement contacter au préalable
+le service après-vente de HAMMEL Recyclingtechnik GmbH.
+Train de
+roulement à
+chenilles
+▪ Vérifier si le tendeur a la pression de serrage prescrite",ready,,21749d00-6c7f-44b1-a4f2-4663b350ad41,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 16 heures ou tous les 2 jours,maintenance_task,13,"Entretien toutes les 16 heures ou tous les 2 jours
+Sous-groupe Contenu
+Engrenage ▪ Resserrer toutes les vis de fixation",ready,,a72e181c-bb7c-43bf-a779-84216c9a91da,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 2000 heures,maintenance_task,15,"Entretien toutes les 2000 heures
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ Effectuer la maintenance du moteur d'entraînement conformément au mode d'emploi du fa-
+bricant (joint séparément).",ready,,6bc061f9-9cbb-49c4-a226-7c56d898bde1,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 250 heures ou tous les trimestres,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ Effectuer la maintenance du moteur d'entraînement
+▪ Vérifier la courroie trapézoïdale
+Train de
+roulement à
+chenilles
+▪ Vérifier le niveau d'huile de transmission du train de roulement à chaîne et faire l'appoint si
+nécessaire
+▪ Retendre les chaînes du train de roulement
+▪ Contrôle de l'usure du train de roulement à chenilles (chaînes, rouleaux)
+▪ Serrer les vis de la chaîne
+Lubrification ▪ Lubrification selon le plan de lubrification
+Autres ▪ Démonter le préfiltre à air et vérifier qu'il n'est pas endommagé ou encrassé",ready,,a83f90b8-b5a4-402e-82d1-bede181b62f5,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 2500 heures,maintenance_task,15,"Entretien toutes les 2500 heures
+Sous-groupe Contenu
+Engrenage ▪ Démonter la boîte de vitesses et envoyez-la au fabricant pour inspection (contrôle ou rem-
+placement des roulements et des joints d'étanchéité)",ready,,fa6ef33d-2670-47d8-bef6-a79ed3cdb9aa,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 30 heures ou tous les 3 jours,maintenance_task,13,"Entretien toutes les 30 heures ou tous les 3 jours
+Sous-groupe Contenu
+Rotors ▪ Lubrification des paliers principaux",ready,,74627e2b-46e4-4e0a-a23e-0c5513dbb2fa,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 3000 heures ou une fois par an,maintenance_task,15,"Entretien toutes les 3000 heures ou une fois par an
+Sous-groupe Contenu
+Radiateur ▪ Contrôler le système de refroidissement, le nettoyer et changer le liquide de refroidissement",ready,,5117e56e-e866-4cee-98de-60b25a0d7a68,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Entretien toutes les 500 heures ou tous les six mois,maintenance_task,14,"Entretien toutes les 500 heures ou tous les six mois
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Changer tous les filtres à huile hydraulique
+▪ Changer le filtre d'aération du réservoir
+▪ Changer l'élément principal du filtre à air
+A chaque deuxième remplacement de l'élément principal: changer l'élément de sécurité
+Engrenage ▪ Changer l'huile de la boîte de vitesses principale
+Hydraulique ▪ Changer l'huile hydraulique
+▪ Resserrer les vis sur les brides des tuyaux hydrauliques haute pression entre les pompes et
+les moteurs
+Convoyeur de
+déchargement
+▪ Contrôle de la tension des bandes, réglage si nécessaire
+▪ Changer l'huile de la boîte de vitesses
+Cleanfix
+Ventilateur
+(option)
+▪ Remplacer le filtre à air de l'unité de compression
+Filtre à eau
+(option)
+▪ Rinçage à contre-courant du filtre à eau (option)
+Autres ▪ Contrôle de l'usure des arbres d'outils et des contre-râteaux
+▪ Contrôle des raccords vissés du moteur, des arbres, des râteaux, de l'hydraulique",ready,,7fa7053e-d5af-4a6f-bbc8-6b8966c5b729,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of - 2 of 3 -- every as-needed,maintenance_task,1,Lubricate - 2 of 3 -- every as-needed,ready,,d7678ab1-9b0e-4425-a825-6217743b7ba1,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Charnières de clapet de nettoyage every as-needed,maintenance_task,1,Lubricate Charnières de clapet de nettoyage every as-needed,ready,,e2909271-fa79-451c-b05b-f43bdaf5163c,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Charnières de la porte de boîte de commande every 250h,maintenance_task,1,Lubricate Charnières de la porte de boîte de commande every 250h,ready,,dfba41f0-a4e8-4377-9412-fc85aeca359e,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Charnières de portes every 250h,maintenance_task,1,Lubricate Charnières de portes every 250h,ready,,46109590-f161-4d41-b562-a03c09de3b8f,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Charnières de volet de la trémie every 250h,maintenance_task,1,Lubricate Charnières de volet de la trémie every 250h,ready,,6a334ca1-846a-4f08-a7fb-b9687df96b79,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Paliers des rotors every 30h,maintenance_task,1,Lubricate Paliers des rotors every 30h,ready,,94fc45b4-663f-49a5-bd01-1c2df906eec3,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Pivot de la trémie basculante every 150h,maintenance_task,1,Lubricate Pivot de la trémie basculante every 150h,ready,,196f3c2b-16b9-4e03-be36-7518e692a4f8,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Point de repli de la bande every 250h,maintenance_task,1,Lubricate Point de repli de la bande every 250h,ready,,24d19bef-eeed-497d-8fae-02ad3b3b5fd8,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Vérin hydraulique relevage / abaissement d’aimant en every 250h,maintenance_task,1,Lubricate Vérin hydraulique relevage / abaissement d’aimant en every 250h,ready,,15133e03-88ca-4710-8470-cdfe4dd3bb78,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Vérin hydraulique relevage / abaissement de bande every 250h,maintenance_task,1,Lubricate Vérin hydraulique relevage / abaissement de bande every 250h,ready,,a8a06e23-7576-4e04-9dff-96bb353c7667,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Vérin hydraulique repli et déploiement de bande every 250h,maintenance_task,1,Lubricate Vérin hydraulique repli et déploiement de bande every 250h,ready,,31e17914-3460-4959-85e6-90737f1099db,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Vérin hydraulique trémie basculante every 250h,maintenance_task,1,Lubricate Vérin hydraulique trémie basculante every 250h,ready,,43e31f56-e63e-4db2-9ee0-51f6e6a39f76,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrication of Vérin hydraulique volet de la trémie every 250h,maintenance_task,1,Lubricate Vérin hydraulique volet de la trémie every 250h,ready,,0a2eb800-6b73-4517-9416-2b1aa84620ca,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrification des paliers principaux,maintenance_task,13,"Entretien toutes les 30 heures ou tous les 3 jours
+Sous-groupe Contenu
+Rotors ▪ Lubrification des paliers principaux",ready,,a119443e-b473-412c-ac7c-9f9f563c001f,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrification selon le plan de lubrification,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Lubrification ▪ Lubrification selon le plan de lubrification",ready,,e4ecab49-72e4-4dcc-8429-b9262fef8569,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Lubrifier le point de rotation de la trémie,maintenance_task,14,"Entretien mensuel ou toutes les 150 heures
+Sous-groupe Contenu
+Trémie ▪ Lubrifier le point de rotation de la trémie",ready,,41555abb-6d22-422b-8d64-71fa3ec7e333,dd7ba46c-7a26-4f11-9d01-c8913f7045fe
+Maintenance du moteur d’entraînement,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ Effectuer la maintenance du moteur d'entraînement",ready,,694c892b-8a07-4817-ad10-49f2782128e8,dd7ba46c-7a26-4f11-9d01-c8913f7045fe

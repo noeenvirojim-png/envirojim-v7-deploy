@@ -1,0 +1,52 @@
+"item_kind","source_table","source_row_id","source_entity_id","title","normalized_title","entity_type","evidence_page","evidence_snippet","anchor_strength","semantic_status","semantic_reason"
+"diagnostic","ai_delivery_items","fc9f2804-3945-443a-a671-6c801f9a7d07","7bbe3e47-2be8-4f1f-85b6-ef17a1c05f8c","Risque de dommages importants sur l’électronique","risque de dommages importants sur l electronique","fault_case","4","Risque de dommages importants sur l’électronique en cas d’inobservation de cette consigne.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","b75662b0-c2af-4554-9bf2-f05b7464496d","759b88b8-edcc-4059-ac18-2611f6bd3391","Risque d’incendie","risque d incendie","fault_case","4","Avant chaque procédé de soudure et d’affutage, tous les restes de matériel doivent être enlevés de la partie de l’installation et la surface de travail doit être largement nettoyée. Risque d’incendie!","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","f73bd29d-2edd-43bf-bbe2-8f156e349f3d","58e29fc7-d899-4a86-965b-ff21d4ee2880","Indication {Filtre à air}","indication filtre a air","fault_case","13","Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-
+ment principal. A chaque deuxième remplacement de l'élément principal: changer l'élément
+de sécurité","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","4811dfe2-96d2-4c3b-8eee-c6ea9fe1555e","2673f1a0-2b17-44a1-af3b-3d6e7d33420a","Indication {Filtre à huile}","indication filtre a huile","fault_case","16","Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","9acc8679-c507-4d89-b138-2b2fa0cc8c8b","ab5b1d1d-e5f1-41d8-b3c6-512cb4319d6c","Témoin du filtre à huile allumé","temoin du filtre a huile allume","fault_case","16","Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.
+Si la machine ou l'huile hydraulique est froide, le témoin s'allume au démarrage. L'huile hy-
+draulique est visqueuse et nécessite une pression plus élevée pour traverser le filtre. Ce com-
+portement est normal. Si la lampe reste allumée pendant pl...","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","873fc0e5-67d4-4454-a540-16567d86e181","496748e4-aed2-4a1b-9686-b0aae913aaf8","Concentration inhabituellement élevée de particules externes","concentration inhabituellement elevee de particules externes","fault_case","17","A chaque renouvellement de filtre, il faudra donc contrôler la barre magnétique intégrée (con-
+centration inhabituellement élevée de particules externes).","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","a70d6fcc-99c4-4426-bc26-30d34be806b3","f5fadc9d-ce3d-419d-8137-5be7bb99a05e","Réfrigérant","refrigerant","fault_case","13","▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","eb36cca9-a353-4bc3-a2b2-232df8e0d8bf","ef4997ff-9d18-4e62-9cf3-a232b2b1fb73","Air dans le système hydraulique","air dans le systeme hydraulique","fault_case","18","Après chaque changement d'huile hydraulique et de filtre, le système hydraulique doit être purgé.
+Tant lors du changement d'huile que du changement du filtre, de l'air pénètre dans le système hy-
+draulique et endommage les composants.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","b7388854-23cf-4685-95f6-ab86b490612f","f6b206e5-f220-46c0-ac44-3a56e995791a","Endommagement des composants hydrauliques","endommagement des composants hydrauliques","fault_case","18","Tant lors du changement d'huile que du changement du filtre, de l'air pénètre dans le système hy-
+draulique et endommage les composants.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","ec6eede5-2bc1-4a57-b1b6-d41d28174a44","b8cbeba5-646a-4740-9ccc-43cb6a4a4995","Bague d'étanchéité adhérente","bague d etancheite adherente","fault_case","18","Il est possible que la précédente bague
+d’étanchéité adhère encore à la tête de filtre. Retirez-la délicatement si c’est le cas.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","faa46e60-5e28-4bd8-87e0-c32ea42a991c","89ea805c-97ab-41f6-a56f-2cd827c3f847","DEF peut geler","def peut geler","fault_case","6","Attention: Le réservoir de DEF ne doit pas être trop rempli. Le DEF peut
+geler et a besoin d'espace pour se dilater. Par conséquent, ne remplissez
+le réservoir de DEF qu'à un maximum de 90 %.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","79c1276a-4e17-4b58-87c5-0e0edf1b9bb9","1bc0e355-bb60-43e6-87cb-55663b371e5e","Bande à tasseaux sale","bande a tasseaux sale","fault_case","13","▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors
+du broyage de carrosseries de véhicules)","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","7b456abb-b9b9-4b7e-9630-6939361262e4","5cab2d34-5990-463b-b738-7de79272cb06","Vibrations excessives","vibrations excessives","fault_case","15","▪ Vérifier si le tendeur a la pression de serrage prescrite","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","f90f469d-a7f1-4173-bc1e-84ceaec6012e","22d67420-996c-4291-9efa-6f7b55ef384a","Pression réglée incorrecte","pression reglee incorrecte","fault_case","15","▪ Vérifier les pressions réglées (recommandation). Le contrôle des pressions réglées ne peut
+être effectué que par une personne qualifiée qui doit impérativement contacter au préalable
+le service après-vente de HAMMEL Recyclingtechnik GmbH.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","6ee82e40-cf99-410b-8904-d5605bd0e270","7d5df3c4-7328-44d8-9228-be930cbe58bf","Remplacement des tuyaux hydrauliques","remplacement des tuyaux hydrauliques","fault_case","15","▪ Remplacer tous les tuyaux hydrauliques
+La durée d'utilisation des flexibles hydrauliques doit être déterminée par l'exploitant confor-
+mément aux prescriptions locales en vigueur (par ex. DIN 20066) et ne devrait pas dépasser
+six ans, stockage compris.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","27ae1d66-6148-4413-ace0-3cd7a3afacfa","4de52c85-907c-4a9f-8f6a-976f2a52a9f9","Huile moteur","huile moteur","fault_case","13","▪ Contrôler l’huile moteur, compléter le niveau si nécessaire","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","6b9f4d9a-4ef3-4f50-beb2-ec2bf40d6afd","9ceae112-0602-49d5-b7da-b8789b5c1bcc","Niveau d'huile bas","niveau d huile bas","fault_case","13","▪ Contrôle de niveau d'huile, compléter le niveau si nécessaire","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","298403ca-296e-4488-b23f-b985fc66eb0b","be35c4f2-73a4-4071-a947-f613deb85209","Niveau d'huile bas (Convoyeur de déchargement)","niveau d huile bas convoyeur de dechargement","fault_case","13","▪ Contrôler de l’huile et compléter le niveau si nécessaire","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","7abaedd8-15be-4c23-a6e6-6eeda95f7fa2","1a627661-8948-440b-8834-21f0f5a8320c","Chaînes du train de roulement détendues","chaines du train de roulement detendues","fault_case","13","▪ Vérifier la tension de la chaîne ; la retendre si nécessaire","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","a0b50461-7d46-45b9-841a-8a87f9618699","2ac94387-d3e6-4ea0-944b-a345174023ec","Entretien dépassé","entretien depasse","fault_case","12","Si une date de maintenance est dépassée le message « Entretien » apparaît sur fond rouge
+dans la barre de navigation de l'écran de la commande API. Dans ce cas, l’entretien corres-
+pondant doit être immédiatement effectué.
+Une fois l’entretien effectué, l’avertissement d’entretien doit être annulé et le prochain inter-
+valle d’entretien doit être réglé.","DIRECT","KEEP","OK"
+"diagnostic","ai_delivery_items","dbb84999-4437-4d48-922b-3007fed6cd77","7991e709-7a97-4f49-ac3c-9db092169294","Indication {Filtre à huile hydraulique}","indication filtre a huile hydraulique","fault_case","16","Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile} à l’écran de la commande CPE. Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtres à huile hydraulique au plus tard mainte-
+nant.","DIRECT","KEEP","OK"

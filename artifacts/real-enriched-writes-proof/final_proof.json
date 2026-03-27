@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-24T14:11:52.745Z",
+  "migration_status": "APPLIED",
+  "target_machine_id": "1ff5e04f-32f8-4fce-9316-33e4ae2b5bb6",
+  "results": [
+    {
+      "domain": "diagnostic",
+      "verified": false,
+      "error": "Could not find the table 'public.internal_tickets' in the schema cache"
+    },
+    {
+      "domain": "maintenance",
+      "verified": false,
+      "error": "Could not find the table 'public.work_orders' in the schema cache"
+    },
+    {
+      "domain": "procurement",
+      "verified": false,
+      "error": "Could not find the table 'public.part_orders' in the schema cache"
+    }
+  ],
+  "summary": {
+    "diagnostic_real_db_write_verified": "FAIL",
+    "maintenance_real_db_write_verified": "FAIL",
+    "procurement_real_db_write_verified": "FAIL",
+    "business_coherence_verified": "FAIL",
+    "guardrail_check_verified": "FAIL",
+    "final_status": "PILOT_READY"
+  }
+}

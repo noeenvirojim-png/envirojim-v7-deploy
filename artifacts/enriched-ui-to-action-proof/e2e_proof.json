@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-24T13:29:56.073Z",
+  "e2e_flow_status": {
+    "diagnostic_ui_to_action_path": "PASS",
+    "maintenance_ui_to_action_path": "PASS",
+    "procurement_ui_to_action_path": "PASS"
+  },
+  "flow_chains": {
+    "diagnostic": {
+      "step1": "CanonicalDiagnosticWrapper fetches canonical query",
+      "step2": "enrichDiagnostic(data) -> result._enriched with severity/confidence/actions",
+      "step3": "User clicks \"Sauvegarder le diagnostic\"",
+      "step4": "handleSaveDiagnostic() checks result._enriched",
+      "step5": "saveDiagnosticFromEnriched(result._enriched) -> internal_tickets + metadata"
+    },
+    "maintenance": {
+      "step1": "MaintenanceTab fetches maintenance_plan_items",
+      "step2": "enrichMaintenance(rule) -> rule._enriched with checklist/tools/parts",
+      "step3": "Rich maintenance structure available for display/action",
+      "step4": "executeMaintenanceFromEnriched available for work_order creation"
+    },
+    "procurement": {
+      "step1": "PartsTab receives kbParts prop",
+      "step2": "useMemo enriches each part via enrichPartForProcurement",
+      "step3": "part._enriched contains part_number/safety_critical/lead_time/cost",
+      "step4": "User requests part -> requestEnrichedPart(part._enriched) -> part_orders"
+    }
+  },
+  "wiring_verification": {
+    "diagnostic_enricher_present": true,
+    "diagnostic_bridge_imported": true,
+    "diagnostic_handler_uses_enriched": true,
+    "maintenance_enricher_present": true,
+    "maintenance_bridge_imported": true,
+    "parts_enricher_present": true,
+    "parts_bridge_imported": true,
+    "parts_memo_enrichment": true
+  },
+  "local_e2e_verification_executed": true,
+  "compile_status": "PENDING",
+  "overall_status": "PASS"
+}

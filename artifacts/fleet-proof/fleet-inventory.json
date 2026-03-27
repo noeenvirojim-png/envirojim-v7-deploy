@@ -1,0 +1,32 @@
+{
+  "lot_size": 3,
+  "machines": [
+    {
+      "id": "87628ae4-509b-49d1-a32e-6ee8dd8ae8b9",
+      "serial": "UI-TEST-1774365406387",
+      "make": "Hammel",
+      "model": "VB750",
+      "org_id": "76c8b44e-a07d-411f-9a7a-a49eec340515",
+      "documents": 0,
+      "kb_entries": 0
+    },
+    {
+      "id": "525a867e-0067-48e5-81a2-46af797881d6",
+      "serial": "XDOM-SN-1774365073935",
+      "make": "Hammel",
+      "model": "VB750",
+      "org_id": "6378f4a4-0268-42d5-a746-822806b8ecb1",
+      "documents": 0,
+      "kb_entries": 0
+    },
+    {
+      "id": "fa2939e4-fd29-4c0f-9cdc-2813a40347ba",
+      "serial": "MAINT-SN-1774365023096",
+      "make": "Hammel",
+      "model": "VB750",
+      "org_id": "f973b283-93df-4275-9672-9f4b0fd6f953",
+      "documents": 0,
+      "kb_entries": 0
+    }
+  ]
+}

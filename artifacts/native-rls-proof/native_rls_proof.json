@@ -1,0 +1,23 @@
+{
+  "rls_truth": {
+    "internal_tickets_rls_enabled": false,
+    "work_orders_rls_enabled": false,
+    "part_orders_rls_enabled": false,
+    "policies_present": false
+  },
+  "test_data": {
+    "org_a_id": "73a3e7d3-2fc6-4dd1-98c2-4d31432d9a2d",
+    "org_b_id": "a87e4be5-0bfd-4f76-9274-41489b6b992f",
+    "diagnostic_rows_both_orgs_visible": 1,
+    "maintenance_rows_both_orgs_visible": 2,
+    "procurement_rows_both_orgs_visible": 2
+  },
+  "proof": {
+    "diagnostic_native_rls_verified": "FAIL",
+    "maintenance_native_rls_verified": "FAIL",
+    "procurement_native_rls_verified": "FAIL",
+    "cross_org_direct_db_read_blocked": "NO",
+    "final_status": "BLOCKED"
+  },
+  "blockers": "RLS not enabled on enriched tables - native DB protection absent"
+}

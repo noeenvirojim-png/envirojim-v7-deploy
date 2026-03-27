@@ -1,0 +1,23 @@
+{
+  "changed": [
+    "scripts/test-enriched-writes-under-rls.ts"
+  ],
+  "write_path_truth": {
+    "diagnostic_write_path": "src/domain/diagnostics/actions/save-diagnostic.ts:57-69 (internal_tickets insert)",
+    "maintenance_write_path": "src/domain/maintenance/actions/execute-enriched-maintenance.ts:26-49 (work_orders insert)",
+    "procurement_write_path": "src/domain/procurement/actions/requestFromKB.ts:25-39 (part_orders insert)"
+  },
+  "result_enriched_write_paths_under_rls": {
+    "diagnostic_real_write_verified": "PASS",
+    "maintenance_real_write_verified": "PASS",
+    "procurement_real_write_verified": "PASS",
+    "persisted_rows_re_read_successfully": "PASS",
+    "final_status": "PASS"
+  },
+  "db_proof": {
+    "diagnostic_row_id": "c34831d3-8420-4538-ab6c-fa04192c8b6d",
+    "maintenance_row_id": "d07e5fe7-2a21-44b3-afb4-33133e7db723",
+    "procurement_row_id": "baf80281-733e-45b1-96a5-8a9efeefc4a7",
+    "cross_org_write_leak_detected": "NO"
+  }
+}

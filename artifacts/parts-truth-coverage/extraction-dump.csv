@@ -1,0 +1,2 @@
+extraction_row_id,source_page,raw_part_number,raw_designation,evidence_snippet,validation_status,review_decision_active,corrected_part_number,corrected_designation,rationale
+44444444-4444-4444-4444-444444444444,1,"PN-001","Test Part","Evidence: part found on page",NEEDS_REVIEW,"","","",""

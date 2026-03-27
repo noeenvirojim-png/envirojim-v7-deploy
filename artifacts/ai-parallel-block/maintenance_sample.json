@@ -1,0 +1,86 @@
+{
+  "id": "maint_electrical_001",
+  "machine_id": "vb750-dk-1211-test",
+  "title": "Scheduled Electrical System Inspection",
+  "description": "Monthly electrical system check including voltage tests, connection inspection, and insulation resistance measurement",
+  "related_parts": [
+    "Circuit Breaker",
+    "Power Cable",
+    "Fuse Assembly",
+    "Relay Module"
+  ],
+  "maintenance_type": "preventive",
+  "interval_unit": "months",
+  "interval_value": 1,
+  "estimated_duration_minutes": 15,
+  "required_tools": [],
+  "required_parts": [
+    {
+      "part_name": "Circuit Breaker",
+      "quantity": 1
+    },
+    {
+      "part_name": "Power Cable",
+      "quantity": 1
+    },
+    {
+      "part_name": "Fuse Assembly",
+      "quantity": 1
+    },
+    {
+      "part_name": "Relay Module",
+      "quantity": 1
+    }
+  ],
+  "preconditions": [
+    "Ensure machine is properly powered down",
+    "Allow 15 minutes for cool-down if applicable",
+    "Clear work area of obstacles"
+  ],
+  "post_checks": [
+    "Verify all connections are secure",
+    "Test system operation",
+    "Document completion and observations",
+    "Return tools to storage"
+  ],
+  "priority": "low",
+  "evidence_summary": "preventive maintenance; Duration: ~15 min",
+  "checklist_steps": [
+    {
+      "sequence": 1,
+      "category": "precondition",
+      "description": "Power down and secure the machine",
+      "estimated_time_minutes": 5
+    },
+    {
+      "sequence": 2,
+      "category": "precondition",
+      "description": "Gather required tools and parts",
+      "estimated_time_minutes": 5,
+      "required_tools": [],
+      "required_parts": [
+        "Circuit Breaker",
+        "Power Cable"
+      ]
+    },
+    {
+      "sequence": 3,
+      "category": "main",
+      "description": "Perform inspection and measurements",
+      "estimated_time_minutes": 15,
+      "required_tools": []
+    },
+    {
+      "sequence": 4,
+      "category": "validation",
+      "description": "Run functional test and verify results",
+      "estimated_time_minutes": 10
+    },
+    {
+      "sequence": 5,
+      "category": "validation",
+      "description": "Document completion in system",
+      "estimated_time_minutes": 5
+    }
+  ]
+}

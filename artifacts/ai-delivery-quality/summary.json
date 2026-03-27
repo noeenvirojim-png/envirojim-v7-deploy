@@ -1,0 +1,19 @@
+{
+  "run_id": "13538935-ad95-4671-93c5-838fe3c4078f",
+  "total_items": 57,
+  "maintenance_total": 36,
+  "maintenance_keep": 35,
+  "maintenance_needs_review": 1,
+  "maintenance_reject": 0,
+  "diagnostic_total": 21,
+  "diagnostic_keep": 21,
+  "diagnostic_needs_review": 0,
+  "diagnostic_reject": 0,
+  "keep_percentage": 98,
+  "needs_review_percentage": 2,
+  "reject_percentage": 0,
+  "duplicate_titles_detected": 0,
+  "major_issues": [],
+  "useful_maintenance_item_1": "Changement de filtre d’aspiration",
+  "useful_diagnostic_case_1": "Air dans le système hydraulique"
+}

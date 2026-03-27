@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-03-24T13:36:23.098Z",
+  "base_url": "http://localhost:3000",
+  "target_machine_id": "c4f8d1e2-9a7b-4c3e-b5d6-7f8e9a0b1c2d",
+  "writes": {
+    "diagnostic": {
+      "domain": "diagnostic",
+      "request": {
+        "machineId": "c4f8d1e2-9a7b-4c3e-b5d6-7f8e9a0b1c2d",
+        "enrichedData": {
+          "top_cluster_name": "Hydraulic Pressure Loss",
+          "evidence_summary": "Verified via KB cross-reference",
+          "severity": "high",
+          "confidence": 92,
+          "likely_systems": [
+            "hydraulic",
+            "pressure_relief"
+          ],
+          "recommended_actions": [
+            "Check pump",
+            "Inspect seals"
+          ],
+          "parts_to_check": [
+            "pressure_gauge",
+            "relief_valve"
+          ],
+          "safety_level": "critical",
+          "downtime_risk": "immediate"
+        }
+      },
+      "response": {
+        "error": "Machine not found"
+      },
+      "verified": false,
+      "error": "Machine not found"
+    },
+    "maintenance": {
+      "domain": "maintenance",
+      "request": {
+        "machineId": "c4f8d1e2-9a7b-4c3e-b5d6-7f8e9a0b1c2d",
+        "enrichedData": {
+          "name": "Hydraulic Filter Replacement",
+          "maintenance_type": "preventive",
+          "interval_unit": "hours",
+          "interval_value": 500,
+          "estimated_duration_minutes": 45,
+          "required_tools": [
+            "wrench_set",
+            "filter_socket"
+          ],
+          "required_parts": [
+            "hyd_filter_p1234"
+          ],
+          "preconditions": [
+            "Depressurize system",
+            "Ensure power off"
+          ],
+          "post_checks": [
+            "Check pressure",
+            "Verify no leaks"
+          ],
+          "priority": "high",
+          "checklist_steps": [
+            {
+              "description": "Depressurize hydraulic system",
+              "order": 1
+            },
+            {
+              "description": "Remove old filter",
+              "order": 2
+            },
+            {
+              "description": "Install new filter",
+              "order": 3
+            },
+            {
+              "description": "Repressurize and bleed",
+              "order": 4
+            },
+            {
+              "description": "Run diagnostics",
+              "order": 5
+            }
+          ]
+        }
+      },
+      "response": {
+        "error": "Machine not found"
+      },
+      "verified": false,
+      "error": "Machine not found"
+    },
+    "procurement": {
+      "domain": "procurement",
+      "request": {
+        "machineId": "c4f8d1e2-9a7b-4c3e-b5d6-7f8e9a0b1c2d",
+        "enrichedData": {
+          "part_number": "HYD-FILTER-P1234",
+          "part_name": "Hydraulic Filter - High Flow",
+          "source": "ai_kb",
+          "confidence": 88,
+          "safety_critical": false,
+          "estimated_lead_time_days": 3,
+          "estimated_unit_cost": 185.5
+        }
+      },
+      "response": {
+        "error": "Machine not found"
+      },
+      "verified": false,
+      "error": "Machine not found"
+    }
+  },
+  "guardrails": {
+    "diagnostic_missing_enrichment": false,
+    "maintenance_missing_checklist": false,
+    "procurement_part_number_guard": true
+  },
+  "business_coherence": {
+    "diagnostic_severity_consistent": "FAIL",
+    "maintenance_checklist_exploitable": "FAIL",
+    "procurement_safety_critical_marked": "FAIL"
+  },
+  "summary": {
+    "diagnostic_real_db_write_verified": "FAIL",
+    "maintenance_real_db_write_verified": "FAIL",
+    "procurement_real_db_write_verified": "FAIL",
+    "guardrail_check_verified": "PARTIAL",
+    "all_writes_verified": "FAIL",
+    "final_status": "PILOT_READY"
+  }
+}

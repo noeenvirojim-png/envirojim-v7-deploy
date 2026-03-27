@@ -1,0 +1,80 @@
+{
+  "machine_id": "vb750-dk-1211-test",
+  "query": "Machine not starting - power issues",
+  "top_cluster_name": "Electrical System Failure - High Priority",
+  "playbook_steps": [
+    {
+      "step": 1,
+      "title": "Check Power Connection",
+      "description": "Verify all connections and voltages",
+      "type": "electrical",
+      "completed": true
+    },
+    {
+      "step": 2,
+      "title": "Test Circuit Breaker",
+      "description": "Run continuity test on breaker",
+      "type": "test",
+      "completed": true
+    },
+    {
+      "step": 3,
+      "title": "Inspect Power Supply Unit",
+      "description": "Visual inspection and voltage check",
+      "type": "physical",
+      "completed": false
+    }
+  ],
+  "related_faults": [
+    "Power Loss",
+    "Circuit Fault",
+    "Voltage Drop"
+  ],
+  "related_maintenance": [
+    "Electrical System Check",
+    "Circuit Breaker Test"
+  ],
+  "related_parts": [
+    "Circuit Breaker CB-50A",
+    "Power Supply Unit PSU-500W",
+    "Power Cable AWG12"
+  ],
+  "evidence_refs": [
+    "voltage_test_1",
+    "continuity_test_2",
+    "manual_inspection_3",
+    "schematic_ref_4"
+  ],
+  "severity": "critical",
+  "confidence": 70,
+  "likely_systems": [
+    "electrical"
+  ],
+  "recommended_actions": [
+    {
+      "action": "Inspect Power Supply Unit",
+      "priority": "immediate",
+      "estimated_duration_minutes": 30
+    }
+  ],
+  "parts_to_check": [
+    {
+      "part_name": "Circuit Breaker CB-50A",
+      "reason": "Identified in diagnostic cluster",
+      "priority": "critical"
+    },
+    {
+      "part_name": "Power Supply Unit PSU-500W",
+      "reason": "Identified in diagnostic cluster",
+      "priority": "important"
+    },
+    {
+      "part_name": "Power Cable AWG12",
+      "reason": "Identified in diagnostic cluster",
+      "priority": "important"
+    }
+  ],
+  "safety_level": "hazard",
+  "downtime_risk": "high",
+  "evidence_summary": "Cluster: Electrical System Failure - High Priority; 3 related faults; 4 evidence references; 2/3 steps completed"
+}

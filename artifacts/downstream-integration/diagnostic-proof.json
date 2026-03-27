@@ -1,0 +1,291 @@
+{
+  "machine": "VB750-Shredder",
+  "diagnostic_integration_status": "PROVEN",
+  "use_cases_tested": 3,
+  "total_parts_mapped": 46,
+  "diagnostics_using_canonical_parts": [
+    {
+      "problem": "Motor overheating during operation",
+      "affected_subsystems": [
+        "Cooling",
+        "Drivetrain"
+      ],
+      "likely_cause": "Coolant circulation issue or fan malfunction",
+      "parts_referenced_from_canonical": [
+        {
+          "part_id": "VB750-P004",
+          "part_number": "1 13629",
+          "designation": "Antriebsmotor",
+          "page": 4
+        },
+        {
+          "part_id": "VB750-P025",
+          "part_number": "1 3968",
+          "designation": "Antriebsrolle",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P026",
+          "part_number": "1 11011",
+          "designation": "Hydraulikmotor",
+          "page": 22
+        }
+      ],
+      "parts_count": 3,
+      "recommended_action": "Check Antriebsmotor, Antriebsrolle, Hydraulikmotor for wear or malfunction"
+    },
+    {
+      "problem": "Shredding unit not cutting effectively",
+      "affected_subsystems": [
+        "Drivetrain",
+        "Hydraulics"
+      ],
+      "likely_cause": "Drive belt wear or hydraulic pressure loss",
+      "parts_referenced_from_canonical": [
+        {
+          "part_id": "VB750-P004",
+          "part_number": "1 13629",
+          "designation": "Antriebsmotor",
+          "page": 4
+        },
+        {
+          "part_id": "VB750-P025",
+          "part_number": "1 3968",
+          "designation": "Antriebsrolle",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P026",
+          "part_number": "1 11011",
+          "designation": "Hydraulikmotor",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P001",
+          "part_number": "17515",
+          "designation": "Axialkolbenverstellpumpe",
+          "page": 3
+        },
+        {
+          "part_id": "VB750-P002",
+          "part_number": "17516",
+          "designation": "Axialkolbenverstellpumpe",
+          "page": 3
+        },
+        {
+          "part_id": "VB750-P003",
+          "part_number": "1 1457",
+          "designation": "Zahnradpumpe",
+          "page": 3
+        }
+      ],
+      "parts_count": 6,
+      "recommended_action": "Check Antriebsmotor, Antriebsrolle, Hydraulikmotor, Axialkolbenverstellpumpe, Axialkolbenverstellpumpe, Zahnradpumpe for wear or malfunction"
+    },
+    {
+      "problem": "Control system not responding",
+      "affected_subsystems": [
+        "Electrical",
+        "Control"
+      ],
+      "likely_cause": "Display or controller communication fault",
+      "parts_referenced_from_canonical": [
+        {
+          "part_id": "VB750-P039",
+          "part_number": "5942",
+          "designation": "Basic Controller",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P041",
+          "part_number": "5943",
+          "designation": "Basic Display",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P042",
+          "part_number": "18036",
+          "designation": "Funkmodem (Option)",
+          "page": 29
+        },
+        {
+          "part_id": "VB750-P043",
+          "part_number": "9340",
+          "designation": "Display (Option)",
+          "page": 29
+        },
+        {
+          "part_id": "VB750-P013",
+          "part_number": "1 9692",
+          "designation": "Steuerblock Fahren / Shreddern Tries 935.501A",
+          "page": 8
+        },
+        {
+          "part_id": "VB750-P014",
+          "part_number": "1 13277",
+          "designation": "Handventil",
+          "page": 9
+        },
+        {
+          "part_id": "VB750-P015",
+          "part_number": "1 16717",
+          "designation": "Wege-Sitzventil",
+          "page": 9
+        },
+        {
+          "part_id": "VB750-P016",
+          "part_number": "4 2788",
+          "designation": "Schauglas (Diesel)",
+          "page": 10
+        },
+        {
+          "part_id": "VB750-P017",
+          "part_number": "2 1915",
+          "designation": "Tankverschluss",
+          "page": 10
+        },
+        {
+          "part_id": "VB750-P018",
+          "part_number": "2 15348",
+          "designation": "Tankbel�ftungsfilter",
+          "page": 10
+        },
+        {
+          "part_id": "VB750-P019",
+          "part_number": "20600",
+          "designation": "Verschlei�blech (Getriebe-",
+          "page": 12
+        },
+        {
+          "part_id": "VB750-P020",
+          "part_number": "1380",
+          "designation": "Verschlei�blech (Lagerseite) 0750 04 06 01 00 1-10860409",
+          "page": 12
+        },
+        {
+          "part_id": "VB750-P021",
+          "part_number": "1901",
+          "designation": "Umlenkrad",
+          "page": 12
+        },
+        {
+          "part_id": "VB750-P022",
+          "part_number": "5584",
+          "designation": "Abdichtgummi unter Hacker- 2150 x 100 x 10 mm",
+          "page": 12
+        },
+        {
+          "part_id": "VB750-P023",
+          "part_number": "1577",
+          "designation": "Wellenlagerung, komplett",
+          "page": 12
+        },
+        {
+          "part_id": "VB750-P024",
+          "part_number": "12 1756",
+          "designation": "St�tzring",
+          "page": 20
+        },
+        {
+          "part_id": "VB750-P027",
+          "part_number": "1 6996",
+          "designation": "Drehmomentst�tze",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P028",
+          "part_number": "2 8847",
+          "designation": "Spannlager",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P029",
+          "part_number": "2 14934",
+          "designation": "Grundplatte",
+          "page": 22
+        },
+        {
+          "part_id": "VB750-P030",
+          "part_number": "20069",
+          "designation": "Vierlochflanschlager",
+          "page": 23
+        },
+        {
+          "part_id": "VB750-P031",
+          "part_number": "4878",
+          "designation": "Flacheisenabstreifer, komplett 0750 05 09 00 00 1",
+          "page": 24
+        },
+        {
+          "part_id": "VB750-P032",
+          "part_number": "4353",
+          "designation": "Wasserbed�sung, komplett",
+          "page": 27
+        },
+        {
+          "part_id": "VB750-P033",
+          "part_number": "1839",
+          "designation": "R�cksp�l-Schutzfilter",
+          "page": 27
+        },
+        {
+          "part_id": "VB750-P034",
+          "part_number": "1754",
+          "designation": "Magnetventil",
+          "page": 27
+        },
+        {
+          "part_id": "VB750-P035",
+          "part_number": "9266",
+          "designation": "Flachstrahld�se",
+          "page": 27
+        },
+        {
+          "part_id": "VB750-P036",
+          "part_number": "2547",
+          "designation": "Batterie",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P037",
+          "part_number": "225",
+          "designation": "Ah / 12 V",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P038",
+          "part_number": "1665",
+          "designation": "Steuerung",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P040",
+          "part_number": "4227",
+          "designation": "Erweiterung",
+          "page": 28
+        },
+        {
+          "part_id": "VB750-P044",
+          "part_number": "19221",
+          "designation": "Antenne (Option)",
+          "page": 29
+        },
+        {
+          "part_id": "VB750-P045",
+          "part_number": "15594",
+          "designation": "Funkfernsteuerung, komplett NOVA-L 2K RX-ES-CAN HL",
+          "page": 30
+        },
+        {
+          "part_id": "VB750-P046",
+          "part_number": "458",
+          "designation": "MHz, scan group 1 S/N 21222260596",
+          "page": 30
+        }
+      ],
+      "parts_count": 32,
+      "recommended_action": "Check Basic Controller, Basic Display, Funkmodem (Option), Display (Option), Steuerblock Fahren / Shreddern Tries 935.501A, Handventil, Wege-Sitzventil, Schauglas (Diesel), Tankverschluss, Tankbel�ftungsfilter, Verschlei�blech (Getriebe-, Verschlei�blech (Lagerseite) 0750 04 06 01 00 1-10860409, Umlenkrad, Abdichtgummi unter Hacker- 2150 x 100 x 10 mm, Wellenlagerung, komplett, St�tzring, Drehmomentst�tze, Spannlager, Grundplatte, Vierlochflanschlager, Flacheisenabstreifer, komplett 0750 05 09 00 00 1, Wasserbed�sung, komplett, R�cksp�l-Schutzfilter, Magnetventil, Flachstrahld�se, Batterie, Ah / 12 V, Steuerung, Erweiterung, Antenne (Option), Funkfernsteuerung, komplett NOVA-L 2K RX-ES-CAN HL, MHz, scan group 1 S/N 21222260596 for wear or malfunction"
+    }
+  ],
+  "truth_source": "artifacts/canonical-knowledge/parts-canonical.json"
+}

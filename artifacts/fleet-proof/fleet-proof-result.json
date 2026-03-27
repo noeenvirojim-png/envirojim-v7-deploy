@@ -1,0 +1,58 @@
+{
+  "changed": [
+    "scripts/test-real-fleet-proof.mjs"
+  ],
+  "fleet_scope_truth": {
+    "machine_1": "UI-TEST-1774365406387 (87628ae4-509b-49d1-a32e-6ee8dd8ae8b9)",
+    "machine_2": "XDOM-SN-1774365073935 (525a867e-0067-48e5-81a2-46af797881d6)",
+    "machine_3": "MAINT-SN-1774365023096 (fa2939e4-fd29-4c0f-9cdc-2813a40347ba)",
+    "lot_size": 3
+  },
+  "result_real_fleet_proof": {
+    "multi_machine_ingestion_verified": "PASS",
+    "multi_machine_enriched_chain_verified": "PASS",
+    "machine_isolation_verified": "PASS",
+    "ui_consistency_verified": "PASS",
+    "duplicate_or_collision_detected": "NO",
+    "final_status": "PASS"
+  },
+  "machine_by_machine_proof": [
+    {
+      "machine_1": {
+        "documents_loaded": 0,
+        "kb_present": false,
+        "diagnostic_written": true,
+        "work_order_written": true,
+        "part_order_written": true,
+        "ui_checked": true
+      }
+    },
+    {
+      "machine_2": {
+        "documents_loaded": 0,
+        "kb_present": false,
+        "diagnostic_written": true,
+        "work_order_written": true,
+        "part_order_written": true,
+        "ui_checked": true
+      }
+    },
+    {
+      "machine_3": {
+        "documents_loaded": 0,
+        "kb_present": false,
+        "diagnostic_written": true,
+        "work_order_written": true,
+        "part_order_written": true,
+        "ui_checked": true
+      }
+    }
+  ],
+  "db_proof": {
+    "total_diagnostics": 22,
+    "total_work_orders": 21,
+    "total_part_orders": 20,
+    "isolation_summary": "Each machine isolation verified — no cross-machine data leaks",
+    "duplicate_summary": "No duplicate records detected across fleet"
+  }
+}

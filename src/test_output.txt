@@ -1,0 +1,5 @@
+[2m[WebServer] [22m [33m[1m⚠[22m[39m Port 3000 is in use, trying 3001 instead.
+[2m[WebServer] [22m [33m[1m⚠[22m[39m Port 3001 is in use, trying 3002 instead.
+[2m[WebServer] [22m [33m[1m⚠[22m[39m Port 3002 is in use, trying 3003 instead.
+Error: Timed out waiting 60000ms from config.webServer.
+

@@ -1,0 +1,12 @@
+{
+  "env_file_loaded": ".env.local",
+  "variables_present": {
+    "GOOGLE_AI_API_KEY": true,
+    "GEMINI_API_KEY": true
+  },
+  "runtime_key_name_used": "GOOGLE_AI_API_KEY",
+  "runtime_key_masked": "AIzaSy...PLoU",
+  "model_used": "gemini-2.5-flash",
+  "success": true,
+  "raw_error": null
+}

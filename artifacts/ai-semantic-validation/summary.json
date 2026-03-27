@@ -1,0 +1,16 @@
+{
+  "ai_delivery_run_id": "13538935-ad95-4671-93c5-838fe3c4078f",
+  "machine_id": null,
+  "kb_id": "dd7ba46c-7a26-4f11-9d01-c8913f7045fe",
+  "maintenance_total": 36,
+  "maintenance_keep_count": 36,
+  "maintenance_needs_review_count": 0,
+  "maintenance_reject_count": 0,
+  "diagnostic_total": 21,
+  "diagnostic_keep_count": 21,
+  "diagnostic_needs_review_count": 0,
+  "diagnostic_reject_count": 0,
+  "evidence_attached_total": 57,
+  "weak_anchor_total": 0,
+  "exported_at": "2026-03-23T19:25:34.383Z"
+}

@@ -1,0 +1,25 @@
+{
+  "maintenance_runtime_proof": {
+    "runtime_path_executed": "src/domain/vb750/actions/maintenance.ts::getVB750MaintenanceTasks",
+    "real_vb750_case_used": "Monthly + Quarterly + Annual maintenance workflow",
+    "parts_truth_consumed_in_runtime": true,
+    "parts_total": 5,
+    "tasks_count": 3,
+    "task_samples": [
+      {
+        "code": "VB750-MAINT-001",
+        "title": "Monthly Drive System Inspection",
+        "parts_count": 3
+      },
+      {
+        "code": "VB750-MAINT-002",
+        "title": "Quarterly Cooling System Check",
+        "parts_count": 0
+      }
+    ],
+    "db_read_proven": true,
+    "db_write_proven": false,
+    "proof_status": "PASS",
+    "timestamp": "2026-03-27T18:08:09.932Z"
+  }
+}

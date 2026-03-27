@@ -1,0 +1,14 @@
+[
+  {
+    "extraction_row_id": "44444444-4444-4444-4444-444444444444",
+    "source_page": 1,
+    "raw_part_number": "PN-001",
+    "raw_designation": "Test Part",
+    "evidence_snippet": "Evidence: part found on page",
+    "validation_status": "NEEDS_REVIEW",
+    "review_decision_active": null,
+    "corrected_part_number": null,
+    "corrected_designation": null,
+    "rationale": null
+  }
+]

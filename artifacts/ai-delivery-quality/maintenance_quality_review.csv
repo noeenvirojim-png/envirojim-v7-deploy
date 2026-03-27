@@ -1,0 +1,96 @@
+entity_id,title,entity_type,source_page,evidence_snippet,status,quality_verdict,quality_reason,quality_notes
+4de89214-ace8-4115-993c-9cf493d92e92,Changement de filtre d’aspiration,maintenance_task,18,"Changement de filtre d’aspiration
+Procédez comme suit pour changer les filtres:",ready,KEEP,OK,Quality acceptable
+d78e5982-400e-4c67-91f4-a727450aee32,Changement du filtre d'aspiration à retour,maintenance_task,17,"Changement de filtre d’aspiration à retour
+Le filtre d’aspiration à retour SRA 3 SLP005 est pourvu d",ready,KEEP,OK,Quality acceptable
+3f9d836d-2916-48ca-a314-0ee068f93bea,Changer tous les tuyaux hydrauliques,maintenance_task,15,"Entretien tous les 5 ans
+Sous-groupe Contenu
+Hydraulique ▪ Remplacer tous les tuyaux hydrauliques
+La",ready,KEEP,OK,Quality acceptable
+a532651f-fe7c-4315-b326-dd693a874ce8,Cleanfix,system,1,Cleanfix,ready,NEEDS_REVIEW,LOW_INFORMATION_VALUE,Evidence snippet missing or too short
+8f3edc5f-fe32-4734-b230-bc48f7ea8616,"Contrôler le système de refroidissement, le nettoyer et changer le liquide de refroidissement",maintenance_task,15,"Entretien toutes les 3000 heures ou une fois par an
+Sous-groupe Contenu
+Radiateur ▪ Contrôler le sys",ready,KEEP,OK,Quality acceptable
+4aabe2b8-41a4-4231-b327-069f7dba64eb,Entretien après 10 heures,maintenance_task,10,"Entretien après 10 heures
+Sous-groupe Contenu
+Élements de
+filtre
+▪ Changer le filtre d'aspiration à ",ready,KEEP,OK,Quality acceptable
+5184ed70-4131-4d0f-9814-c9f570174987,Entretien après 100 heures ou un mois,maintenance_task,10,"Entretien après 100 heures ou un mois
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Remplacer les filtres",ready,KEEP,OK,Quality acceptable
+25147f4e-6c83-4d28-96ba-ac9d4536aaed,Entretien après 16 heures ou 2 jours de fonctionnement,maintenance_task,10,"Entretien après 16 heures ou 2 jours de fonctionnement
+Sous-groupe Contenu
+Moteur ▪ Vérifier la cour",ready,KEEP,OK,Quality acceptable
+38cb3309-5fb7-47af-8149-0b94ec2fde97,Entretien après 500 heures,maintenance_task,11,"Entretien après 500 heures
+Sous-groupe Contenu
+Convoyeur de
+déchargement
+▪ Changer l'huile de la boî",ready,KEEP,OK,Quality acceptable
+d12c745e-1d5b-4eac-bf7b-6b19d3cc1329,Entretien mensuel ou toutes les 150 heures,maintenance_task,14,"Entretien mensuel ou toutes les 150 heures
+Sous-groupe Contenu
+Trémie ▪ Lubrifier le point de rotati",ready,KEEP,OK,Quality acceptable
+c524fc86-057a-4a6c-9bef-f3cf5c04e278,Entretien quotidien,maintenance_task,13,"Entretien quotidien
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Contrôler élément principal du filtre à",ready,KEEP,OK,Quality acceptable
+21749d00-6c7f-44b1-a4f2-4663b350ad41,Entretien toutes les 1000 heures ou une fois par an,maintenance_task,15,"Entretien toutes les 1000 heures ou une fois par an
+Sous-groupe Contenu
+Hydraulique ▪ Contrôle visue",ready,KEEP,OK,Quality acceptable
+a72e181c-bb7c-43bf-a779-84216c9a91da,Entretien toutes les 16 heures ou tous les 2 jours,maintenance_task,13,"Entretien toutes les 16 heures ou tous les 2 jours
+Sous-groupe Contenu
+Engrenage ▪ Resserrer toutes ",ready,KEEP,OK,Quality acceptable
+6bc061f9-9cbb-49c4-a226-7c56d898bde1,Entretien toutes les 2000 heures,maintenance_task,15,"Entretien toutes les 2000 heures
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ Effectuer la maintenanc",ready,KEEP,OK,Quality acceptable
+a83f90b8-b5a4-402e-82d1-bede181b62f5,Entretien toutes les 250 heures ou tous les trimestres,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ E",ready,KEEP,OK,Quality acceptable
+fa6ef33d-2670-47d8-bef6-a79ed3cdb9aa,Entretien toutes les 2500 heures,maintenance_task,15,"Entretien toutes les 2500 heures
+Sous-groupe Contenu
+Engrenage ▪ Démonter la boîte de vitesses et en",ready,KEEP,OK,Quality acceptable
+74627e2b-46e4-4e0a-a23e-0c5513dbb2fa,Entretien toutes les 30 heures ou tous les 3 jours,maintenance_task,13,"Entretien toutes les 30 heures ou tous les 3 jours
+Sous-groupe Contenu
+Rotors ▪ Lubrification des pa",ready,KEEP,OK,Quality acceptable
+5117e56e-e866-4cee-98de-60b25a0d7a68,Entretien toutes les 3000 heures ou une fois par an,maintenance_task,15,"Entretien toutes les 3000 heures ou une fois par an
+Sous-groupe Contenu
+Radiateur ▪ Contrôler le sys",ready,KEEP,OK,Quality acceptable
+7fa7053e-d5af-4a6f-bbc8-6b8966c5b729,Entretien toutes les 500 heures ou tous les six mois,maintenance_task,14,"Entretien toutes les 500 heures ou tous les six mois
+Sous-groupe Contenu
+Eléments de
+filtre
+▪ Change",ready,KEEP,OK,Quality acceptable
+d7678ab1-9b0e-4425-a825-6217743b7ba1,Lubrication of - 2 of 3 -- every as-needed,maintenance_task,1,Lubricate - 2 of 3 -- every as-needed,ready,KEEP,OK,Quality acceptable
+e2909271-fa79-451c-b05b-f43bdaf5163c,Lubrication of Charnières de clapet de nettoyage every as-needed,maintenance_task,1,Lubricate Charnières de clapet de nettoyage every as-needed,ready,KEEP,OK,Quality acceptable
+dfba41f0-a4e8-4377-9412-fc85aeca359e,Lubrication of Charnières de la porte de boîte de commande every 250h,maintenance_task,1,Lubricate Charnières de la porte de boîte de commande every 250h,ready,KEEP,OK,Quality acceptable
+46109590-f161-4d41-b562-a03c09de3b8f,Lubrication of Charnières de portes every 250h,maintenance_task,1,Lubricate Charnières de portes every 250h,ready,KEEP,OK,Quality acceptable
+6a334ca1-846a-4f08-a7fb-b9687df96b79,Lubrication of Charnières de volet de la trémie every 250h,maintenance_task,1,Lubricate Charnières de volet de la trémie every 250h,ready,KEEP,OK,Quality acceptable
+94fc45b4-663f-49a5-bd01-1c2df906eec3,Lubrication of Paliers des rotors every 30h,maintenance_task,1,Lubricate Paliers des rotors every 30h,ready,KEEP,OK,Quality acceptable
+196f3c2b-16b9-4e03-be36-7518e692a4f8,Lubrication of Pivot de la trémie basculante every 150h,maintenance_task,1,Lubricate Pivot de la trémie basculante every 150h,ready,KEEP,OK,Quality acceptable
+24d19bef-eeed-497d-8fae-02ad3b3b5fd8,Lubrication of Point de repli de la bande every 250h,maintenance_task,1,Lubricate Point de repli de la bande every 250h,ready,KEEP,OK,Quality acceptable
+15133e03-88ca-4710-8470-cdfe4dd3bb78,Lubrication of Vérin hydraulique relevage / abaissement d’aimant en every 250h,maintenance_task,1,Lubricate Vérin hydraulique relevage / abaissement d’aimant en every 250h,ready,KEEP,OK,Quality acceptable
+a8a06e23-7576-4e04-9dff-96bb353c7667,Lubrication of Vérin hydraulique relevage / abaissement de bande every 250h,maintenance_task,1,Lubricate Vérin hydraulique relevage / abaissement de bande every 250h,ready,KEEP,OK,Quality acceptable
+31e17914-3460-4959-85e6-90737f1099db,Lubrication of Vérin hydraulique repli et déploiement de bande every 250h,maintenance_task,1,Lubricate Vérin hydraulique repli et déploiement de bande every 250h,ready,KEEP,OK,Quality acceptable
+43e31f56-e63e-4db2-9ee0-51f6e6a39f76,Lubrication of Vérin hydraulique trémie basculante every 250h,maintenance_task,1,Lubricate Vérin hydraulique trémie basculante every 250h,ready,KEEP,OK,Quality acceptable
+0a2eb800-6b73-4517-9416-2b1aa84620ca,Lubrication of Vérin hydraulique volet de la trémie every 250h,maintenance_task,1,Lubricate Vérin hydraulique volet de la trémie every 250h,ready,KEEP,OK,Quality acceptable
+a119443e-b473-412c-ac7c-9f9f563c001f,Lubrification des paliers principaux,maintenance_task,13,"Entretien toutes les 30 heures ou tous les 3 jours
+Sous-groupe Contenu
+Rotors ▪ Lubrification des pa",ready,KEEP,OK,Quality acceptable
+e4ecab49-72e4-4dcc-8429-b9262fef8569,Lubrification selon le plan de lubrification,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Lubrification ▪ Lubrifica",ready,KEEP,OK,Quality acceptable
+41555abb-6d22-422b-8d64-71fa3ec7e333,Lubrifier le point de rotation de la trémie,maintenance_task,14,"Entretien mensuel ou toutes les 150 heures
+Sous-groupe Contenu
+Trémie ▪ Lubrifier le point de rotati",ready,KEEP,OK,Quality acceptable
+694c892b-8a07-4817-ad10-49f2782128e8,Maintenance du moteur d’entraînement,maintenance_task,14,"Entretien toutes les 250 heures ou tous les trimestres
+Sous-groupe Contenu
+Moteur
+d'entraînement
+▪ E",ready,KEEP,OK,Quality acceptable

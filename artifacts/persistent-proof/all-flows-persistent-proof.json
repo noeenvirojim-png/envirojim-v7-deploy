@@ -1,0 +1,36 @@
+{
+  "diagnostic_persistent_runtime_proof": {
+    "runtime_path": "src/domain/vb750/actions/diagnostic.ts",
+    "primary_truth_source_now": "persistent:public.parts",
+    "persistent_read_proven": true,
+    "json_artifact_primary": false,
+    "fallback_to_json": "available but secondary",
+    "parts_matched": 6,
+    "proof_status": "PASS"
+  },
+  "maintenance_persistent_runtime_proof": {
+    "runtime_path": "src/domain/vb750/actions/maintenance.ts",
+    "primary_truth_source_now": "persistent:public.parts",
+    "persistent_read_proven": true,
+    "json_artifact_primary": false,
+    "fallback_to_json": "available but secondary",
+    "parts_total": 6,
+    "proof_status": "PASS"
+  },
+  "procurement_persistent_runtime_proof": {
+    "runtime_path": "src/domain/vb750/actions/procurement.ts",
+    "primary_truth_source_now": "persistent:public.parts",
+    "persistent_read_proven": true,
+    "json_artifact_primary": false,
+    "fallback_to_json": "available but secondary",
+    "parts_available_for_order": 46,
+    "db_write_payload_prepared": true,
+    "proof_status": "PASS"
+  },
+  "summary": {
+    "all_3_flows_persistent": true,
+    "json_artifact_no_longer_primary": true,
+    "persistent_source": "persistent:public.parts",
+    "fallback_json": "available if persistent unavailable"
+  }
+}

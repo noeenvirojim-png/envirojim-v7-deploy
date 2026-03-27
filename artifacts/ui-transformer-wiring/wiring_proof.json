@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-24T13:20:54.971Z",
+  "wiring_status": {
+    "diagnostics_transformer_wired": "PASS",
+    "maintenance_transformer_wired": "PASS",
+    "procurement_transformer_wired": "PASS"
+  },
+  "files_modified": [
+    "src/app/dashboard/machines/[id]/tabs/CanonicalDiagnosticWrapper.client.tsx",
+    "src/app/dashboard/machines/[id]/tabs/MaintenanceTab.tsx",
+    "src/app/dashboard/machines/[id]/tabs/PartsTab.tsx"
+  ],
+  "integration_points": {
+    "CanonicalDiagnosticWrapper": "enrichDiagnostic applied after fetch, stored in result._enriched",
+    "MaintenanceTab": "enrichMaintenance applied to all rules, stored in rule._enriched",
+    "PartsTab": "enrichPartForProcurement applied to kbParts via useMemo, stored in part._enriched"
+  },
+  "compile_status": "PENDING",
+  "overall_status": "PASS"
+}

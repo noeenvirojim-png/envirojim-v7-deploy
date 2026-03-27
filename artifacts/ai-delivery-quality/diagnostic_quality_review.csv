@@ -1,0 +1,35 @@
+entity_id,title,entity_type,source_page,evidence_snippet,status,quality_verdict,quality_reason,quality_notes
+ef4997ff-9d18-4e62-9cf3-a232b2b1fb73,Air dans le système hydraulique,fault_case,18,"Après chaque changement d'huile hydraulique et de filtre, le système hydraulique doit être purgé.
+Ta",ready,KEEP,OK,Quality acceptable
+b8cbeba5-646a-4740-9ccc-43cb6a4a4995,Bague d'étanchéité adhérente,fault_case,18,"Il est possible que la précédente bague
+d’étanchéité adhère encore à la tête de filtre. Retirez-la d",ready,KEEP,OK,Quality acceptable
+1bc0e355-bb60-43e6-87cb-55663b371e5e,Bande à tasseaux sale,fault_case,13,"▪ A la fin du travail, nettoyage de la bande à tasseaux avec un jet d'eau vif (uniquement lors
+du br",ready,KEEP,OK,Quality acceptable
+1a627661-8948-440b-8834-21f0f5a8320c,Chaînes du train de roulement détendues,fault_case,13,▪ Vérifier la tension de la chaîne ; la retendre si nécessaire,ready,KEEP,OK,Quality acceptable
+496748e4-aed2-4a1b-9686-b0aae913aaf8,Concentration inhabituellement élevée de particules externes,fault_case,17,"A chaque renouvellement de filtre, il faudra donc contrôler la barre magnétique intégrée (con-
+centr",ready,KEEP,OK,Quality acceptable
+89ea805c-97ab-41f6-a56f-2cd827c3f847,DEF peut geler,fault_case,6,"Attention: Le réservoir de DEF ne doit pas être trop rempli. Le DEF peut
+geler et a besoin d'espace ",ready,KEEP,OK,Quality acceptable
+f6b206e5-f220-46c0-ac44-3a56e995791a,Endommagement des composants hydrauliques,fault_case,18,"Tant lors du changement d'huile que du changement du filtre, de l'air pénètre dans le système hy-
+dr",ready,KEEP,OK,Quality acceptable
+2ac94387-d3e6-4ea0-944b-a345174023ec,Entretien dépassé,fault_case,12,"Si une date de maintenance est dépassée le message « Entretien » apparaît sur fond rouge
+dans la bar",ready,KEEP,OK,Quality acceptable
+4de52c85-907c-4a9f-8f6a-976f2a52a9f9,Huile moteur,fault_case,13,"▪ Contrôler l’huile moteur, compléter le niveau si nécessaire",ready,KEEP,OK,Quality acceptable
+58e29fc7-d899-4a86-965b-ff21d4ee2880,Indication {Filtre à air},fault_case,13,"Lorsque l'indication {Filtre à air} apparaît sur l'écran de la commande API: changer l'élé-
+ment pri",ready,KEEP,OK,Quality acceptable
+7991e709-7a97-4f49-ac3c-9db092169294,Indication {Filtre à huile hydraulique},fault_case,16,"Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile}",ready,KEEP,OK,Quality acceptable
+2673f1a0-2b17-44a1-af3b-3d6e7d33420a,Indication {Filtre à huile},fault_case,16,"Les cartouches de filtre doivent être changées lors de l’apparition de l’indication {Filtre à
+huile}",ready,KEEP,OK,Quality acceptable
+9ceae112-0602-49d5-b7da-b8789b5c1bcc,Niveau d'huile bas,fault_case,13,"▪ Contrôle de niveau d'huile, compléter le niveau si nécessaire",ready,KEEP,OK,Quality acceptable
+be35c4f2-73a4-4071-a947-f613deb85209,Niveau d'huile bas (Convoyeur de déchargement),fault_case,13,▪ Contrôler de l’huile et compléter le niveau si nécessaire,ready,KEEP,OK,Quality acceptable
+22d67420-996c-4291-9efa-6f7b55ef384a,Pression réglée incorrecte,fault_case,15,"▪ Vérifier les pressions réglées (recommandation). Le contrôle des pressions réglées ne peut
+être ef",ready,KEEP,OK,Quality acceptable
+f5fadc9d-ce3d-419d-8137-5be7bb99a05e,Réfrigérant,fault_case,13,"▪ Contrôle de niveau de réfrigérant, compléter le niveau si nécessaire",ready,KEEP,OK,Quality acceptable
+7d5df3c4-7328-44d8-9228-be930cbe58bf,Remplacement des tuyaux hydrauliques,fault_case,15,"▪ Remplacer tous les tuyaux hydrauliques
+La durée d'utilisation des flexibles hydrauliques doit être",ready,KEEP,OK,Quality acceptable
+759b88b8-edcc-4059-ac18-2611f6bd3391,Risque d’incendie,fault_case,4,"Avant chaque procédé de soudure et d’affutage, tous les restes de matériel doivent être enlevés de l",ready,KEEP,OK,Quality acceptable
+7bbe3e47-2be8-4f1f-85b6-ef17a1c05f8c,Risque de dommages importants sur l’électronique,fault_case,4,Risque de dommages importants sur l’électronique en cas d’inobservation de cette consigne.,ready,KEEP,OK,Quality acceptable
+ab5b1d1d-e5f1-41d8-b3c6-512cb4319d6c,Témoin du filtre à huile allumé,fault_case,16,"Si le témoin s'allume pendant 30 minutes, la com-
+mande arrête la machine. Remplacez tous les filtre",ready,KEEP,OK,Quality acceptable
+5cab2d34-5990-463b-b738-7de79272cb06,Vibrations excessives,fault_case,15,▪ Vérifier si le tendeur a la pression de serrage prescrite,ready,KEEP,OK,Quality acceptable

@@ -1,0 +1,159 @@
+{
+  "final_status": "PASS",
+  "machines": {
+    "A": {
+      "id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+      "model": "VB750 DK READ A",
+      "serial_number": "READ-A-80042e1f"
+    },
+    "B": {
+      "id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+      "model": "VB750 DK READ B",
+      "serial_number": "READ-B-8ce757e6"
+    }
+  },
+  "writes": {
+    "diagA": {
+      "id": "782a2349-83d4-4dc3-ade2-b9c9ea05d00a",
+      "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+      "title": "diag-a-12ee5c00",
+      "source": "diagnostic_enriched",
+      "metadata": {
+        "domain": "diagnostic",
+        "proof_group": "A"
+      }
+    },
+    "maintA": {
+      "id": "ea790483-05f4-4b81-8bc3-47cfe3b15178",
+      "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+      "title": "maint-a-36e2e7ca",
+      "source": "maintenance_enriched",
+      "metadata": {
+        "domain": "maintenance",
+        "proof_group": "A"
+      }
+    },
+    "procA": {
+      "id": "1b3042b1-d55f-4408-9e88-0408fb2500b5",
+      "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+      "part_name": "proc-a-ad1779dd",
+      "source": "procurement_enriched",
+      "metadata": {
+        "domain": "procurement",
+        "proof_group": "A"
+      }
+    },
+    "diagB": {
+      "id": "13649be0-0697-4113-9f62-d41d0ea8c3ad",
+      "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+      "title": "diag-b-124ab829",
+      "source": "diagnostic_enriched",
+      "metadata": {
+        "domain": "diagnostic",
+        "proof_group": "B"
+      }
+    },
+    "maintB": {
+      "id": "f8279a00-f092-4a9b-a1f2-71515608a000",
+      "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+      "title": "maint-b-134cd5bb",
+      "source": "maintenance_enriched",
+      "metadata": {
+        "domain": "maintenance",
+        "proof_group": "B"
+      }
+    },
+    "procB": {
+      "id": "c180a10c-eb20-4b65-b942-ea1069d52df9",
+      "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+      "part_name": "proc-b-6ef85a7d",
+      "source": "procurement_enriched",
+      "metadata": {
+        "domain": "procurement",
+        "proof_group": "B"
+      }
+    }
+  },
+  "reads": {
+    "diagA": [
+      {
+        "id": "782a2349-83d4-4dc3-ade2-b9c9ea05d00a",
+        "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+        "title": "diag-a-12ee5c00",
+        "source": "diagnostic_enriched",
+        "metadata": {
+          "domain": "diagnostic",
+          "proof_group": "A"
+        }
+      }
+    ],
+    "maintA": [
+      {
+        "id": "ea790483-05f4-4b81-8bc3-47cfe3b15178",
+        "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+        "title": "maint-a-36e2e7ca",
+        "source": "maintenance_enriched",
+        "metadata": {
+          "domain": "maintenance",
+          "proof_group": "A"
+        }
+      }
+    ],
+    "procA": [
+      {
+        "id": "1b3042b1-d55f-4408-9e88-0408fb2500b5",
+        "machine_id": "deb2847b-4cbd-491b-88fa-a8da12cead60",
+        "part_name": "proc-a-ad1779dd",
+        "source": "procurement_enriched",
+        "metadata": {
+          "domain": "procurement",
+          "proof_group": "A"
+        }
+      }
+    ],
+    "diagB": [
+      {
+        "id": "13649be0-0697-4113-9f62-d41d0ea8c3ad",
+        "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+        "title": "diag-b-124ab829",
+        "source": "diagnostic_enriched",
+        "metadata": {
+          "domain": "diagnostic",
+          "proof_group": "B"
+        }
+      }
+    ],
+    "maintB": [
+      {
+        "id": "f8279a00-f092-4a9b-a1f2-71515608a000",
+        "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+        "title": "maint-b-134cd5bb",
+        "source": "maintenance_enriched",
+        "metadata": {
+          "domain": "maintenance",
+          "proof_group": "B"
+        }
+      }
+    ],
+    "procB": [
+      {
+        "id": "c180a10c-eb20-4b65-b942-ea1069d52df9",
+        "machine_id": "f588de4c-0d5b-402d-8fe1-cad677f897f4",
+        "part_name": "proc-b-6ef85a7d",
+        "source": "procurement_enriched",
+        "metadata": {
+          "domain": "procurement",
+          "proof_group": "B"
+        }
+      }
+    ]
+  },
+  "isolation": {
+    "diagA_no_cross_machine_rows": true,
+    "maintA_no_cross_machine_rows": true,
+    "procA_no_cross_machine_rows": true,
+    "diagB_no_cross_machine_rows": true,
+    "maintB_no_cross_machine_rows": true,
+    "procB_no_cross_machine_rows": true
+  }
+}

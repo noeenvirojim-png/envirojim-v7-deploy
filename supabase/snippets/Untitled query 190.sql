@@ -1,0 +1,1 @@
+SELECT id, make, brand, model FROM public.machines;S

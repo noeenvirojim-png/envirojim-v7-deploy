@@ -1,0 +1,8 @@
+{
+  "extracted_total": 994,
+  "validated": 16,
+  "remaining_needs_review": 0,
+  "rejected_count": 978,
+  "safe_truth_coverage_percent": 1.6,
+  "production_ready": false
+}
