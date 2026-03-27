@@ -15,6 +15,7 @@ const nextConfig = {
         ignoreDuringBuilds: true,
     },
     compress: true,
+    output: 'standalone',
     async headers() {
         return [
             {
