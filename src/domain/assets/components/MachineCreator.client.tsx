@@ -19,14 +19,16 @@ const initialState = { message: '', success: false };
 function SubmitButton() {
     const { pending } = useFormStatus();
     return (
-        <Button type="submit" disabled={pending} className="w-full bg-slate-900 text-white hover:bg-slate-800 h-12 text-lg">
+        <Button type="submit" disabled={pending} className="w-full bg-blue-600 text-white hover:bg-blue-700 h-12 text-lg font-semibold">
             {pending ? (
                 <>
                     <span className="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                    Processing Machine Data...
+                    Creating Machine & Uploading Documents...
                 </>
+            ) : docCount > 0 ? (
+                `Register Machine & Ingest ${docCount} Document(s)`
             ) : (
-                'Create Machine & Start AI Ingestion'
+                'Create Machine Registration'
             )}
         </Button>
     );
@@ -39,6 +41,8 @@ export default function MachineCreator() {
     const [runId, setRunId] = useState<string | null>(null);
     const [showStatus, setShowStatus] = useState(false);
     const [photoCount, setPhotoCount] = useState(0);
+    const [docCount, setDocCount] = useState(0);
+    const fileInputRef = useRef<HTMLInputElement>(null);
 
     // Intercept success state to handle second-step (upload)
     if (state?.success && !showStatus) {
@@ -49,8 +53,8 @@ export default function MachineCreator() {
                 <Card className="border-green-100 bg-green-50/50 shadow-lg">
                     <CardContent className="pt-8 text-center">
                         <CheckCircle2 size={32} className="mx-auto mb-4 text-green-600" />
-                        <h2 className="text-2xl font-bold text-green-900 mb-2">Machine Core Created</h2>
-                        <p className="text-green-700 mb-6 font-medium">Step 2: Upload Technical Documents for AI Ingestion</p>
+                        <h2 className="text-2xl font-bold text-green-900 mb-2">✓ Machine Created & Documents Ingesting</h2>
+                        <p className="text-green-700 mb-6 font-medium">Optional: Upload additional technical documents or monitor AI ingestion progress</p>
                         
                         <MachinePdfUploadPanel 
                           machineId={(state as any).machineId} 
@@ -124,18 +128,38 @@ export default function MachineCreator() {
                     </CardContent>
                 </Card>
 
-                {/* Technical Vault Context - DISABLED in step 1, moved to step 2 after machine ID exists */}
-                <Card className="shadow-sm border-slate-900/5 bg-slate-100/30 opacity-60">
+                {/* Technical Vault Context - ACTIVE in step 1, documents are foundation of AI analysis */}
+                <Card className="shadow-sm border-blue-200 bg-blue-50/50 md:col-span-2">
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2">
-                            <FileText size={18} className="text-slate-400" />
-                            Technical Vault (AI Engine)
+                            <FileText size={18} className="text-blue-600" />
+                            Technical Documents (AI Foundation)
                         </CardTitle>
-                        <CardDescription>Documents will be uploaded after core registration.</CardDescription>
+                        <CardDescription>Upload PDF manuals, parts catalogs, service docs. Required to start AI analysis.</CardDescription>
                     </CardHeader>
-                    <CardContent className="py-10 text-center flex flex-col items-center">
-                        <Upload className="text-slate-300 mb-2" size={32} />
-                        <p className="text-xs text-slate-400 italic">Available after Identification Step</p>
+                    <CardContent>
+                        <div className="flex items-center gap-6 p-4 border border-dashed border-blue-300 rounded-lg bg-white/50">
+                            <Button type="button" variant="outline" className="relative h-20 w-40 border-dashed border-blue-400 text-blue-600 hover:bg-blue-100">
+                                <Upload size={20} />
+                                <Input
+                                    ref={fileInputRef}
+                                    id="manual"
+                                    name="manual"
+                                    type="file"
+                                    accept=".pdf"
+                                    multiple
+                                    className="absolute inset-0 opacity-0 cursor-pointer"
+                                    onChange={(e) => setDocCount(e.target.files?.length || 0)}
+                                />
+                            </Button>
+                            <div className="flex-1">
+                                {docCount > 0 ? (
+                                    <p className="text-sm font-medium text-blue-700">✓ {docCount} document(s) selected for AI ingestion</p>
+                                ) : (
+                                    <p className="text-sm text-slate-500">Drag files here or click to browse</p>
+                                )}
+                            </div>
+                        </div>
                     </CardContent>
                 </Card>
             </div>
