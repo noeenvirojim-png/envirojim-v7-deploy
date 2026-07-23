@@ -16,7 +16,9 @@ ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN mkdir -p public && npm run build
+RUN mkdir -p public \
+    && npx tsc --noEmit \
+    && npm run build
 
 FROM node:22-bookworm-slim AS runner
 WORKDIR /app
