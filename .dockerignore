@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.github
+.env
+.env.*
+!.env.example
+!.env.production.example
+npm-debug.log*
+playwright-report
+test-results
+coverage
+supabase/.temp
+artifacts
