@@ -36,7 +36,24 @@ jobs:
         run: npm ci
 
       - name: TypeScript validation
-        run: npx tsc --noEmit
+        id: typecheck
+        continue-on-error: true
+        run: npx tsc --noEmit > typecheck-errors.txt 2>&1
+
+      - name: Upload TypeScript report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: typecheck-errors
+          path: typecheck-errors.txt
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Fail on TypeScript errors
+        if: steps.typecheck.outcome == 'failure'
+        run: |
+          tail -n 120 typecheck-errors.txt
+          exit 1
 
       - name: Production build
         run: npm run build
