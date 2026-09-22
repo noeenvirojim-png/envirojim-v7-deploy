@@ -27,7 +27,7 @@ const nextConfig = {
                     },
                     {
                         key: 'Content-Security-Policy',
-                        value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https:; font-src 'self' data:; connect-src 'self' https://*.supabase.co;"
+                        value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https:; font-src 'self' data:; connect-src 'self' https://*.supabase.co; frame-src 'self' https://*.supabase.co blob:; worker-src 'self' blob:;"
                     },
                     {
                         key: 'Strict-Transport-Security',
@@ -44,12 +44,19 @@ const nextConfig = {
                     {
                         key: 'Referrer-Policy',
                         value: 'origin-when-cross-origin'
+                    },
+                    {
+                        key: 'X-Accel-Buffering',
+                        value: 'no'
                     }
                 ],
             },
         ]
     },
     experimental: {
+        serverActions: {
+            bodySizeLimit: '400mb'
+        },
         optimizePackageImports: ['lucide-react', 'date-fns', 'clsx', 'tailwind-merge', 'zod', 'react-hook-form', '@radix-ui/react-icons']
     },
 };

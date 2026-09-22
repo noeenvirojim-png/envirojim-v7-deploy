@@ -7,7 +7,7 @@ import { logInfo, logError } from '@/lib/logger';
 /**
  * Storage Service Abstraction
  * Production implementation using Supabase Storage.
- * This works on Vercel where local disk is read-only.
+ * This works on any self-hosted Node/Docker deployment.
  */
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
@@ -34,7 +34,7 @@ async function validateFile(file: File): Promise<void> {
 
     // 2. Check file size
     if (file.size > MAX_FILE_SIZE) {
-        throw new Error(`${ErrorCodes.FILE_TOO_LARGE}: Maximum file size is 50MB`);
+        throw new Error(`${ErrorCodes.FILE_TOO_LARGE}: Maximum file size is 10MB`);
     }
 
     // 3. Validate magic number (file signature)
@@ -103,14 +103,14 @@ export async function uploadFile(file: File): Promise<string> {
                 fileSize: file.size,
                 fileType: file.type,
             });
-            
+
             // Fallback to local if error looks like a network failure
             if (error.message.includes('fetch failed')) {
                 console.warn('[Storage] Supabase fetch failed: Falling back to Local Storage');
                 const { uploadFileLocal } = await import('./storage.local');
                 return uploadFileLocal(file);
             }
-            
+
             throw new Error(`${ErrorCodes.UPLOAD_ERROR}: ${error.message}`);
         }
 
